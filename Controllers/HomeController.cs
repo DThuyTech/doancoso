@@ -23,8 +23,6 @@ namespace login.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly UserManager<rbDBContext> _userManager;
 
-
-
         public HomeController( rbDBContext typeFoodDBContext, ILogger<HomeController> logger, UserManager<rbDBContext> userManager)
         {
             listFinal = _typeFoodDBContext.Foods.ToList() ;
