@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\Content\\imageforbackground\\images.jpg"
     },
     {
+      "Id": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\Content\\imageforbackground\\indenhome.jpg",
+      "PackagePath": "staticwebassets\\Content\\imageforbackground\\indenhome.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\Content\\imageforbackground\\indexpicture.png",
+      "PackagePath": "staticwebassets\\Content\\imageforbackground\\indexpicture.png"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\Content\\imageforbackground\\repis.png",
       "PackagePath": "staticwebassets\\Content\\imageforbackground\\repis.png"
     },

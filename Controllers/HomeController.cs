@@ -3,7 +3,11 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-
+using Lucene.Net.Search;
+using System.Security;
+using System.Reflection.Metadata.Ecma335;
+using Microsoft.AspNetCore.Http;
+using System.Diagnostics;
 using login.Data;
 using login.Logic;
 using login.Viewmodels;
@@ -23,11 +27,12 @@ namespace login.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly UserManager<rbDBContext> _userManager;
 
-        public HomeController( rbDBContext typeFoodDBContext, ILogger<HomeController> logger)
+        public HomeController(rbDBContext typeFoodDBContext, ILogger<HomeController> logger)
         {
+            _typeFoodDBContext = typeFoodDBContext;
             listFinal = _typeFoodDBContext.Foods.ToList();
             foodContents = _typeFoodDBContext.foodContents.ToList() ;
-            _typeFoodDBContext = typeFoodDBContext;
+          
             _logger = logger;
           
         }
@@ -320,7 +325,7 @@ namespace login.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-
+       
 
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "W8AVUgGhc5cYjwl+PxT4iK/4vvg9HfCw7WaJR/8zXEU=",
+  "Hash": "GEaHXgNd11YkM0t3A80fL6UCMIdNBZ4v9hOUjgAQdnQ=",
   "Source": "login",
   "BasePath": "_content/login",
   "Mode": "Default",
@@ -1103,6 +1103,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Content\\imageforbackground\\images.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\Content\\imageforbackground\\indenhome.jpg",
+      "SourceId": "login",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\",
+      "BasePath": "_content/login",
+      "RelativePath": "Content/imageforbackground/indenhome.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Content\\imageforbackground\\indenhome.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\Content\\imageforbackground\\indexpicture.png",
+      "SourceId": "login",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\",
+      "BasePath": "_content/login",
+      "RelativePath": "Content/imageforbackground/indexpicture.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Content\\imageforbackground\\indexpicture.png"
     },
     {
       "Identity": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\Content\\imageforbackground\\repis.png",

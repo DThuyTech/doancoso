@@ -1,5 +1,72 @@
 ﻿body {
- 
+  margin:0px;
+  margin:0px;
+  height:7000px;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)),
+    url("../Content/imageforbackground/indenhome.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    opacity:90%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    box-shadow:1px 2px 1px 2px;
+
+}
+.hero-text{
+    color:aliceblue;
+    text-align:left;
+    line-height:9px;
+    margin-left:-1000px;
+    margin-top:140px;
+
+   
+    position:relative;
+    
+}
+.card{
+    margin-top:80px;
+    border:none;
+    margin-left:40px;
+    background-color:whitesmoke;
+    height:400px;
+    
+    width:400px;
+    align-content:center;
+    position:center;    
+    
+}
+.card .intro p{
+    line-height:25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+}
+.hero-text p{
+    font-size:18px;
+    color:whitesmoke;
+    line-height:13px;
+   
+}
+
+.hero-image h1{
+    color:white;
+    padding-bottom:-10px;
+    font-size:60px;
+}
+.contetnHero{
+    margin-top:20px;
+}
+.contetnHero p{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:30px;
+  line-height:30px;
+  font-weight:bold;
 }
 .body-fixed {
     width: 100%;
@@ -25,4 +92,13 @@ html {
     margin-top: 50px;
     margin-left: 440px;
     display: flex;
+}
+
+.container{
+    height:8000px;
+    width:15000px;
+}
+@media (min-width: 1500px) .container {
+    max-width: 394px;
+    max-height: auto;
 }

@@ -560,3 +560,4 @@ C:\Users\ASUS\source\Repos3\Food\obj\Debug\net6.0\refint\login.dll
 C:\Users\ASUS\source\Repos3\Food\obj\Debug\net6.0\login.pdb
 C:\Users\ASUS\source\Repos3\Food\obj\Debug\net6.0\login.genruntimeconfig.cache
 C:\Users\ASUS\source\Repos3\Food\obj\Debug\net6.0\ref\login.dll
+C:\Users\ASUS\source\Repos3\Food\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll

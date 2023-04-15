@@ -19,13 +19,13 @@ namespace login.Controllers
 
         private readonly ILogger<HomeController> _logger;
         private readonly UserManager<rbDBContext> _userManager;
-        public ManagerController(IList<Food> listFinal, List<FoodContent> foodContents, rbDBContext typeFoodDBContext, ILogger<HomeController> logger, UserManager<rbDBContext> userManager)
+        public ManagerController(rbDBContext typeFoodDBContext, ILogger<HomeController> logger)
         {
-            this.listFinal = listFinal;
-            this.foodContents = foodContents;
+            
             _typeFoodDBContext = typeFoodDBContext;
             _logger = logger;
-            _userManager = userManager;
+          
+            listFinal = _typeFoodDBContext.Foods.ToList();
             foodContents = _typeFoodDBContext.foodContents.ToList();
         }
 
