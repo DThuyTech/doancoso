@@ -1,5 +1,168 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@using Microsoft.AspNetCore.Identity
+@using login.Models;
+@using login.Logic;
+
 @{
+    ViewData["AccountInfor"] = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    User user = ViewBag.User;
+    UserInfor userinfor = ViewBag.Data;
+
 }
+<head>
+
+    <link href="/css/Account.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div class="row rowavt">
+
+        @{
+
+            string age;
+            string sex;
+            string height;
+            string weight;
+            if (userinfor is null)
+            {
+                age = "chua nhap";
+                sex = "chua nhap";
+                height = "chua nhap";
+                weight = "chua nhap";
+            }
+
+            else
+            {
+                //InforUser inforUser;
+
+
+                age = userinfor.ages.ToString();
+                sex = userinfor.sexs.ToString();
+                height = userinfor.heights.ToString();
+                weight = userinfor.weigh.ToString();
+
+
+                //if (user.users is null)
+                //{
+                //    age = sex = height = weight = "";
+                //}
+                //else
+                //{
+                //    if (user.users.FirstOrDefault(p => p.username == user.UserName) is null)
+                //    {
+                //        inforUser = new InforUser(user.UserName);
+                //        age = sex = height = weight = "";
+                //    }
+                //    else
+                //    {
+                //        inforUser = new InforUser(user.users.FirstOrDefault(p => p.username == user.UserName));
+                //        age = inforUser.age.ToString();
+                //        sex = inforUser.sex.ToString();
+                //        height = inforUser.height.ToString();
+                //        weight = inforUser.weight.ToString();
+
+                //    }
+                //}
+            }
+
+        }
+        <div class="col-3">
+            <form asp-controller="Home" asp-action="accountInfor" method="post">
+                <div class="cardinfor">
+
+                    <div class=" row">
+                        <label>User :  </label>
+                        <p>
+                            @User.Identity.Name
+                        </p>
+                    </div>
+
+                    <div class=" row">
+
+                        <label>Age :  </label>
+                        <input id="textInfor" name="age" type="text" ariaReadOnly value=@age />
+
+                        <div class=" row">
+                            <label>Height :  </label>
+                            <input id="textInfor" name="height" type="text" ariaReadOnly value=@height />
+                        </div>
+                        <div class=" row">
+                            <label>Sex :  </label>
+
+                            <input id="textInfor" name="sex" ariaReadOnly value=@sex />
+                        </div>
+                        <div class=" row">
+                            <label>Weigh :  </label>
+
+                            <input id="textInfor" name="weight" ariaReadOnly value=@weight />
+                        </div>
+
+                        <input id="btnChange" type="button" class="savebtn" value="Change" onclick="changeFunc()" />
+                        <input type="submit" class="savebtn" value="Save" />
+
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-6">
+            <div class="card">
+                <div class="cardavt">
+                    <img id="cardavt" src="/Content/images/foodAcout.jpg" />
+                </div>
+
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="row">
+                <div class="cardimb">
+                    <p>
+                        Chỉ số sức khỏe của bạn @ViewBag.BMI
+                    </p>
+                    <label>Min </label>
+                    @{
+                        float valueIBMPercent = (ViewBag.BMI - 10) / 50 * 100;
+                    }
+                    <progress id="prosBarIbm" value=@valueIBMPercent max="100"></progress>
+                    <label>Max </label>
+                    <p>
+                        <label>Tính trạng của bạn: </label>
+                        <div>
+                            @{
+                                IBM iBM = new IBM(ViewBag.BMI);
+                                string kq = iBM.ketqua();
+                            }
+                            @kq
+                        </div>
+                    </p>
+                    <p>
+                        @{
+                            BMR bMR = new BMR(int.Parse(sex), int.Parse(height), int.Parse(weight), int.Parse(age));
+                            float caloriesneed = bMR.clorisneed();
+                        }
+                        Calo bạn nên ăn trong 1 ngày :  @caloriesneed
+                    </p>
+                </div>
+
+            </div>
+            <div class="row">
+                <img src="/Food/images/food11.png" />
+            </div>
+
+        </div>
+
+    </div>
+    <script>
+        function changeFunc() {
+            var text = document.getElementById("textInfor");
+            if (text != null) {
+                document.getElementById("textInfor").ariaReadOnly = false;
+                document.getElementById("textInfor").style.borderColor = "grey";
+                document.getElementById("textInfor").style.boxShadow = 4;
+                document.getElementById("textInfor").style.border = true;
+            }
+
+        }
+    </script>
+</body>

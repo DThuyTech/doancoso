@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using login.Models;
+
 using login.Data;
 using login.Logic;
 using login.Viewmodels;
@@ -23,15 +23,13 @@ namespace login.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly UserManager<rbDBContext> _userManager;
 
-
-
-        public HomeController( rbDBContext typeFoodDBContext, ILogger<HomeController> logger, UserManager<rbDBContext> userManager)
+        public HomeController( rbDBContext typeFoodDBContext, ILogger<HomeController> logger)
         {
-            listFinal = _typeFoodDBContext.Foods.ToList() ;
+            listFinal = _typeFoodDBContext.Foods.ToList();
             foodContents = _typeFoodDBContext.foodContents.ToList() ;
             _typeFoodDBContext = typeFoodDBContext;
             _logger = logger;
-            _userManager = userManager;
+          
         }
 
         public IActionResult Index()
