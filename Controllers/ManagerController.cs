@@ -1,5 +1,4 @@
-﻿using login.Models;
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using login.Models;
@@ -78,6 +77,52 @@ namespace login.Controllers
             var food = _typeFoodDBContext.Foods.FirstOrDefault(p => p.Id == id);
 
             return View(food);
+        }
+        public IActionResult Delete(int? id)
+        {
+            if (_typeFoodDBContext.Foods.FirstOrDefault(p => p.Id == id) != null)
+            {
+                _typeFoodDBContext.Foods.Remove(_typeFoodDBContext.Foods.FirstOrDefault(p => p.Id == id));
+                _typeFoodDBContext.SaveChanges();
+            }
+            else
+            {
+                return View("Admin", "Manager");
+            }
+            return View("Admin", "Manager");
+        }
+        public IActionResult EditContent(int? id)
+        {
+            FoodContent foodcontent = _typeFoodDBContext.foodContents.FirstOrDefault(p => p.FoodId == id);
+            return View(foodcontent);
+        }
+        [HttpPost]
+        public IActionResult EditContent(IFormFile userfileimg, IFormFile userfilerecipe, FoodContent foodContent)
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Admin(string search)
+        {
+
+            List<Food> listfoddlaod = new List<Food>();
+            if (search == null)
+            {
+                return View(listFinal);
+            }
+            else
+            {
+                listfoddlaod = listFinal.Where(s => s.Name.Contains(search)).ToList();
+                ViewBag.datasanm = listFinal[0].Name;
+                ViewBag.foodContent = _typeFoodDBContext.foodContents.ToList();
+                return View(listfoddlaod);
+            }
+
+        }
+        public IActionResult Admin()
+        {
+            List<Food> model = _typeFoodDBContext.Foods.ToList();
+            return View(model);
         }
     }
 }
