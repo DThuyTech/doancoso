@@ -1,8 +1,55 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
-}
+    Layout = "~/Views/Shared/_Layout.cshtml";
 
-<div class="text-center">
-    <h1 class="display-4">Admin</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+}
+<head>
+    <link rel="stylesheet" href="~/css/Index.css" asp-append-version="true" />
+</head>
+<body>
+    <div id="viewport">
+        <div id="js-scroll-content">
+            <section class="main-banner" id="home">
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+
+                                <div class="banner-text">
+                                    <h1 class="h1-title">
+                                        Welcome To The World Of
+                                        <span>Food Paradise</span>
+                                    </h1>
+                                    <p>
+                                        Gợi ý những món ăn hù hợp với cảm xúc của bạn
+                                    </p>
+                                    <p>
+                                        Giup bạn dẽ dàng hơn trong việc lựa chọn món ăn
+                                    </p>
+                                    <p>
+                                        Bạn buồn bạn vui bạn không biết muốn ăn gì
+                                    </p>
+                                    <p>
+                                        Chúng tôi sẽ giúp bạn
+                                        <input type="file" name="userfilerecipe" accept=".txt" />
+                                    </p>
+                                    <div class="banner-btn mt-4">
+                                        <a class="sec-btn" asp-area="" asp-controller="Home" asp-action="Recipes">Our Menu</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="banner-img-wp">
+                                    <div class="banner-img">
+                                        <img src="~/Content/images/foodAD.jpg" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+            </section>
+        </div>
+    </div>
+</body>

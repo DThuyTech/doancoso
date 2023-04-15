@@ -1,0 +1,28 @@
+﻿body {
+ 
+}
+.body-fixed {
+    width: 100%;
+    height: 100%;
+    top: auto;
+    left: auto;
+}
+html {
+    overflow-y: scroll;
+}
+.footer[b-ql2nrnm8l4] {
+    margin-top: 100px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+}
+.BarGradientRecipes {
+
+    background-image: linear-gradient(to right,red,white);
+    height: 1000px;
+    margin-top: 50px;
+    margin-left: 440px;
+    display: flex;
+}

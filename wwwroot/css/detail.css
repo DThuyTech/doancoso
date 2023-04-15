@@ -1,0 +1,153 @@
+﻿body {
+    
+    background-color:white;
+}
+
+* {
+    
+}
+
+.means{
+    
+    position:relative;
+    margin-top:-150px;
+    margin-left:-80px;
+    
+}
+
+
+.noidung{
+    
+    width: 250px;
+    margin-top:30px;
+}
+.card{
+    height: 500px;
+    width: 600px;
+    border:none;
+    overflow:hidden;
+    background:none;
+    padding:0px;
+
+}
+
+
+    .card .imgLogo {
+        height: 32px;
+        width: 53px;
+       
+        
+        margin-top: 4px;
+        border-color: none;
+        background: none;
+        object-fit:cover;
+    }
+
+.contact{
+    margin-top:50px;
+    margin-left:-20px;
+
+}
+.footer[b-ql2nrnm8l4] {
+    margin-top: 100px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+}
+
+.contact .card{
+    height:50px;
+    width:50px;
+    margin-left:20px;
+    box-shadow:1px 1px 8px 0px;
+}
+.intro{
+    height:500px;
+    width:600px;
+    padding:6px;
+    position:absolute;
+    box-sizing:border-box;
+    bottom:-600px;
+    background-color:black;
+    opacity:80%;
+    color: white;
+    transition:.5s;
+    
+}
+.recipe p{
+    font-family:sans-serif;
+    font-size:25px;
+}
+.card:hover{
+    cursor: pointer;
+}
+.intro p{
+    font-family:sans-serif;
+    font-size:30px;
+    font-weight:bold;
+}
+.recipeform{
+    margin-top:50px;
+    margin-left:-75px;
+    width:1170px;
+    background-color:aliceblue;
+    font-size:100px;
+    height:1000px;
+    
+}
+.card:hover .intro{
+    bottom:0px;
+}
+.recipenavar {
+    margin-top: 50px;
+    height: 65px;
+    width: 1231px;
+    margin-left: -68px;
+    border-radius: 30px 30px 30px 30px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 8px 0px;
+    display:flex;
+}
+.recipenavar p{
+    font-family:sans-serif;
+    font-weight:bold;
+    font-size:35px;
+    padding:10px;
+    color:grey;
+
+}
+iframe{
+    background-color:wheat;
+}
+
+
+.step1content {
+    line-height: 10px;
+}
+
+.step{
+    margin-top:50px;
+    font-weight:bold;
+    font-size:25px;
+}
+.checked{
+    color:lightcoral;
+    height:20px;
+    width:auto;
+}
+.imgFoodAD {
+    height: 700px;
+    width: 700px;
+    box-shadow: 0px 4px 0px 4px;
+}
+.noidung .fa {
+    margin-top: 20px;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 25px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,74 @@
+﻿@model login.ViewModels.ValueAnswerViewModel
+
+@{
+
+}
+
+<head>
+    <link href="~/css/Recommand.css" rel="stylesheet" />
+</head>
+<body>
+    <form asp-controller="Home" asp-action="Recommand" method="post">
+
+        <div class="row">
+            <div class="col-3">
+                <label class="form-label">
+                    Sex
+                    <select class="form-select" asp-items="Model.valuaAnswerSelectdListSex" asp-for="valueAnswerSex">
+                    </select>
+                </label>
+            </div>
+            <div class="col-3">
+                <label class="form-label">
+                    Age
+                    <select class="form-select" asp-items="Model.valuaAnswerSelectdListAge" asp-for="valueAnswerAge">
+                    </select>
+                </label>
+            </div>
+            <div class="col-6"></div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+
+                <label class="form-label">
+                    Emotion
+                    <select class="form-select" asp-items="Model.valuaAnswerSelectdListEmotion" asp-for="valueAnswerEmo">
+                    </select>
+                </label>
+
+
+
+            </div>
+            <div class="col-3">
+                <label class="form-label">
+                    Color
+                    <select class="form-select" asp-items="Model.valuaAnswerSelectdListColor" asp-for="valueAnswerCol">
+                    </select>
+                </label>
+            </div>
+            <div class="col-6"></div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+
+                <label class="form-label">
+                    Taste
+                    <select class="form-select" asp-items="Model.valuaAnswerSelectdListTaste" asp-for="valueAnswerTas">
+                    </select>
+                </label>
+
+
+            </div>
+            <div class="col-3"></div>
+            <div class="col-6"></div>
+        </div>
+
+
+
+        <div class="bntSave">
+            <input type="submit" class="btn btn-primary"></a> </input>
+        </div>
+    </form>
+
+
+</body>

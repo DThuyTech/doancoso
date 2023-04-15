@@ -31,11 +31,7 @@ namespace login.Controllers
 
 
 
-        public IActionResult Index()
-        {
-            return View();
-        }
-
+        
 
         [HttpPost]
         public IActionResult CreateFood(Food food)

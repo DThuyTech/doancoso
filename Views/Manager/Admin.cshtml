@@ -1,0 +1,70 @@
+﻿@model IEnumerable<login.Models.Food>
+
+@{
+    ViewData["Title"] = "Admin";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Admin</h1>
+<form asp-controller="Home" asp-action="Admin">
+
+    <div class="col-4">
+
+        <p>
+
+            @Html.TextBox("Search","", new {@class="form-control"})
+
+            <input type="submit" value="Search" />
+
+        </p>
+
+    </div>
+
+</form>
+<p>
+    <a asp-action="CreateFood">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Calo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bref)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TypeFood)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Calo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Bref)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TypeFood.Id)
+                </td>
+                <td>
+                    <a asp-action="EditFood" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
+                    <a asp-action="EditContent" asp-route-id="@item.Id">EditContent</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

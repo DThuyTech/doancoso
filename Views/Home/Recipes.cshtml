@@ -1,0 +1,135 @@
+﻿@model IEnumerable<Login.Models.Food>
+@{
+    ViewBag.Title = "Recipes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    List<FoodContent> foodcontentlist = ViewBag.foodContent;
+}
+<head>
+    <link href="~/css/Recipes.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="nameFoodAdd">
+        <h1>Recipes</h1>
+    </div>
+    <div class="row">
+        <div class="col-5">
+            <div class="contentFoodAd">
+                <p class="nameFoodAd">
+                    Healthy, Green, Easy, Sui,
+
+                </p>
+                <div class="contentFoodAd">
+                    <p>
+                        Healthy for everyone
+                        @ViewBag.datasanm
+                    </p>
+                    <p>
+                        Green food
+
+                    </p>
+                    <p>
+
+                        Healthy
+                    </p>
+                    <p>
+
+                        Sui for you
+
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-5">
+            <p> <img class="imgFoodfisrt" src="../Content/imageforbackground/repis.png" /> </p>
+        </div>
+    </div>
+    @**@
+    <div class="row ">
+        <div class="rowNavbar">
+            <div class=" col-8">
+                <div class="navsearchChar">
+                    <p>That de de lam</p>
+                </div>
+
+            </div>
+            <form asp-controller="Home" asp-action="Recipes">
+
+                <div class="col-4">
+
+                    <p>
+
+                        @Html.TextBox("Search","", new {@class="form-control"})
+
+                        <input type="submit" value="Search" />
+
+                    </p>
+
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+    <div class="row">
+
+        @foreach (var item in Model)
+        {
+            <div class="col-3">
+                <div class=" card">
+
+
+                    @*<div class="panel panel-heading">
+                <h1>@item.Name</h1>
+                @Html.ActionLink("Edit","Edit", new {id = item.Id}, new {@class = "pull-right"})
+                </div>*@
+
+
+                    <a asp-action="Detail" asp-route-id="@item.Id">
+                        @{
+                            string link;
+                            if (foodcontentlist.FirstOrDefault(p => p.FoodId == item.Id) == null)
+                            {
+                                link = "../Content/imageforbackground/repis.png";
+                            }
+                            else
+                            {
+                                link = foodcontentlist.FirstOrDefault(p => p.FoodId == item.Id).Img.ToString();
+                            }
+                        }
+
+                        <p>
+                            <img class="imgGoods" src=@link alt="hinh thumnail">
+
+                        </p>
+
+
+
+                        <div class="intro">
+
+                            <h1>@item.Name</h1>
+
+                            <p>@item.Calo Calries</p>
+                            <p>@item.Bref</p>
+
+                        </div>
+                    </a>
+
+
+
+                </div>
+
+            </div>
+        }
+
+    </div>
+    @SectionWriters scriptsbas
+    <script>
+        $(function(){
+            $("#basic-text1").click(function()){
+                $("Form").submit();
+            }
+        });
+    </script>
+    }
+</body>
