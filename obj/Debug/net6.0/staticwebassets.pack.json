@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\Content\\imageforbackground\\indexpicture.png"
     },
     {
+      "Id": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\Content\\imageforbackground\\recommandFood.png",
+      "PackagePath": "staticwebassets\\Content\\imageforbackground\\recommandFood.png"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\Content\\imageforbackground\\repis.png",
       "PackagePath": "staticwebassets\\Content\\imageforbackground\\repis.png"
     },
