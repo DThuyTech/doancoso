@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1OroPbE8OryuvFT+shDA6fwG30mYd9YPwhQD58xYqSw=",
+  "Hash": "vgjsAG3bYwnCvjMQl66/evTeMEyT7Xf3uzgYr8RwaUo=",
   "Source": "login",
   "BasePath": "_content/login",
   "Mode": "Default",
@@ -1324,6 +1324,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Account.css"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\css\\Contact.css",
+      "SourceId": "login",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\",
+      "BasePath": "_content/login",
+      "RelativePath": "css/Contact.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Contact.css"
     },
     {
       "Identity": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\css\\contactest.css",
@@ -3859,12 +3876,12 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe9.txt"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\js\\Contact.js",
       "SourceId": "login",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\",
       "BasePath": "_content/login",
-      "RelativePath": "js/site.js",
+      "RelativePath": "js/Contact.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -3873,7 +3890,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
+      "OriginalItemSpec": "wwwroot\\js\\Contact.js"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\js\\Login.js",
+      "SourceId": "login",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\",
+      "BasePath": "_content/login",
+      "RelativePath": "js/Login.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Login.js"
     },
     {
       "Identity": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

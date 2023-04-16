@@ -12,14 +12,14 @@ using login.Data;
 namespace login.Migrations
 {
     [DbContext(typeof(rbDBContext))]
-    [Migration("20230415085704_fg")]
-    partial class fg
+    [Migration("20230416140831_hieu")]
+    partial class hieu
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.15")
+                .HasAnnotation("ProductVersion", "6.0.16")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);

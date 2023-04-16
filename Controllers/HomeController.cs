@@ -129,7 +129,7 @@ namespace login.Controllers
             return View();
         }
 
-        [Authorize]
+        //[Authorize]
         public IActionResult Recipes()
         {
             List<FoodContent> foodContent = new List<FoodContent>();
@@ -149,7 +149,7 @@ namespace login.Controllers
             return View(foodViewModel.foods);
         }
         [HttpPost]
-        [Authorize]
+        //[Authorize]
         public IActionResult Recipes(String search)
         {
             List<Food> listfoddlaod = new List<Food>();

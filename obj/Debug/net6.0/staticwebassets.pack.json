@@ -621,6 +621,10 @@
       "PackagePath": "staticwebassets\\css\\Account.css"
     },
     {
+      "Id": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\css\\Contact.css",
+      "PackagePath": "staticwebassets\\css\\Contact.css"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\css\\CreateNewF.css",
       "PackagePath": "staticwebassets\\css\\CreateNewF.css"
     },
@@ -661,8 +665,12 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\js\\Contact.js",
+      "PackagePath": "staticwebassets\\js\\Contact.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\js\\Login.js",
+      "PackagePath": "staticwebassets\\js\\Login.js"
     },
     {
       "Id": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\lib\\bootstrap\\LICENSE",
