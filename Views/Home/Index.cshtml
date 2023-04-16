@@ -5,6 +5,7 @@
 }
 <head>
     <link rel="stylesheet" href="~/css/Index.css" asp-append-version="true" />
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body>
    @* <div id="viewport">
@@ -82,36 +83,135 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-6">
-                
+       
+            
+                <div class="row">
+                    <div class="col-6">
 
-                    <div class="imgHomeRe">
-                        <img src="./Content/imageforbackground/recommandFood.png" class="imgHRE"  />
-                        <img src="~/Content/imageforbackground/indenhome.jpg" class="imgHre2" />
+
+                        <div class="imgHomeRe">
+                            <img src="./Content/imageforbackground/recommandFood.png" class="imgHRE" />
+                            <img src="~/Content/imageforbackground/indenhome.jpg" class="imgHre2" />
+                        </div>
                     </div>
-               </div>
-            <div class="col-4">
-                <div class="imgDe1">
-                    <img src="https://www.viquekitchen.com/wp-content/uploads/2021/01/divider.png" alt loading="lazy" />
-                </div>
-                <div class="card">
-                    <div class="intro">
-                        <h1>1. Gợi ý theo cảm xúc</h1>
-                        <p>
-                            Công cụ gợi ý món ăn phù hợp với cảm xúc, thực trạng cở thể của bạn
-                            thông qua trắc nghiệm
-                        </p>
-                        <p>Món ăn sẽ được đưa ra chi tiết với các thông số calo, chất béo, và bạn cso thể đổi món nếu gợi ý không phù hợp với vị giác của bạn</p>
+                    <div class="col-4">
+
+                        <div class="imgDe1">
+                            <img src="https://www.viquekitchen.com/wp-content/uploads/2021/01/divider.png" alt loading="lazy" />
+                        </div>
+                        <a asp-controller="Home" asp-action="Recommand">
+                            <div class="card">
+                                <div class="intro">
+                                    <h1>1. Gợi ý theo cảm xúc</h1>
+                                    <p>
+                                        Công cụ gợi ý món ăn phù hợp với cảm xúc, thực trạng cở thể của bạn
+                                        thông qua trắc nghiệm
+                                    </p>
+                                    <p>Món ăn sẽ được đưa ra chi tiết với các thông số calo, chất béo, và bạn cso thể đổi món nếu gợi ý không phù hợp với vị giác của bạn</p>
+                                </div>
+                        </a>
                     </div>
-                   
+                    <div class="imgDe1">
+                        <img src="https://www.viquekitchen.com/wp-content/uploads/2021/01/divider.png" alt loading="lazy" />
+                    </div>
                 </div>
-                <div class="imgDe1">
-                    <img src="https://www.viquekitchen.com/wp-content/uploads/2021/01/divider.png" alt loading="lazy" />
+            
+                <div class="row">
+
+                    <div class="box-recomandchedo">
+                        <div class="container">
+                            <h1 class="h1-recommanderchedo">2. Đề xuất chế độ ăn </h1>
+                            <div class="intros">
+                                <p>
+                                    Đề xuất chế độ ăn phù hợp với cơ thể và mục tiêu của bạn
+                                    Cung cấp cho bạn món ăn chính xác với các thành phần dinh dưỡng để đáp ứng với mục tiêu của bạn.
+                                    Bạn yên tâm vì RE sẽ luôn đồng hành cùng bạn để abnj có 1 vóc  dáng chuẩn nhất 
+                                </p>
+                       
+                                <div class="button-group filter-button-group">
+                                    <button class="active" data-filter="*">All</button>
+                                    <button data-filter=".top-featured">Top 15</button>
+                                    <button data-filter=".best-seller">Gợi ý</button>
+                                </div>
+                        <img src="https://www.viquekitchen.com/wp-content/uploads/2021/01/divider.png" alt loading="lazy" />    
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+                <div class="row">
+                    <div class="lastest-food">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="title-all text-center">
+                                        <h1>Lastest Food</h1>
+                                        <p>Các món được thêm gần đây, dựa trên sự ưa chuộng của cộng đồng</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                        <div class="col-md-6 col-lg-4 col-xl-4">
+                            <div class="blog-box">
+                                <div class="blog-img">
+                                    <img class="img-fluid" src="./Food/images/food10.png" alt>
+                                </div>
+                                <div class="blog-content">
+                                    <div class="title-blog">
+                                        <h3>Fusce in augue non nisi fringilla</h3>
+                                        <p>Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis.</p>
+                                    </div>
+                                    <ul class="option-blog">
+                                        <li><a href="#"><i class="far fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-eye"></i></a></li>
+                                        <li><a href="#"><i class="far fa-comments"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-4">
+                            <div class="blog-box">
+                                <div class="blog-img">
+                                    <img class="img-fluid" src="./Food/images/food10.png" alt>
+                                </div>
+                                <div class="blog-content">
+                                    <div class="title-blog">
+                                        <h3>Fusce in augue non nisi fringilla</h3>
+                                        <p>Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis.</p>
+                                    </div>
+                                    <ul class="option-blog ">
+                                        <li><a href="#"><i class="far fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-eye"></i></a></li>
+                                        <li><a href="#"><i class="far fa-comments"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-4">
+                            <div class="blog-box">
+                                <div class="blog-img">
+                                    <img class="img-fluid" src="./Food/images/food10.png" alt>
+                                </div>
+                                <div class="blog-content">
+                                    <div class="title-blog">
+                                        <h3>Fusce in augue non nisi fringilla</h3>
+                                        <p>Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis.</p>
+                                    </div>
+                                    <ul class="option-blog">
+                                        <li><a href="#"><i class="far fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-eye"></i></a></li>
+                                        <li><a href="#"><i class="far fa-comments"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
           
-        </div>
+       
+
     </div>
    
 </body>

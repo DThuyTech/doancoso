@@ -2,7 +2,8 @@
   margin:0px;
   margin:0px;
   height:7000px;
-  font-family:Arial, Helvetica, sans-serif
+  font-family:Arial, Helvetica, sans-serif;
+  
 }
 
 .hero-image {
@@ -19,24 +20,34 @@
     box-shadow:1px 2px 1px 2px;
 
 }
-.hero-text{
-    color:aliceblue;
-    text-align:left;
-    line-height:9px;
-    margin-left:-1000px;
-    margin-top:140px;
+.box-item {
+    height: 900px;
+    padding: 70px 0px;
+    background-color: #f4f4f4;
+}
 
-   
-    position:relative;
-    
+.box-recomandchedo {
+    background-color: #333333;
+    height:700px;
+    padding:10px 0px;
+    opacity:95%;
+    margin-top:100px;
+}
+.hero-text {
+    color: aliceblue;
+    text-align: left;
+    line-height: 9px;
+    margin-left: -1000px;
+    margin-top: 140px;
+    position: relative;
 }
 .card {
     margin-top: 80px;
     border: none;
     margin-left: 40px;
-    background-color: whitesmoke;
+    background: none;
     height: auto;
-  
+   
     width: 700px;
     align-content: center;
     position: center;
@@ -47,6 +58,10 @@
 
 .imgDe1{
     margin-top : 50px;
+}
+.card .intro h1{
+    color:orange;
+    font-family:Bahnschrift;
 }
 .card .intro p {
     margin-left: 20px;
@@ -101,15 +116,60 @@
     box-shadow: 2px 3px 20px 1px grey;
 }
 
+.container .h1-recommanderchedo {
+    text-align: center;
+    margin-top: 120px;
+    color: #FFD700;
+    font-family:Bahnschrift
+
+
+}
+.filter-button-group {
+    display: inline-block;
+    margin-left:200px;
+    padding-bottom:20px;
+}
+    .filter-button-group button.active {
+        background: #000000;
+    }
+
+    .filter-button-group button {
+    }
+
+    .filter-button-group button {
+        background: #b0b435;
+        color: #ffffff;
+        border: none;
+        cursor: pointer;
+        padding: 5px 30px;
+        font-size: 18px;
+
+    }
+
+  
+
+.box-recomandchedo .container .intros{
+    align-content:center;
+    padding:10px 610px;
+    
+}
+.box-recomandchedo .container .intros p {
+    width: 700px;
+    line-height:45px;
+    color: orange;
+    text-align: center;
+    font-size:28px; 
+    opacity:80%;
+}
 .imgHre2 {
-    position:inherit;
-    width:600px;
-    height:auto;
+    position: inherit;
+    width: 600px;
+    height: auto;
     margin-top: 200px;
     margin-left: 100px;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 2px 3px 20px 1px grey;
-    transition:0.5s;
+    transition: 0.5s;
 }
 
 .imgHre2:hover{
@@ -150,7 +210,91 @@ html {
     height:8000px;
     width:15000px;
 }
+.lastest-food {
+    padding: 70px 0px;
+    margin-top:70px;
+    background: #f5f5f5;
+}
+
+.title-all {
+    margin-bottom: 30px;
+    
+}
+
+.text-center {
+    text-align: center !important;
+}
+    .text-center h1 {
+        font-family: Bahnschrift;
+    }
+    .text-center p{
+        font-family:Bahnschrift;
+        opacity:80%;
+        font-size:20px;
+    }
+
+.blog-box {
+    -webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+    box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+    background: #ffffff;
+    margin-bottom: 30px;
+    max-width:70%;
+    margin-left:100px;
+}
+.blog-box p{
+    font-family:Bahnschrift;
+}
+.blog-box h3{
+    font-family:Bahnschrift;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.blog-content {
+    position: relative;
+}
+.title-blog {
+    padding: 40px 30px 40px 30px;
+}
+.option-blog {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    text-align: center;
+}
+    .option-blog li {
+        display: inline-block;
+        
+    }
+    .option-blog li a{
+    background: #000000;
+    display: inline-block;
+    font-size: 30px;
+    padding-top:10px;
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 34px;
+    
+    transition:1s;
+   
+    }
+.option-blog li a:hover{
+    cursor:pointer;
+}
+.option-blog li a:hover{
+    color:orange;
+}
 @media (min-width: 1500px) .container {
-    max-width: 394px;
+    max-width:394px;
     max-height: auto;
 }
