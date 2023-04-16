@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2Y+uZH3N29wtjWZdy+LZupcDUnTm1+noSbHGQzd9a9wnl20/m5u/MaKxX1o3jlv77o7AEHYslyT87USWx8osVQ==",
+  "dgSpecHash": "F579Wdgy6niAB0mzyidMhwVCBwvFa4oQGieObyNd/Xy1q8bTmbi6SoxAmcxgz5d6Rf749MyEcoPeqzlB8S7PzA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\login.csproj",
+  "projectFilePath": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\login.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MinhHieu\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\MinhHieu\\.nuget\\packages\\lucene.net\\3.0.3\\lucene.net.3.0.3.nupkg.sha512",

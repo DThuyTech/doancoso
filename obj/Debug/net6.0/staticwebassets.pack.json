@@ -1,895 +1,903 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\login.bundle.scp.css",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\login.bundle.scp.css",
       "PackagePath": "staticwebassets\\login.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Content\\imageforbackground\\1.webp",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\imageforbackground\\1.webp",
       "PackagePath": "staticwebassets\\Content\\imageforbackground\\1.webp"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Content\\imageforbackground\\images.jpg",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\imageforbackground\\images.jpg",
       "PackagePath": "staticwebassets\\Content\\imageforbackground\\images.jpg"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Content\\imageforbackground\\indenhome.jpg",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\imageforbackground\\indenhome.jpg",
       "PackagePath": "staticwebassets\\Content\\imageforbackground\\indenhome.jpg"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Content\\imageforbackground\\indexpicture.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\imageforbackground\\indexpicture.png",
       "PackagePath": "staticwebassets\\Content\\imageforbackground\\indexpicture.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Content\\imageforbackground\\repis.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\imageforbackground\\recommandFood.png",
+      "PackagePath": "staticwebassets\\Content\\imageforbackground\\recommandFood.png"
+    },
+    {
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\imageforbackground\\repis.png",
       "PackagePath": "staticwebassets\\Content\\imageforbackground\\repis.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Content\\images\\YouTube-LOGO.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\images\\YouTube-LOGO.png",
       "PackagePath": "staticwebassets\\Content\\images\\YouTube-LOGO.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Content\\images\\bia2.jpg",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\images\\bia2.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\bia2.jpg"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Content\\images\\bia3.jpg",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\images\\bia3.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\bia3.jpg"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Content\\images\\bia7.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\images\\bia7.png",
       "PackagePath": "staticwebassets\\Content\\images\\bia7.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Content\\images\\foodAD.jpg",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\images\\foodAD.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\foodAD.jpg"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Content\\images\\foodAcout.jpg",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\images\\foodAcout.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\foodAcout.jpg"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Content\\images\\logo4.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\images\\logo4.png",
       "PackagePath": "staticwebassets\\Content\\images\\logo4.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Content\\images\\shoppe.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\images\\shoppe.png",
       "PackagePath": "staticwebassets\\Content\\images\\shoppe.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\.DS_Store",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\.DS_Store",
       "PackagePath": "staticwebassets\\Food\\images\\.DS_Store"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food1.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food1.png",
       "PackagePath": "staticwebassets\\Food\\images\\food1.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food10.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food10.png",
       "PackagePath": "staticwebassets\\Food\\images\\food10.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food11.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food11.png",
       "PackagePath": "staticwebassets\\Food\\images\\food11.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food12.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food12.png",
       "PackagePath": "staticwebassets\\Food\\images\\food12.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food13.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food13.png",
       "PackagePath": "staticwebassets\\Food\\images\\food13.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food14.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food14.png",
       "PackagePath": "staticwebassets\\Food\\images\\food14.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food15.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food15.png",
       "PackagePath": "staticwebassets\\Food\\images\\food15.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food16.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food16.png",
       "PackagePath": "staticwebassets\\Food\\images\\food16.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food17.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food17.png",
       "PackagePath": "staticwebassets\\Food\\images\\food17.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food18.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food18.png",
       "PackagePath": "staticwebassets\\Food\\images\\food18.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food19.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food19.png",
       "PackagePath": "staticwebassets\\Food\\images\\food19.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food2.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food2.png",
       "PackagePath": "staticwebassets\\Food\\images\\food2.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food20.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food20.png",
       "PackagePath": "staticwebassets\\Food\\images\\food20.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food21.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food21.png",
       "PackagePath": "staticwebassets\\Food\\images\\food21.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food22.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food22.png",
       "PackagePath": "staticwebassets\\Food\\images\\food22.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food23.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food23.png",
       "PackagePath": "staticwebassets\\Food\\images\\food23.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food24.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food24.png",
       "PackagePath": "staticwebassets\\Food\\images\\food24.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food25.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food25.png",
       "PackagePath": "staticwebassets\\Food\\images\\food25.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food26.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food26.png",
       "PackagePath": "staticwebassets\\Food\\images\\food26.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food27.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food27.png",
       "PackagePath": "staticwebassets\\Food\\images\\food27.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food28.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food28.png",
       "PackagePath": "staticwebassets\\Food\\images\\food28.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food29.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food29.png",
       "PackagePath": "staticwebassets\\Food\\images\\food29.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food3.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food3.png",
       "PackagePath": "staticwebassets\\Food\\images\\food3.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food30.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food30.png",
       "PackagePath": "staticwebassets\\Food\\images\\food30.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food31.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food31.png",
       "PackagePath": "staticwebassets\\Food\\images\\food31.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food32.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food32.png",
       "PackagePath": "staticwebassets\\Food\\images\\food32.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food33.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food33.png",
       "PackagePath": "staticwebassets\\Food\\images\\food33.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food34.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food34.png",
       "PackagePath": "staticwebassets\\Food\\images\\food34.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food35.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food35.png",
       "PackagePath": "staticwebassets\\Food\\images\\food35.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food36.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food36.png",
       "PackagePath": "staticwebassets\\Food\\images\\food36.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food37.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food37.png",
       "PackagePath": "staticwebassets\\Food\\images\\food37.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food38.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food38.png",
       "PackagePath": "staticwebassets\\Food\\images\\food38.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food39.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food39.png",
       "PackagePath": "staticwebassets\\Food\\images\\food39.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food4.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food4.png",
       "PackagePath": "staticwebassets\\Food\\images\\food4.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food40.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food40.png",
       "PackagePath": "staticwebassets\\Food\\images\\food40.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food41.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food41.png",
       "PackagePath": "staticwebassets\\Food\\images\\food41.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food42.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food42.png",
       "PackagePath": "staticwebassets\\Food\\images\\food42.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food43.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food43.png",
       "PackagePath": "staticwebassets\\Food\\images\\food43.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food44.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food44.png",
       "PackagePath": "staticwebassets\\Food\\images\\food44.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food45.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food45.png",
       "PackagePath": "staticwebassets\\Food\\images\\food45.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food46.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food46.png",
       "PackagePath": "staticwebassets\\Food\\images\\food46.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food47.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food47.png",
       "PackagePath": "staticwebassets\\Food\\images\\food47.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food5.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food5.png",
       "PackagePath": "staticwebassets\\Food\\images\\food5.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food55.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food55.png",
       "PackagePath": "staticwebassets\\Food\\images\\food55.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food56.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food56.png",
       "PackagePath": "staticwebassets\\Food\\images\\food56.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food57.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food57.png",
       "PackagePath": "staticwebassets\\Food\\images\\food57.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food58.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food58.png",
       "PackagePath": "staticwebassets\\Food\\images\\food58.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food59.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food59.png",
       "PackagePath": "staticwebassets\\Food\\images\\food59.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food6.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food6.png",
       "PackagePath": "staticwebassets\\Food\\images\\food6.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food60.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food60.png",
       "PackagePath": "staticwebassets\\Food\\images\\food60.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food61.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food61.png",
       "PackagePath": "staticwebassets\\Food\\images\\food61.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food62.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food62.png",
       "PackagePath": "staticwebassets\\Food\\images\\food62.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food63.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food63.png",
       "PackagePath": "staticwebassets\\Food\\images\\food63.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food64.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food64.png",
       "PackagePath": "staticwebassets\\Food\\images\\food64.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food65.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food65.png",
       "PackagePath": "staticwebassets\\Food\\images\\food65.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food66.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food66.png",
       "PackagePath": "staticwebassets\\Food\\images\\food66.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food67.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food67.png",
       "PackagePath": "staticwebassets\\Food\\images\\food67.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food68.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food68.png",
       "PackagePath": "staticwebassets\\Food\\images\\food68.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food69.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food69.png",
       "PackagePath": "staticwebassets\\Food\\images\\food69.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food7.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food7.png",
       "PackagePath": "staticwebassets\\Food\\images\\food7.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food70.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food70.png",
       "PackagePath": "staticwebassets\\Food\\images\\food70.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food71.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food71.png",
       "PackagePath": "staticwebassets\\Food\\images\\food71.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food72.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food72.png",
       "PackagePath": "staticwebassets\\Food\\images\\food72.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food73.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food73.png",
       "PackagePath": "staticwebassets\\Food\\images\\food73.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food74.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food74.png",
       "PackagePath": "staticwebassets\\Food\\images\\food74.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food75.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food75.png",
       "PackagePath": "staticwebassets\\Food\\images\\food75.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food8.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food8.png",
       "PackagePath": "staticwebassets\\Food\\images\\food8.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food9.png",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food9.png",
       "PackagePath": "staticwebassets\\Food\\images\\food9.png"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\.DS_Store",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\.DS_Store",
       "PackagePath": "staticwebassets\\Food\\recipefood\\.DS_Store"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe1.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe1.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe1.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe10.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe10.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe10.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe11.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe11.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe11.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe12.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe12.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe12.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe13.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe13.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe13.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe14.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe14.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe14.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe15.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe15.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe15.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe16.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe16.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe16.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe17.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe17.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe17.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe18.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe18.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe18.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe19.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe19.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe19.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe2.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe2.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe2.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe20.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe20.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe20.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe21.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe21.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe21.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe22.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe22.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe22.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe23.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe23.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe23.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe24.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe24.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe24.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe25.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe25.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe25.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe26.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe26.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe26.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe27.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe27.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe27.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe28.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe28.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe28.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe29.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe29.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe29.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe3.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe3.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe3.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe30.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe30.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe30.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe31.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe31.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe31.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe32.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe32.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe32.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe33.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe33.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe33.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe34.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe34.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe34.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe35.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe35.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe35.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe36.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe36.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe36.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe37.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe37.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe37.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe38.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe38.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe38.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe39.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe39.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe39.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe4.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe4.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe4.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe40.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe40.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe40.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe41.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe41.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe41.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe42.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe42.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe42.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe43.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe43.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe43.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe44.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe44.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe44.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe45.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe45.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe45.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe46.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe46.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe46.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe47.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe47.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe47.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe48.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe48.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe48.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe49.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe49.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe49.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe5.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe5.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe5.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe55.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe55.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe55.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe56.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe56.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe56.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe57.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe57.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe57.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe58.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe58.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe58.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe59.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe59.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe59.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe6.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe6.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe6.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe60.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe60.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe60.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe61.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe61.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe61.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe62.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe62.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe62.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe63.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe63.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe63.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe64.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe64.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe64.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe65.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe65.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe65.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe66.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe66.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe66.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe67.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe67.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe67.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe68.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe68.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe68.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe69.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe69.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe69.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe7.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe7.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe7.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe70.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe70.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe70.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe71.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe71.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe71.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe72.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe72.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe72.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe73.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe73.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe73.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe74.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe74.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe74.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe8.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe8.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe8.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe9.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe9.txt",
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe9.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\css\\Account.css",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\css\\Account.css",
       "PackagePath": "staticwebassets\\css\\Account.css"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\css\\CreateNewF.css",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\css\\Contact.css",
+      "PackagePath": "staticwebassets\\css\\Contact.css"
+    },
+    {
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\css\\CreateNewF.css",
       "PackagePath": "staticwebassets\\css\\CreateNewF.css"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\css\\Footter.css",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\css\\Footter.css",
       "PackagePath": "staticwebassets\\css\\Footter.css"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\css\\Index.css",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\css\\Index.css",
       "PackagePath": "staticwebassets\\css\\Index.css"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\css\\LOGIN.css",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\css\\LOGIN.css",
       "PackagePath": "staticwebassets\\css\\LOGIN.css"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\css\\Recipes.css",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\css\\Recipes.css",
       "PackagePath": "staticwebassets\\css\\Recipes.css"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\css\\Recommand.css",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\css\\Recommand.css",
       "PackagePath": "staticwebassets\\css\\Recommand.css"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\css\\contactest.css",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\css\\contactest.css",
       "PackagePath": "staticwebassets\\css\\contactest.css"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\css\\detail.css",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\css\\detail.css",
       "PackagePath": "staticwebassets\\css\\detail.css"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\js\\Contact.js",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\js\\Contact.js",
       "PackagePath": "staticwebassets\\js\\Contact.js"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\js\\Login.js",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\js\\Login.js",
       "PackagePath": "staticwebassets\\js\\Login.js"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

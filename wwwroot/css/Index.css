@@ -30,28 +30,46 @@
     position:relative;
     
 }
-.card{
-    margin-top:80px;
-    border:none;
-    margin-left:40px;
-    background-color:whitesmoke;
-    height:400px;
-    
-    width:400px;
-    align-content:center;
-    position:center;    
-    
+.card {
+    margin-top: 80px;
+    border: none;
+    margin-left: 40px;
+    background-color: whitesmoke;
+    height: auto;
+  
+    width: 700px;
+    align-content: center;
+    position: center;
 }
-.card .intro p{
-    line-height:25px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:20px;
+.card .intro h1{
+    padding: 20px;
+}
+
+.imgDe1{
+    margin-top : 50px;
+}
+.card .intro p {
+    margin-left: 20px;
+    line-height: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: grey
 }
 .hero-text p{
     font-size:18px;
     color:whitesmoke;
     line-height:13px;
    
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 2px 3px 20px 1px grey;
+    border-radius:20px 20px 20px 20px;
+   border:none;
 }
 
 .hero-image h1{
@@ -74,12 +92,46 @@
     top: auto;
     left: auto;
 }
+.imgHomeRe{
+    margin-top:200px;
+}
+.imgHRE {
+    position: absolute;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 2px 3px 20px 1px grey;
+}
+
+.imgHre2 {
+    position:inherit;
+    width:600px;
+    height:auto;
+    margin-top: 200px;
+    margin-left: 100px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 2px 3px 20px 1px grey;
+    transition:0.5s;
+}
+
+.imgHre2:hover{
+    cursor:pointer;
+}
+    .imgHre2:hover {
+        position: absolute;
+        margin-left: 200px;
+    }
 html {
     overflow-y: scroll;
 }
 .footer[b-ql2nrnm8l4] {
     margin-top: 100px;
     position: fixed;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+}
+.footer[b-st8aq16s68] {
+    position: relative;
     bottom: 0;
     width: 100%;
     white-space: nowrap;

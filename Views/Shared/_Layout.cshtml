@@ -6,7 +6,8 @@
     <title>@ViewData["Title"] - login</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/login.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/LOGIN.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Contact.css" asp-append-version="true" />
 </head>
 <body>
     <header>
@@ -35,6 +36,9 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="RoleBase" asp-action="Index">Role</a>
                         </li>
                         <li><partial name="_LoginPartial" /></li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -55,6 +59,8 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/Contact.js" asp-append-version="true"></script>
     <script src="~/js/Login.js" asp-append-version="true"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vGZlk+hN8NVjWGtE0MSfcS9jF+ZPkjOAAI3p2GiOyfY=",
+  "Hash": "fzEAqADBPtwyRb1geru6CTXI/zVPzyQIt4mJOTue1YQ=",
   "Source": "login",
   "BasePath": "_content/login",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "login\\wwwroot",
       "Source": "login",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "Pattern": "**"
     }
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "C:\\Users\\MinhHieu\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\obj\\Debug\\net6.0\\scopedcss\\bundle\\login.styles.css",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\obj\\Debug\\net6.0\\scopedcss\\bundle\\login.styles.css",
       "SourceId": "login",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/login",
       "RelativePath": "login.styles.css",
       "AssetKind": "All",
@@ -1051,13 +1051,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\obj\\Debug\\net6.0\\scopedcss\\bundle\\login.styles.css"
+      "OriginalItemSpec": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\obj\\Debug\\net6.0\\scopedcss\\bundle\\login.styles.css"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\login.bundle.scp.css",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\login.bundle.scp.css",
       "SourceId": "login",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/login",
       "RelativePath": "login.bundle.scp.css",
       "AssetKind": "All",
@@ -1068,13 +1068,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\login.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\login.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Content\\imageforbackground\\1.webp",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\imageforbackground\\1.webp",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Content/imageforbackground/1.webp",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\imageforbackground\\1.webp"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Content\\imageforbackground\\images.jpg",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\imageforbackground\\images.jpg",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Content/imageforbackground/images.jpg",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\imageforbackground\\images.jpg"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Content\\imageforbackground\\indenhome.jpg",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\imageforbackground\\indenhome.jpg",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Content/imageforbackground/indenhome.jpg",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\imageforbackground\\indenhome.jpg"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Content\\imageforbackground\\indexpicture.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\imageforbackground\\indexpicture.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Content/imageforbackground/indexpicture.png",
       "AssetKind": "All",
@@ -1139,10 +1139,27 @@
       "OriginalItemSpec": "wwwroot\\Content\\imageforbackground\\indexpicture.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Content\\imageforbackground\\repis.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\imageforbackground\\recommandFood.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
+      "BasePath": "_content/login",
+      "RelativePath": "Content/imageforbackground/recommandFood.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Content\\imageforbackground\\recommandFood.png"
+    },
+    {
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\imageforbackground\\repis.png",
+      "SourceId": "login",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Content/imageforbackground/repis.png",
       "AssetKind": "All",
@@ -1156,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\imageforbackground\\repis.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Content\\images\\bia2.jpg",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\images\\bia2.jpg",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Content/images/bia2.jpg",
       "AssetKind": "All",
@@ -1173,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\images\\bia2.jpg"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Content\\images\\bia3.jpg",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\images\\bia3.jpg",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Content/images/bia3.jpg",
       "AssetKind": "All",
@@ -1190,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\images\\bia3.jpg"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Content\\images\\bia7.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\images\\bia7.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Content/images/bia7.png",
       "AssetKind": "All",
@@ -1207,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\images\\bia7.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Content\\images\\foodAcout.jpg",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\images\\foodAcout.jpg",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Content/images/foodAcout.jpg",
       "AssetKind": "All",
@@ -1224,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\images\\foodAcout.jpg"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Content\\images\\foodAD.jpg",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\images\\foodAD.jpg",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Content/images/foodAD.jpg",
       "AssetKind": "All",
@@ -1241,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\images\\foodAD.jpg"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Content\\images\\logo4.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\images\\logo4.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Content/images/logo4.png",
       "AssetKind": "All",
@@ -1258,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\images\\logo4.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Content\\images\\shoppe.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\images\\shoppe.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Content/images/shoppe.png",
       "AssetKind": "All",
@@ -1275,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\images\\shoppe.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Content\\images\\YouTube-LOGO.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\images\\YouTube-LOGO.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Content/images/YouTube-LOGO.png",
       "AssetKind": "All",
@@ -1292,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\Content\\images\\YouTube-LOGO.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\css\\Account.css",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\css\\Account.css",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "css/Account.css",
       "AssetKind": "All",
@@ -1309,10 +1326,27 @@
       "OriginalItemSpec": "wwwroot\\css\\Account.css"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\css\\contactest.css",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\css\\Contact.css",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
+      "BasePath": "_content/login",
+      "RelativePath": "css/Contact.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Contact.css"
+    },
+    {
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\css\\contactest.css",
+      "SourceId": "login",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "css/contactest.css",
       "AssetKind": "All",
@@ -1326,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\css\\contactest.css"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\css\\CreateNewF.css",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\css\\CreateNewF.css",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "css/CreateNewF.css",
       "AssetKind": "All",
@@ -1343,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\css\\CreateNewF.css"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\css\\detail.css",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\css\\detail.css",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "css/detail.css",
       "AssetKind": "All",
@@ -1360,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\css\\detail.css"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\css\\Footter.css",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\css\\Footter.css",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "css/Footter.css",
       "AssetKind": "All",
@@ -1377,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Footter.css"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\css\\Index.css",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\css\\Index.css",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "css/Index.css",
       "AssetKind": "All",
@@ -1394,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Index.css"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\css\\LOGIN.css",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\css\\LOGIN.css",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "css/LOGIN.css",
       "AssetKind": "All",
@@ -1411,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\css\\LOGIN.css"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\css\\Recipes.css",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\css\\Recipes.css",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "css/Recipes.css",
       "AssetKind": "All",
@@ -1428,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Recipes.css"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\css\\Recommand.css",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\css\\Recommand.css",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "css/Recommand.css",
       "AssetKind": "All",
@@ -1445,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Recommand.css"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\css\\site.css",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1462,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\favicon.ico",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1479,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\.DS_Store",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\.DS_Store",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/.DS_Store",
       "AssetKind": "All",
@@ -1496,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food1.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food1.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food1.png",
       "AssetKind": "All",
@@ -1513,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food1.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food10.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food10.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food10.png",
       "AssetKind": "All",
@@ -1530,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food10.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food11.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food11.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food11.png",
       "AssetKind": "All",
@@ -1547,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food11.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food12.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food12.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food12.png",
       "AssetKind": "All",
@@ -1564,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food12.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food13.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food13.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food13.png",
       "AssetKind": "All",
@@ -1581,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food13.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food14.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food14.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food14.png",
       "AssetKind": "All",
@@ -1598,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food14.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food15.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food15.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food15.png",
       "AssetKind": "All",
@@ -1615,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food15.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food16.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food16.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food16.png",
       "AssetKind": "All",
@@ -1632,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food16.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food17.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food17.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food17.png",
       "AssetKind": "All",
@@ -1649,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food17.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food18.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food18.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food18.png",
       "AssetKind": "All",
@@ -1666,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food18.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food19.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food19.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food19.png",
       "AssetKind": "All",
@@ -1683,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food19.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food2.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food2.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food2.png",
       "AssetKind": "All",
@@ -1700,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food2.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food20.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food20.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food20.png",
       "AssetKind": "All",
@@ -1717,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food20.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food21.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food21.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food21.png",
       "AssetKind": "All",
@@ -1734,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food21.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food22.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food22.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food22.png",
       "AssetKind": "All",
@@ -1751,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food22.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food23.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food23.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food23.png",
       "AssetKind": "All",
@@ -1768,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food23.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food24.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food24.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food24.png",
       "AssetKind": "All",
@@ -1785,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food24.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food25.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food25.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food25.png",
       "AssetKind": "All",
@@ -1802,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food25.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food26.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food26.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food26.png",
       "AssetKind": "All",
@@ -1819,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food26.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food27.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food27.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food27.png",
       "AssetKind": "All",
@@ -1836,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food27.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food28.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food28.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food28.png",
       "AssetKind": "All",
@@ -1853,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food28.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food29.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food29.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food29.png",
       "AssetKind": "All",
@@ -1870,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food29.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food3.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food3.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food3.png",
       "AssetKind": "All",
@@ -1887,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food3.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food30.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food30.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food30.png",
       "AssetKind": "All",
@@ -1904,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food30.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food31.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food31.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food31.png",
       "AssetKind": "All",
@@ -1921,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food31.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food32.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food32.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food32.png",
       "AssetKind": "All",
@@ -1938,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food32.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food33.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food33.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food33.png",
       "AssetKind": "All",
@@ -1955,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food33.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food34.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food34.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food34.png",
       "AssetKind": "All",
@@ -1972,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food34.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food35.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food35.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food35.png",
       "AssetKind": "All",
@@ -1989,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food35.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food36.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food36.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food36.png",
       "AssetKind": "All",
@@ -2006,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food36.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food37.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food37.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food37.png",
       "AssetKind": "All",
@@ -2023,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food37.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food38.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food38.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food38.png",
       "AssetKind": "All",
@@ -2040,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food38.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food39.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food39.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food39.png",
       "AssetKind": "All",
@@ -2057,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food39.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food4.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food4.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food4.png",
       "AssetKind": "All",
@@ -2074,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food4.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food40.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food40.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food40.png",
       "AssetKind": "All",
@@ -2091,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food40.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food41.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food41.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food41.png",
       "AssetKind": "All",
@@ -2108,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food41.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food42.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food42.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food42.png",
       "AssetKind": "All",
@@ -2125,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food42.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food43.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food43.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food43.png",
       "AssetKind": "All",
@@ -2142,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food43.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food44.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food44.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food44.png",
       "AssetKind": "All",
@@ -2159,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food44.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food45.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food45.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food45.png",
       "AssetKind": "All",
@@ -2176,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food45.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food46.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food46.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food46.png",
       "AssetKind": "All",
@@ -2193,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food46.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food47.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food47.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food47.png",
       "AssetKind": "All",
@@ -2210,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food47.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food5.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food5.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food5.png",
       "AssetKind": "All",
@@ -2227,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food5.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food55.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food55.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food55.png",
       "AssetKind": "All",
@@ -2244,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food55.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food56.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food56.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food56.png",
       "AssetKind": "All",
@@ -2261,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food56.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food57.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food57.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food57.png",
       "AssetKind": "All",
@@ -2278,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food57.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food58.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food58.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food58.png",
       "AssetKind": "All",
@@ -2295,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food58.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food59.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food59.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food59.png",
       "AssetKind": "All",
@@ -2312,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food59.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food6.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food6.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food6.png",
       "AssetKind": "All",
@@ -2329,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food6.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food60.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food60.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food60.png",
       "AssetKind": "All",
@@ -2346,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food60.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food61.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food61.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food61.png",
       "AssetKind": "All",
@@ -2363,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food61.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food62.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food62.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food62.png",
       "AssetKind": "All",
@@ -2380,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food62.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food63.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food63.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food63.png",
       "AssetKind": "All",
@@ -2397,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food63.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food64.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food64.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food64.png",
       "AssetKind": "All",
@@ -2414,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food64.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food65.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food65.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food65.png",
       "AssetKind": "All",
@@ -2431,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food65.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food66.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food66.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food66.png",
       "AssetKind": "All",
@@ -2448,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food66.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food67.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food67.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food67.png",
       "AssetKind": "All",
@@ -2465,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food67.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food68.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food68.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food68.png",
       "AssetKind": "All",
@@ -2482,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food68.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food69.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food69.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food69.png",
       "AssetKind": "All",
@@ -2499,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food69.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food7.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food7.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food7.png",
       "AssetKind": "All",
@@ -2516,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food7.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food70.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food70.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food70.png",
       "AssetKind": "All",
@@ -2533,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food70.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food71.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food71.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food71.png",
       "AssetKind": "All",
@@ -2550,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food71.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food72.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food72.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food72.png",
       "AssetKind": "All",
@@ -2567,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food72.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food73.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food73.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food73.png",
       "AssetKind": "All",
@@ -2584,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food73.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food74.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food74.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food74.png",
       "AssetKind": "All",
@@ -2601,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food74.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food75.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food75.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food75.png",
       "AssetKind": "All",
@@ -2618,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food75.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food8.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food8.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food8.png",
       "AssetKind": "All",
@@ -2635,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food8.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\images\\food9.png",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\images\\food9.png",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/images/food9.png",
       "AssetKind": "All",
@@ -2652,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\images\\food9.png"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\.DS_Store",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\.DS_Store",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/.DS_Store",
       "AssetKind": "All",
@@ -2669,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe1.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe1.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe1.txt",
       "AssetKind": "All",
@@ -2686,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe1.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe10.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe10.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe10.txt",
       "AssetKind": "All",
@@ -2703,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe10.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe11.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe11.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe11.txt",
       "AssetKind": "All",
@@ -2720,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe11.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe12.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe12.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe12.txt",
       "AssetKind": "All",
@@ -2737,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe12.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe13.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe13.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe13.txt",
       "AssetKind": "All",
@@ -2754,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe13.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe14.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe14.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe14.txt",
       "AssetKind": "All",
@@ -2771,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe14.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe15.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe15.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe15.txt",
       "AssetKind": "All",
@@ -2788,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe15.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe16.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe16.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe16.txt",
       "AssetKind": "All",
@@ -2805,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe16.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe17.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe17.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe17.txt",
       "AssetKind": "All",
@@ -2822,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe17.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe18.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe18.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe18.txt",
       "AssetKind": "All",
@@ -2839,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe18.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe19.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe19.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe19.txt",
       "AssetKind": "All",
@@ -2856,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe19.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe2.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe2.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe2.txt",
       "AssetKind": "All",
@@ -2873,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe2.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe20.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe20.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe20.txt",
       "AssetKind": "All",
@@ -2890,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe20.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe21.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe21.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe21.txt",
       "AssetKind": "All",
@@ -2907,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe21.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe22.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe22.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe22.txt",
       "AssetKind": "All",
@@ -2924,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe22.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe23.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe23.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe23.txt",
       "AssetKind": "All",
@@ -2941,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe23.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe24.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe24.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe24.txt",
       "AssetKind": "All",
@@ -2958,10 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe24.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe25.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe25.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe25.txt",
       "AssetKind": "All",
@@ -2975,10 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe25.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe26.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe26.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe26.txt",
       "AssetKind": "All",
@@ -2992,10 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe26.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe27.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe27.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe27.txt",
       "AssetKind": "All",
@@ -3009,10 +3043,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe27.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe28.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe28.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe28.txt",
       "AssetKind": "All",
@@ -3026,10 +3060,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe28.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe29.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe29.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe29.txt",
       "AssetKind": "All",
@@ -3043,10 +3077,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe29.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe3.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe3.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe3.txt",
       "AssetKind": "All",
@@ -3060,10 +3094,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe3.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe30.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe30.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe30.txt",
       "AssetKind": "All",
@@ -3077,10 +3111,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe30.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe31.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe31.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe31.txt",
       "AssetKind": "All",
@@ -3094,10 +3128,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe31.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe32.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe32.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe32.txt",
       "AssetKind": "All",
@@ -3111,10 +3145,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe32.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe33.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe33.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe33.txt",
       "AssetKind": "All",
@@ -3128,10 +3162,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe33.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe34.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe34.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe34.txt",
       "AssetKind": "All",
@@ -3145,10 +3179,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe34.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe35.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe35.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe35.txt",
       "AssetKind": "All",
@@ -3162,10 +3196,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe35.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe36.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe36.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe36.txt",
       "AssetKind": "All",
@@ -3179,10 +3213,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe36.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe37.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe37.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe37.txt",
       "AssetKind": "All",
@@ -3196,10 +3230,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe37.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe38.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe38.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe38.txt",
       "AssetKind": "All",
@@ -3213,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe38.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe39.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe39.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe39.txt",
       "AssetKind": "All",
@@ -3230,10 +3264,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe39.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe4.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe4.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe4.txt",
       "AssetKind": "All",
@@ -3247,10 +3281,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe4.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe40.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe40.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe40.txt",
       "AssetKind": "All",
@@ -3264,10 +3298,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe40.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe41.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe41.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe41.txt",
       "AssetKind": "All",
@@ -3281,10 +3315,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe41.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe42.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe42.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe42.txt",
       "AssetKind": "All",
@@ -3298,10 +3332,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe42.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe43.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe43.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe43.txt",
       "AssetKind": "All",
@@ -3315,10 +3349,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe43.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe44.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe44.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe44.txt",
       "AssetKind": "All",
@@ -3332,10 +3366,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe44.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe45.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe45.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe45.txt",
       "AssetKind": "All",
@@ -3349,10 +3383,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe45.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe46.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe46.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe46.txt",
       "AssetKind": "All",
@@ -3366,10 +3400,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe46.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe47.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe47.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe47.txt",
       "AssetKind": "All",
@@ -3383,10 +3417,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe47.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe48.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe48.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe48.txt",
       "AssetKind": "All",
@@ -3400,10 +3434,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe48.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe49.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe49.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe49.txt",
       "AssetKind": "All",
@@ -3417,10 +3451,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe49.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe5.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe5.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe5.txt",
       "AssetKind": "All",
@@ -3434,10 +3468,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe5.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe55.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe55.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe55.txt",
       "AssetKind": "All",
@@ -3451,10 +3485,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe55.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe56.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe56.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe56.txt",
       "AssetKind": "All",
@@ -3468,10 +3502,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe56.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe57.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe57.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe57.txt",
       "AssetKind": "All",
@@ -3485,10 +3519,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe57.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe58.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe58.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe58.txt",
       "AssetKind": "All",
@@ -3502,10 +3536,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe58.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe59.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe59.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe59.txt",
       "AssetKind": "All",
@@ -3519,10 +3553,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe59.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe6.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe6.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe6.txt",
       "AssetKind": "All",
@@ -3536,10 +3570,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe6.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe60.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe60.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe60.txt",
       "AssetKind": "All",
@@ -3553,10 +3587,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe60.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe61.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe61.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe61.txt",
       "AssetKind": "All",
@@ -3570,10 +3604,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe61.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe62.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe62.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe62.txt",
       "AssetKind": "All",
@@ -3587,10 +3621,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe62.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe63.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe63.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe63.txt",
       "AssetKind": "All",
@@ -3604,10 +3638,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe63.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe64.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe64.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe64.txt",
       "AssetKind": "All",
@@ -3621,10 +3655,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe64.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe65.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe65.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe65.txt",
       "AssetKind": "All",
@@ -3638,10 +3672,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe65.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe66.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe66.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe66.txt",
       "AssetKind": "All",
@@ -3655,10 +3689,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe66.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe67.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe67.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe67.txt",
       "AssetKind": "All",
@@ -3672,10 +3706,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe67.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe68.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe68.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe68.txt",
       "AssetKind": "All",
@@ -3689,10 +3723,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe68.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe69.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe69.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe69.txt",
       "AssetKind": "All",
@@ -3706,10 +3740,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe69.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe7.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe7.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe7.txt",
       "AssetKind": "All",
@@ -3723,10 +3757,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe7.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe70.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe70.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe70.txt",
       "AssetKind": "All",
@@ -3740,10 +3774,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe70.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe71.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe71.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe71.txt",
       "AssetKind": "All",
@@ -3757,10 +3791,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe71.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe72.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe72.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe72.txt",
       "AssetKind": "All",
@@ -3774,10 +3808,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe72.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe73.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe73.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe73.txt",
       "AssetKind": "All",
@@ -3791,10 +3825,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe73.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe74.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe74.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe74.txt",
       "AssetKind": "All",
@@ -3808,10 +3842,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe74.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe8.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe8.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe8.txt",
       "AssetKind": "All",
@@ -3825,10 +3859,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe8.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe9.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Food\\recipefood\\recipe9.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "Food/recipefood/recipe9.txt",
       "AssetKind": "All",
@@ -3842,10 +3876,10 @@
       "OriginalItemSpec": "wwwroot\\Food\\recipefood\\recipe9.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\js\\Contact.js",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\js\\Contact.js",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "js/Contact.js",
       "AssetKind": "All",
@@ -3859,10 +3893,10 @@
       "OriginalItemSpec": "wwwroot\\js\\Contact.js"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\js\\Login.js",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\js\\Login.js",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "js/Login.js",
       "AssetKind": "All",
@@ -3876,10 +3910,10 @@
       "OriginalItemSpec": "wwwroot\\js\\Login.js"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -3893,10 +3927,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -3910,10 +3944,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -3927,10 +3961,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -3944,10 +3978,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -3961,10 +3995,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -3978,10 +4012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -3995,10 +4029,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -4012,10 +4046,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -4029,10 +4063,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -4046,10 +4080,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -4063,10 +4097,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -4080,10 +4114,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -4097,10 +4131,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -4114,10 +4148,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -4131,10 +4165,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -4148,10 +4182,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -4165,10 +4199,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -4182,10 +4216,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -4199,10 +4233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -4216,10 +4250,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -4233,10 +4267,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -4250,10 +4284,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -4267,10 +4301,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -4284,10 +4318,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -4301,10 +4335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -4318,10 +4352,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -4335,10 +4369,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -4352,10 +4386,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -4369,10 +4403,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -4386,10 +4420,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -4403,10 +4437,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -4420,10 +4454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -4437,10 +4471,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -4454,10 +4488,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -4471,10 +4505,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -4488,10 +4522,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -4505,10 +4539,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -4522,10 +4556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -4539,10 +4573,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -4556,10 +4590,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -4573,10 +4607,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -4590,10 +4624,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -4607,10 +4641,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -4624,10 +4658,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -4641,10 +4675,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -4658,10 +4692,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -4675,10 +4709,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -4692,10 +4726,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -4709,10 +4743,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -4726,10 +4760,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -4743,10 +4777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -4760,10 +4794,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -4777,10 +4811,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -4794,10 +4828,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -4811,10 +4845,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -4828,10 +4862,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "login",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

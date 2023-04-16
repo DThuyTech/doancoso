@@ -10523,11 +10523,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\login.csproj",
+      "projectUniqueName": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\login.csproj",
       "projectName": "login",
-      "projectPath": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\login.csproj",
+      "projectPath": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\login.csproj",
       "packagesPath": "C:\\Users\\MinhHieu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\obj\\",
+      "outputPath": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
