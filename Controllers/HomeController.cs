@@ -25,7 +25,7 @@ namespace login.Controllers
         rbDBContext _typeFoodDBContext;
 
         private readonly ILogger<HomeController> _logger;
-        private readonly UserManager<rbDBContext> _userManager;
+       
 
         public HomeController(rbDBContext typeFoodDBContext, ILogger<HomeController> logger)
         {
@@ -66,7 +66,7 @@ namespace login.Controllers
             {
                 user = new UserInfor();
                 user.Id = User.Identity.Name;
-
+                user.role = "Guest";
                 _typeFoodDBContext.userinfors.Add(user);
                 _typeFoodDBContext.SaveChanges();
                 ViewBag.BMI = chisoIbm(user.heights, user.weigh);

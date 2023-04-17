@@ -60,7 +60,146 @@ img {
 }
 
 
-.cardavt {
-    width: 200px;
-    height: 300px;
+.recomfood {
+    height: 100%;
+    width: 100%;
+    display: flex;
 }
+.cardavtt{
+    height: 95%;
+    width: 95%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px grey;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.table-main table thead {
+    background: #b0b435;
+    color: #ffffff;
+}
+.img-fluid {
+    max-width:200px;
+    height: auto;
+}
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+table {
+    border-collapse: collapse;
+}
+.table-main table td {
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.table td, .table th {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+.table-responsive .table td, .table-responsive .table th {
+    vertical-align: middle;
+    white-space: nowrap;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.btn {
+    line-height:50px;
+    height: 50px;
+    text-align: center;
+    width: 100%px;
+    cursor: pointer;
+    background-color:transparent;
+    
+    border:none;
+}
+
+.btn-all {
+    color: #808080;
+    transition: all 0.3s;
+    position: relative;
+}
+
+    .btn-all span {
+        transition: all 0.3s;
+    }
+
+    .btn-all::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        opacity: 0;
+        transition: all 0.3s;
+        border-top-width: 1px;
+        border-bottom-width: 1px;
+        border-top-style: solid;
+        border-bottom-style: solid;
+        border-top-color: rgb(128, 128, 128);
+        border-bottom-color: rgb(128, 128, 128);
+        transform: scale(0.1, 1);
+    }
+
+    .btn-all:hover span {
+        letter-spacing: 2px;
+    }
+
+    .btn-all:hover::before {
+        opacity: 1;
+        transform: scale(1, 1);
+    }
+
+    .btn-all::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        transition: all 0.3s;
+        background-color: rgba(255,255,255,0.1);
+    }
+
+    .btn-all:hover::after {
+        opacity: 0;
+        transform: scale(0.1, 1);
+    }
+
+
+.gruop-bnt-hover {
+    width:100%;
+    display:block; /* Make the buttons appear below each other */
+}
+  td{
+      height:150px;
+  }
+
+    

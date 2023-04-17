@@ -41,6 +41,14 @@
     margin-top: 140px;
     position: relative;
 }
+.hero-text {
+    color: aliceblue;
+    text-align: left;
+    line-height: 9px;
+    margin-left: -1000px;
+    margin-top: 140px;
+    position: relative;
+}
 .card {
     margin-top: 80px;
     border: none;
