@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\source\\Repos3\\Food\\login.csproj": {}
+    "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\login.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\source\\Repos3\\Food\\login.csproj": {
+    "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\login.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\source\\Repos3\\Food\\login.csproj",
+        "projectUniqueName": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\login.csproj",
         "projectName": "login",
-        "projectPath": "C:\\Users\\ASUS\\source\\Repos3\\Food\\login.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\source\\Repos3\\Food\\obj\\",
+        "projectPath": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\login.csproj",
+        "packagesPath": "C:\\Users\\MinhHieu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MinhHieu\\Source\\Repos\\doancoso\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MinhHieu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -95,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

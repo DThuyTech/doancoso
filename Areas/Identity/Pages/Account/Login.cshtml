@@ -4,7 +4,7 @@
 @{
     ViewData["Title"] = "Login";
 }
-<div style="max-width: 350px; margin: 0 auto; padding:0 ">
+@*<div style="max-width: 350px; margin: 0 auto; padding:0 ">
     <div class="wrapper">
         <!--LOGIN-->
         <div class="form-login">
@@ -12,15 +12,15 @@
             <form id="account" method="post">
                 <div class="input-box">
                     <ion-icon name="mail-outline"></ion-icon>
-                    <input type="text" required class="form-input">
-                    <label>UserName</label>
+                    <input type="text" class="form-input">
+                    <label>Email</label>
                 </div>
                 <div class="input-box">
                     <ion-icon name="key-outline"></ion-icon>
-                    <input type="password" required class="form-input">
+                    <input  type="password" class="form-input">
                     <label>Password</label>
                 </div>
-                <button type="submit" class="btn">Login</button>
+                <button id="login-submit" type="submit" class="btn">Login</button>
                 <div class="login-register">
                     <p>Don't have an account ? <a href="#" class="register-link"> Register Here </a> </p>
                 </div>
@@ -32,48 +32,60 @@
             <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
                 <div class="input-box">
                     <ion-icon name="person-outline"></ion-icon>
-                    <input type="text" required>
-                    <label>User Name</label>
+                    <input type="text" class="form-input">
+                    <label>Name</label>
                 </div>
                 <div class="input-box">
                     <ion-icon name="mail-outline"></ion-icon>
-                    <input type="text" required>
+                    <input asp-for="Input.Email" autocomplete="current-password" aria-required="true" type="text" class="form-input">
                     <label>Email</label>
                 </div>
                 <div class="input-box">
                     <ion-icon name="key-outline"></ion-icon>
-                    <input type="password" required class="form-input">
+                    <input asp-for="Input.Password" autocomplete="current-password" aria-required="true" type="password" class="form-input">
                     <label>Password</label>
                 </div>
                 <button type="submit" value="Save" class="btn">Register</button>
                 <div class="login-register">
-                    <p>Already have an account ? <a href="#" class="login-link"> Login Now </a> </p>
-                </div>
+                    <p>Already have an account ? <a href="#" class="login-link"> Login Now </a> </p> </div>
             </form>
         </div>
     </div>
 </div>
-@*    <div class="input-box">
-                    <ion-icon name="key-outline"></ion-icon>
-                    <input asp-for="Input.Password" class="input-box" autocomplete="current-password" aria-required="true" />
-                    <label asp-for="Input.Password" class="form-label"></label>
-                    <span asp-validation-for="Input.Password" class="inputname"></span>
-                </div>
 
+*@
+<div style="max-width: 350px; margin: 0 auto; padding:0 ">
+    <div class="wrapper">
+        <div class="form-login">
+            <h2> Login </h2>
+            <form id="account" method="post">
+                <div class="input-box">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <input class="form-input" asp-for="Input.Email" autocomplete="current-password" aria-required="true" required />
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <ion-icon name="key-outline"></ion-icon>
+                    <input class="input-box" asp-for="Input.Password" autocomplete="current-password" aria-required="true" required />
+                    <label>Password</label>
+                </div>
                 <div class="checkbox">
                     <label asp-for="Input.RememberMe" class="form-label">
                         <input class="form-check-input" asp-for="Input.RememberMe" />
                         @Html.DisplayNameFor(m => m.Input.RememberMe)
                     </label>
+                    <a id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a>
                 </div>
-              <div> <button id="login-submit" type="submit" class="btn">Log in</button> </div>
-               <div>
-                    <p> <a id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a>  </p>
+                <div> <button id="login-submit" type="submit" class="btn">Log in</button> </div>
+                <div>
                     <p> <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register as a new user</a> </p>
                     <p> <a id="resend-confirmation" asp-page="./ResendEmailConfirmation">Resend email confirmation</a> </p>
                 </div>
-
-    <div class="col-md-6 col-md-offset-2">
+            </form>
+        </div>
+    </div>
+</div>
+@*<div class="col-md-6 col-md-offset-2">
         <section>
             <h3>Use another service to log in.</h3>
             <hr />
@@ -102,10 +114,7 @@
                 }
             }
         </section>
-        </div>
-*@
-
-
+</div>*@
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />

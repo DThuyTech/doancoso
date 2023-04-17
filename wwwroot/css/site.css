@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 /* font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif; */
@@ -10,9 +11,8 @@ body {
 }
 
 .body-fixed {
-    
     width: 100%;
-   height:auto;
+    height: auto;
     top: auto;
     left: auto;
 }
@@ -74,10 +74,15 @@ img {
         }
 
 a {
+    color: #0d0d25;
     background-color: transparent;
     text-decoration: none !important;
     outline: none !important;
 }
+
+    a:hover {
+        color: #00ffff;
+    }
 
 ul {
     list-style: none;
@@ -126,6 +131,7 @@ ul {
 .for-des {
     display: block !important;
 }
+
 * {
     -webkit-tap-highlight-color: transparent;
 }
@@ -142,8 +148,8 @@ ul {
 
 @media (min-width: 1300px) {
     .container {
-        max-width:100%;
-        max-height:auto;
+        max-width: 100%;
+        max-height: auto;
     }
 }
 
@@ -372,6 +378,7 @@ ul {
         left: 15px;
     }
 }
+
 @media auto and (min-width: 992px) {
     #viewport {
         overflow: hidden;
@@ -392,11 +399,13 @@ ul {
         left: 0;
     }
 }
+
 @media (max-width: 991px) {
     #js-scroll-content {
         transform: unset !important;
     }
 }
+
 .main-banner {
     padding: 150px 0 300px;
     min-height: 100vh;
@@ -426,6 +435,7 @@ ul {
 .banner-img-text {
     max-width: 400px;
 }
+
 .sec-wp {
     position: relative;
     z-index: 4;
@@ -444,7 +454,7 @@ ul {
         background-image: linear-gradient(0deg, rgb(13 13 37 /8%), rgb(13 13 37 /8%));
         background-size: 100% 5px;
         background-position: 0 90%;
-        background-repeat: no-repeat;  
+        background-repeat: no-repeat;
         display: inline;
         transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
     }
@@ -459,6 +469,7 @@ p {
     font-size: 16px;
     line-height: 30px;
 }
+
 .sec-btn {
     min-width: 120px;
     min-height: 58px;
@@ -482,11 +493,11 @@ p {
 }
 
 
-.sec-btn:hover {
-    border-color: #0d0d25;
-    box-shadow: inset 9px 9px 12px #cccccc, inset -9px -9px 12px #ffffff;
-    color: #0d0d25;
-}
+    .sec-btn:hover {
+        border-color: #0d0d25;
+        box-shadow: inset 9px 9px 12px #cccccc, inset -9px -9px 12px #ffffff;
+        color: #0d0d25;
+    }
 
 
 .footer[b-ql2nrnm8l4] {
@@ -500,6 +511,5 @@ p {
 
 
 
-#js-scroll-content{
-
+#js-scroll-content {
 }

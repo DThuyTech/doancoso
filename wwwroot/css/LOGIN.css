@@ -1,5 +1,4 @@
 
-
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +9,7 @@
     display: flex;
     position: relative;
     width: 400px;
-    height: 400px;
+    height: 500px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .5);
     border-radius: 20px;
@@ -38,7 +37,7 @@
 
     .wrapper .form-login {
         width: 100%;
-        padding: 40px;
+        padding: 30px;
     }
 
     .wrapper.active .form-register {
@@ -86,10 +85,10 @@
 
 .input-box {
     position: relative;
-    width: 100%;
-    height: 50px;
+    width: 102%;
+    height: 59px;
     border-bottom: 2px solid rgb(0 0 0);
-    margin: 30px 0;
+    margin: 20px 0;
 }
 
     .input-box label {
@@ -119,6 +118,7 @@
         color: rgb(0 0 0);
         font-weight: 600;
         padding: 0 35px 0 5px;
+        margin-top: 10px
     }
 
     .input-box ion-icon {
@@ -128,6 +128,14 @@
         color: rgb(0 0 0);
         line-height: 57px;
     }
+
+    .input-box div p {
+        color: rgba(255, 255, 255, .5);
+    }
+
+.checkbox {
+    margin-bottom: 1rem;
+}
 
 .btn {
     width: 100%;
@@ -140,6 +148,7 @@
     font-size: 1em;
     color: rgba(0 0 0);
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
 
@@ -156,7 +165,3 @@
         text-decoration: none;
         font-weight: 600;
     }
-
-        .login-register p a:hover {
-            text-decoration: underline;
-        }
