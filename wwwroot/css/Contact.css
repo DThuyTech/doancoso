@@ -9,6 +9,7 @@
     position: relative;
     width: 100%;
     padding: 40px 100px;
+
 }
 
     .contactUs .title {
@@ -17,7 +18,10 @@
         align-items: center;
         font-size: 2em;
     }
-
+.required{
+    color: black;
+    font-weight: 600;
+}
 .form {
     grid-area: form;
 }
@@ -32,12 +36,14 @@
 
 .contact {
     padding: 40px;
-    background: rgba(255,255,255,0.2);
+    background: #0e3959;
     box-shadow: 0 5px 35px rgba(0,0,0,0.15);
+    border: 2px solid none;
+    border-radius: 20px;
 }
 
     .contact h3 {
-        color: #0e3959;
+        color: #5cb7ef;
         font-weight: 500;
         font-size: 1.7em;
         margin-bottom: 10px;
@@ -84,7 +90,14 @@
         padding: 10px;
         font-size: 1.1em;
         outline: none;
-        border: 1px solid #333;
+        border: none;
+        color: #fff;
+        background: transparent;
+        border-bottom: 2px solid rgb(0 0 0);
+    }
+    .inputBox input:focus ~ label,
+    .inputBox input:valid ~ label {
+        top: -5px;
     }
 
     .inputBox textarea {
@@ -106,7 +119,12 @@
         height: 45px;
         font-weight: 500;
         cursor: pointer;
+        margin-top: 30px;
     }
+        .inputBox input[type="submit"]:hover{
+            color: yellow;
+            background-color: #000000;
+        }
 
 .info {
     background: #0e3959;
