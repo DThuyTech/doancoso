@@ -4,7 +4,7 @@
 @{
     ViewData["Title"] = "Login";
 }
-<div style="max-width: 350px; margin: 0 auto; padding:0 ">
+@*<div style="max-width: 350px; margin: 0 auto; padding:0 ">
     <div class="wrapper">
         <div class="form-login">
             <h2> Login </h2>
@@ -24,6 +24,7 @@
                         <input class="form-check-input" asp-for="Input.RememberMe" />
                         @Html.DisplayNameFor(m => m.Input.RememberMe)
                     </label>
+                    <a id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a>
                 </div>
                 <div> <button id="login-submit" type="submit" class="btn">Log in</button> </div>
                 <div>
