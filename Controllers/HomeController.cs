@@ -12,6 +12,8 @@ using login.Data;
 using login.Logic;
 using login.Viewmodels;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Data.Common;
+using login.Migrations;
 
 namespace login.Controllers
 {
@@ -88,14 +90,30 @@ namespace login.Controllers
 
 
         }
+        public Node RecommandFor7Day()
+        {
 
+            List<DbTrain> dbTrain = new List<DbTrain>();
+            dbTrain = _typeFoodDBContext.trains.ToList();
+            Train2 train = new Train2(dbTrain);
+            Node root = new Node();
+            List<String> Attributenew = train.Attribute;
+        root = train.TrainFinish(train.AddData(),Attributenew);
+            return root;
+
+        }
 
         [Authorize]
         [HttpPost]
         public IActionResult accountInfor(string height, string weight, string age, string sex)
         {
 
-
+            RecommandFor7Day();
+            List<Diet> diets = new List<Diet>();
+            RecommandCheDoan recommandCheDoan = new RecommandCheDoan();
+            recommandCheDoan.Useruser = _typeFoodDBContext.userinfors.FirstOrDefault(p => p.Id == User.Identity.Name);
+            recommandCheDoan.foods = _typeFoodDBContext.Foods.ToList();
+            diets= recommandCheDoan.ReturnDiets();
 
             var userinfor = _typeFoodDBContext.userinfors.FirstOrDefault(p => p.Id == User.Identity.Name);
             userinfor.weigh = int.Parse(weight);
@@ -109,6 +127,13 @@ namespace login.Controllers
             ViewBag.Data = userinfor;
 
 
+
+            List<Food> foods = new List<Food>();
+            foods.Add(_typeFoodDBContext.Foods.FirstOrDefault(p => p.Id == diets[0].IdFood));
+            foods.Add(_typeFoodDBContext.Foods.FirstOrDefault(p => p.Id == diets[1].IdFood));
+            foods.Add(_typeFoodDBContext.Foods.FirstOrDefault(p => p.Id == diets[2].IdFood));
+
+            ViewBag.Listfoodrecommanded = foods;
             ViewBag.BMI = chisoIbm(userinfor.heights, userinfor.weigh);
             return View("accountInfor", "Home");
         }

@@ -74,14 +74,14 @@ img {
         }
 
 a {
-    color: #0d0d25;
+    color: black;
     background-color: transparent;
     text-decoration: none !important;
     outline: none !important;
 }
 
     a:hover {
-        color: #00ffff;
+        color: #21827f;
     }
 
 ul {
@@ -462,7 +462,7 @@ ul {
 h1, h2, h3, h4, h5, h6 {
     color: #0d0d25;
     font-family: 'Playfair Display', serif;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 p {

@@ -12,8 +12,8 @@ using login.Data;
 namespace login.Migrations
 {
     [DbContext(typeof(rbDBContext))]
-    [Migration("20230416140831_hieu")]
-    partial class hieu
+    [Migration("20230423055737_dbhwuynewhuy")]
+    partial class dbhwuynewhuy
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -23,6 +23,121 @@ namespace login.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
+
+            modelBuilder.Entity("login.Models.DbTrain", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("Activ")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Age")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Color")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Gender")
+                        .HasColumnType("int");
+
+                    b.Property<int>("KeyEmotion")
+                        .HasColumnType("int");
+
+                    b.Property<int>("KeyTaste")
+                        .HasColumnType("int");
+
+                    b.Property<int>("NutributionId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("NutributionId");
+
+                    b.ToTable("trains");
+                });
+
+            modelBuilder.Entity("login.Models.DetailFoodNutri", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("FoodId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("NutributionId")
+                        .HasColumnType("int");
+
+                    b.Property<float>("Quantity")
+                        .HasColumnType("real");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("FoodId");
+
+                    b.HasIndex("NutributionId");
+
+                    b.ToTable("detailFoodNutris");
+                });
+
+            modelBuilder.Entity("login.Models.Diet", b =>
+                {
+                    b.Property<int>("IdDiet")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdDiet"), 1L, 1);
+
+                    b.Property<int>("Buoi")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Day")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("FoodId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("IdFood")
+                        .HasColumnType("int");
+
+                    b.Property<string>("IdUser")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("IdDiet");
+
+                    b.HasIndex("FoodId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Diet");
+                });
+
+            modelBuilder.Entity("login.Models.DVT", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("dVTs");
+                });
 
             modelBuilder.Entity("login.Models.Food", b =>
                 {
@@ -40,16 +155,35 @@ namespace login.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("DVTid")
+                        .HasColumnType("int");
+
                     b.Property<int>("IdType")
+                        .HasColumnType("int");
+
+                    b.Property<int>("LoaimonId")
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("chatbeo")
+                        .HasColumnType("int");
+
+                    b.Property<int>("chatdam")
+                        .HasColumnType("int");
+
+                    b.Property<int>("chatxo")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
+                    b.HasIndex("DVTid");
+
                     b.HasIndex("IdType");
+
+                    b.HasIndex("LoaimonId");
 
                     b.ToTable("Foods");
                 });
@@ -82,6 +216,44 @@ namespace login.Migrations
                     b.HasIndex("FoodId");
 
                     b.ToTable("foodContents");
+                });
+
+            modelBuilder.Entity("login.Models.Loaimon", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("loaimons");
+                });
+
+            modelBuilder.Entity("login.Models.Nutribution", b =>
+                {
+                    b.Property<int>("iD")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("iD"), 1L, 1);
+
+                    b.Property<string>("description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("iD");
+
+                    b.ToTable("nutributions");
                 });
 
             modelBuilder.Entity("login.Models.Recipes", b =>
@@ -379,11 +551,58 @@ namespace login.Migrations
                     b.HasDiscriminator().HasValue("User");
                 });
 
+            modelBuilder.Entity("login.Models.DbTrain", b =>
+                {
+                    b.HasOne("login.Models.Nutribution", null)
+                        .WithMany("dbTrains")
+                        .HasForeignKey("NutributionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("login.Models.DetailFoodNutri", b =>
+                {
+                    b.HasOne("login.Models.Food", null)
+                        .WithMany("detailFoodNutris")
+                        .HasForeignKey("FoodId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("login.Models.Nutribution", null)
+                        .WithMany("detailFoodNutris")
+                        .HasForeignKey("NutributionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("login.Models.Diet", b =>
+                {
+                    b.HasOne("login.Models.Food", null)
+                        .WithMany("diets")
+                        .HasForeignKey("FoodId");
+
+                    b.HasOne("login.Models.User", null)
+                        .WithMany("diets")
+                        .HasForeignKey("UserId");
+                });
+
             modelBuilder.Entity("login.Models.Food", b =>
                 {
+                    b.HasOne("login.Models.DVT", null)
+                        .WithMany("foods")
+                        .HasForeignKey("DVTid")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("login.Models.TypeFood", "TypeFood")
                         .WithMany("foods")
                         .HasForeignKey("IdType")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("login.Models.Loaimon", null)
+                        .WithMany("Foods")
+                        .HasForeignKey("LoaimonId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -459,14 +678,40 @@ namespace login.Migrations
                     b.Navigation("IdentityUser");
                 });
 
+            modelBuilder.Entity("login.Models.DVT", b =>
+                {
+                    b.Navigation("foods");
+                });
+
             modelBuilder.Entity("login.Models.Food", b =>
                 {
                     b.Navigation("contents");
+
+                    b.Navigation("detailFoodNutris");
+
+                    b.Navigation("diets");
+                });
+
+            modelBuilder.Entity("login.Models.Loaimon", b =>
+                {
+                    b.Navigation("Foods");
+                });
+
+            modelBuilder.Entity("login.Models.Nutribution", b =>
+                {
+                    b.Navigation("dbTrains");
+
+                    b.Navigation("detailFoodNutris");
                 });
 
             modelBuilder.Entity("login.Models.TypeFood", b =>
                 {
                     b.Navigation("foods");
+                });
+
+            modelBuilder.Entity("login.Models.User", b =>
+                {
+                    b.Navigation("diets");
                 });
 #pragma warning restore 612, 618
         }

@@ -3,6 +3,10 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using login.Models;
 using login.Data;
+using Microsoft.EntityFrameworkCore;
+using login.Viewmodels;
+using Microsoft.AspNetCore.Mvc.Rendering;
+
 namespace login.Controllers
 {
 
@@ -54,7 +58,14 @@ namespace login.Controllers
 
         public IActionResult CreateFood()
         {
-
+            ContentFoodViewmodel contentFoodViewmodel = new ContentFoodViewmodel();
+            contentFoodViewmodel.ListidtypeFood = new List<SelectListItem>();
+            List<TypeFood> typeFoods = _typeFoodDBContext.Types.ToList();
+            foreach( TypeFood item in typeFoods)
+            {
+                contentFoodViewmodel.ListidtypeFood.Add(new SelectListItem { Text = item.Name, Value = item.Id.ToString() });
+            }
+            ViewBag.modelType = contentFoodViewmodel;
             return View();
         }
 
@@ -63,16 +74,24 @@ namespace login.Controllers
         {
 
             Food food1 = new Food();
+        
             food1 = _typeFoodDBContext.Foods.FirstOrDefault(p => p.Id == food.Id);
-            _typeFoodDBContext.Foods.Add(food1);
+
+            food1.Name = food.Name;
+            food1.Calo=food.Calo;
+            food1.Bref=food.Bref;
+            food1.TypeFood= food.TypeFood;
+            food1.TypeFood=food.TypeFood;
+            
             _typeFoodDBContext.SaveChanges();
-            return View("Admin", "Home");
+            return View("Admin",_typeFoodDBContext.Foods.ToList());
         }
         public IActionResult EditFood(int? id)
         {
             var food = _typeFoodDBContext.Foods.FirstOrDefault(p => p.Id == id);
 
-            return View(food);
+            
+            return View("EditFood",food);
         }
         public IActionResult Delete(int? id)
         {
@@ -98,7 +117,7 @@ namespace login.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Admin(string search)
+        public IActionResult Admin(string? search)
         {
 
             List<Food> listfoddlaod = new List<Food>();

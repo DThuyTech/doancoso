@@ -23,26 +23,53 @@ row col-5 img{
 
 }
 .cardinfor {
-    height: 450px;
-    width: 280px;
+    margin:10px;
+    height: auto;
+    width: 94%;
     border-radius: 15px;
     box-shadow: 2px 2px 20px grey;
     overflow: hidden;
     margin-right: 10px;
-    background-color: white;
+    background-color: whitesmoke;
     padding:10px;
+    opacity:80%;
 }
 .cardinfor lable{
     margin-left:10px;
 } 
+.cardinfor input{
+    background-color:transparent;
+    border-color:transparent;
+    transition:0.5s;
+
+}
+
+.cardinfor input:hover{
+    cursor:pointer;
+}
+    .cardinfor input:hover{
+        border-bottom-color: grey;
+        border-top-color:grey;
+    }
 .cardimb {
-    height: 450px;
-    width: 554px;
+    margin:10px;
+    padding: 10px;
+    margin-top: 20px;
+    height: auto;
+    width: 100%;
     border-radius: 15px;
     box-shadow: 2px 2px 20px grey;
     overflow: hidden;
     margin-right: 10px;
-    background-color: white;
+    background-color: transparent;
+
+}
+ p{
+    font-family:Arial, Helvetica, sans-serif;
+}
+ label {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:200;
 }
 .imb {
     height: 450px;
@@ -75,10 +102,12 @@ img {
 }
 
 .table {
+    margin-top:10px;
     width: 100%;
     max-width: 100%;
     margin-bottom: 1rem;
     background-color: transparent;
+    border:none;
 }
 thead {
     display: table-header-group;
@@ -89,10 +118,36 @@ thead {
     background: #b0b435;
     color: #ffffff;
 }
-.img-fluid {
-    max-width:200px;
+.img-thumbnails {
+    padding: 0.25rem;
+    background-color: #fff;
+    /* border: 1px solid #dee2e6; */
+    border-radius: 0.25rem;
+    max-width: 100%;
     height: auto;
 }
+.img-fluid {
+    max-width:200px;
+    height: 150px;
+    border:none;
+    object-fit:cover;
+    
+}
+.r7ngay {
+    margin-top: 10px;
+    height: 55px;
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #b0b435;
+}
+    .r7ngay span {
+        text-align: center;
+        padding: 10px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
 .table-responsive {
     display: block;
     width: 100%;
@@ -128,17 +183,20 @@ tr {
     border-color: inherit;
 }
 .btn {
-    line-height:50px;
+    line-height: 50px;
     height: 50px;
     text-align: center;
-    width: 100%px;
+    width: 100%;
     cursor: pointer;
-    background-color:transparent;
-    
-    border:none;
+    background-color: transparent;
+    border-left-color: grey;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
 }
 
 .btn-all {
+    margin-top:8px;
     color: #808080;
     transition: all 0.3s;
     position: relative;
@@ -202,4 +260,4 @@ tr {
       height:150px;
   }
 
-    
+

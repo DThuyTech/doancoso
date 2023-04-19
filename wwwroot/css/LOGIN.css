@@ -6,6 +6,7 @@
 }
 
 .wrapper {
+    margin-top: 50px;
     display: flex;
     position: relative;
     width: 400px;
@@ -38,6 +39,10 @@
     .wrapper .form-login {
         width: 100%;
         padding: 30px;
+    }
+    
+    .wrapper .form-login p{
+        font-weight: 600;
     }
 
     .wrapper.active .form-register {
@@ -74,6 +79,7 @@
     color: rgb(0 0 0);
     text-align: center;
     font-weight: 600;
+
 }
 
 .form-register h2 {
@@ -89,6 +95,7 @@
     height: 59px;
     border-bottom: 2px solid rgb(0 0 0);
     margin: 20px 0;
+    margin-bottom: 25px;
 }
 
     .input-box label {
@@ -105,7 +112,8 @@
 
     .input-box input:focus ~ label,
     .input-box input:valid ~ label {
-        top: -10px;
+        top: -7px;
+        color: #eb4444;
     }
 
     .input-box input {
@@ -118,7 +126,7 @@
         color: rgb(0 0 0);
         font-weight: 600;
         padding: 0 35px 0 5px;
-        margin-top: 10px
+        margin-top: 3px;
     }
 
     .input-box ion-icon {
@@ -127,6 +135,7 @@
         font-size: 1.2em;
         color: rgb(0 0 0);
         line-height: 57px;
+        margin-top: 15px;
     }
 
     .input-box div p {
@@ -150,7 +159,26 @@
     font-weight: 700;
     margin-bottom: 20px;
 }
+    .btn:hover{
+        color: #eb4444;
+    }
+.btnrp {
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    border-color: rgb(0 0 0);
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: rgba(0 0 0);
+    font-weight: 700;
+    margin-top: 20px;
 
+}
+.btnrp:hover {
+    color: #eb4444;
+}
 
 .login-register {
     font-size: .9em;

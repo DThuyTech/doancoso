@@ -633,6 +633,10 @@
       "PackagePath": "staticwebassets\\css\\Footter.css"
     },
     {
+      "Id": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\css\\Header.css",
+      "PackagePath": "staticwebassets\\css\\Header.css"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\css\\Index.css",
       "PackagePath": "staticwebassets\\css\\Index.css"
     },

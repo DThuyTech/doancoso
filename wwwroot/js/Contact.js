@@ -8,11 +8,13 @@
     //khai bao de truy cap den html
     let fullName0j = document.querySelector('input[name = "fullname"]');
     let email0j = document.querySelector('input[name = "email"]');
+    let phone0j = document.querySelector('input[name = "phone"]');
     let feedback0j = document.querySelector('input[name = "feedback"]');
 
     //lay gia tri cua user
     let fullName = fullName0j.value;
     let email = email0j.value;
+    let phone = phone0j.value;
     let feedback = feedback0j.value;
 
     //thong bao loi
@@ -24,6 +26,10 @@
     if (email.trim() == '') {
         errors['email'] = 'Email không được để trống !!!';
         email0j.parentElement.querySelector('.required').innerText = errors['email'];
+    }
+    if (email.trim() == '') {
+        errors['phone'] = 'PhoneNumber không được để trống !!!';
+        phone0j.parentElement.querySelector('.required').innerText = errors['phone'];
     }
     if (feedback.trim() == '') {
         errors['feedback'] = 'Mời bạn nhập ý kiến phản hồi !!!';
@@ -41,21 +47,24 @@
     // check loi ( = 0 thi khong co loi va nguoc lai)
     if (Object.keys(errors).length == 0) {
         let data = {
-            'entry.1778650267': fullName,
-            'entry.758964711': email,
-            'entry.1855482181': feedback,
+            'entry.2015964038': fullName,
+            'entry.909391720': email,
+            'entry.109173048': phone,
+            'entry.1219674057': feedback,
         }
+        console.log(data);
 
         let queryString = new URLSearchParams(data);
         queryString = queryString.toString();
         let xhr = new XMLHttpRequest();
-        xhr.open("POST", 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSev-BKXZQl_qhmyxEKSgwBtDwowR3iUYPr1oayv-HD3M8LLrg/formResponse', true);
+        xhr.open("POST", 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSfmk0ri7bNig0FkuBY1FS-JjjZXG96pIwq411S6OTEvNEVouQ/formResponse', true);
         xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 
         msg0j.innerHTML = '<div class="alert alert-success text-center" > Gửi thành công </div>';
         //reset input khi submit
         fullName0j.value = '';
         email0j.value = '';
+        phone0j.value = '';
         feedback0j.value = '';
 
         xhr.send(queryString);
