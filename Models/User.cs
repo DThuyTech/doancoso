@@ -11,6 +11,7 @@ namespace login.Models
         public int sex { get; set; }
         public User() { }
         public IdentityUser? IdentityUser { get; set; }
-        
+        public ICollection<Diet> diets { get; set; }
+
     }
 }

@@ -15,5 +15,6 @@ namespace login.Models
         public int IdType { get; set; }
         public TypeFood TypeFood { get; set; }
         public ICollection<FoodContent> contents { get; set; }
+        public ICollection<Diet> diets { get; set; }
     }
 }

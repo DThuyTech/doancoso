@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vgjsAG3bYwnCvjMQl66/evTeMEyT7Xf3uzgYr8RwaUo=",
+  "Hash": "pfYjh3hApl6fL7FP9HcrVKaOR6lx39H4nqr0AoPqA8s=",
   "Source": "login",
   "BasePath": "_content/login",
   "Mode": "Default",
@@ -1409,6 +1409,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Footter.css"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\css\\Header.css",
+      "SourceId": "login",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\",
+      "BasePath": "_content/login",
+      "RelativePath": "css/Header.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Header.css"
     },
     {
       "Identity": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\css\\Index.css",
