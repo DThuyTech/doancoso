@@ -19,7 +19,7 @@
         {
             if (sex == 1)
             {
-                return (float)((float)heigh * 2.204623f * 10 + 6.25 * (float)weigh / 2.54f - 5 * (float)age + 5);
+                return (float)((float)weigh * 2.204623f * 10 + 6.25 * (float)heigh / 2.54f - 5 * (float)age + 5);
             }
             return (float)((float)weigh * 2.204623f * 10 + 6.25 * (float)heigh / 2.54f - 5 * (float)age + -161);
         }

@@ -68,9 +68,10 @@
             }
 
         }
-        <div class="col-3">
+        <div class="col-2">
             <form asp-controller="Home" asp-action="accountInfor" method="post">
-                <div class="cardinfor">
+                <div class="row">
+                    <div class="cardinfor">
 
                     <div class=" row">
                         <label>User :  </label>
@@ -99,58 +100,190 @@
                             <input id="textInfor" name="weight" ariaReadOnly value=@weight />
                         </div>
 
-                        <input id="btnChange" type="button" class="savebtn" value="Change" onclick="changeFunc()" />
-                        <input type="submit" class="savebtn" value="Save" />
+
+                        <input type="submit" class="savebtn" value="Save" width="50" />
 
                     </div>
                 </div>
-            </form>
-        </div>
-        <div class="col-6">
-            <div class="card">
-                <div class="cardavt">
-                    <img id="cardavt" src="/Content/images/foodAcout.jpg" />
-                </div>
+               </div>
+             </form>
+                <div class="row">
+                   
+                        <div class="row">
+                            <div class="cardimb">
+                                <p>
+                                    Chỉ số sức khỏe của bạn @ViewBag.BMI
+                                </p>
+                                <label>Min </label>
+                                @{
+                                    float valueIBMPercent = (ViewBag.BMI - 10) / 50 * 100;
+                                }
+                                <progress id="prosBarIbm" value=@valueIBMPercent max="100"></progress>
+                                <label>Max </label>
+                                <p>
+                                    Tính trạng của bạn: 
+                                    <div>
+                                        <p>
+                                        @{
+                                            IBM iBM = new IBM(ViewBag.BMI);
+                                            string kq = iBM.ketqua();
+                                        }
+                                        @kq
+                                </p>
+                                    </div>
+                                </p>
+                                <p>
+                                    @{
+                                        BMR bMR = new BMR(int.Parse(sex), int.Parse(height), int.Parse(weight), int.Parse(age));
+                                        float caloriesneed = bMR.clorisneed();
+                                    }
+                                    Calo bạn nên ăn trong 1 ngày :  @caloriesneed
+                                </p>
+                            </div>
 
-            </div>
+                        
+
+                    </div>
+                </div>
+           
         </div>
-        <div class="col-3">
+       
+        <div class="col-10">
             <div class="row">
-                <div class="cardimb">
-                    <p>
-                        Chỉ số sức khỏe của bạn @ViewBag.BMI
-                    </p>
-                    <label>Min </label>
-                    @{
-                        float valueIBMPercent = (ViewBag.BMI - 10) / 50 * 100;
-                    }
-                    <progress id="prosBarIbm" value=@valueIBMPercent max="100"></progress>
-                    <label>Max </label>
-                    <p>
-                        <label>Tính trạng của bạn: </label>
-                        <div>
-                            @{
-                                IBM iBM = new IBM(ViewBag.BMI);
-                                string kq = iBM.ketqua();
-                            }
-                            @kq
+                <div class="col-lg-1">
+                   <div class="r7ngay">
+                       <span>Ngày :</span>
+                   </div>
+                 
+                        <div class="gruop-bnt-hover">
+
+                            <div class="btn btn-all">
+                                <span> 1</span>
+                            </div> 
+                            <div class="btn btn-all">
+                                <span>2</span>
+                            </div>
+                            <div class="btn btn-all">
+                                <span>3</span>
+                            </div>
+                            <div class="btn btn-all">
+                                <span>4</span>
+                            </div>
+                            <div class="btn btn-all">
+                                <span>5</span>
+                            </div> 
+                            <div class="btn btn-all">
+                                <span>6</span>
+                            </div>
+                            <div class="btn btn-all">
+                                <span>7</span>
+                            </div>
                         </div>
-                    </p>
-                    <p>
-                        @{
-                            BMR bMR = new BMR(int.Parse(sex), int.Parse(height), int.Parse(weight), int.Parse(age));
-                            float caloriesneed = bMR.clorisneed();
-                        }
-                        Calo bạn nên ăn trong 1 ngày :  @caloriesneed
-                    </p>
+                   
                 </div>
+                <div class="col-lg-11">
 
-            </div>
-            <div class="row">
-                <img src="/Food/images/food11.png" />
-            </div>
 
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="table-main table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Ảnh</th>
+                                            <th>Tên món & nội dung</th>
+                                            <th>Cale/kg</th>
+                                            <th>Kg</th>
+                                            <th>Change</th>
+                                        </tr>
+
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="img-thumbnails">
+                                                <a href="#">
+                                                    <img class="img-fluid" src="~/Food/images/food11.png" alt />
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <a href="#">
+                                                    Tên của món anh
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <p>Calo/Kg</p>
+                                            </td>
+                                            <td class="khoiluong">
+                                                <input type="number" size="4" value="1" min="0" readonly />
+                                            </td>
+                                            <td class="changeFood">
+                                                <a href="#">
+                                                    <i class="fas fa-times"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="img-thumbnails">
+                                                <a href="#">
+                                                    <img class="img-fluid" src="~/Food/images/food11.png" alt />
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <a href="#">
+                                                    Tên của món anh
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <p>Calo/Kg</p>
+                                            </td>
+                                            <td class="khoiluong">
+                                                <input type="number" size="4" value="1" min="0" readonly />
+                                            </td>
+                                            <td class="changeFood">
+                                                <a href="#">
+                                                    <i class="fas fa-times"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="img-thumbnails">
+                                                <a href="#">
+                                                    <img class="img-fluid" src="~/Food/images/food11.png" alt />
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <a href="#">
+                                                    Tên của món anh
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <p>Calo/Kg</p>
+                                            </td>
+                                            <td class="khoiluong">
+                                                <input type="number" size="4" value="1" min="0" readonly />
+                                            </td>
+                                            <td class="changeFood">
+                                                <a href="#">
+                                                    <i class="fas fa-times"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+         
+           
+            
         </div>
+        
+     
+       
 
     </div>
     <script>

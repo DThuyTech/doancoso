@@ -22,6 +22,41 @@ namespace login.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("login.Models.Diet", b =>
+                {
+                    b.Property<int>("IdDiet")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdDiet"), 1L, 1);
+
+                    b.Property<int>("Buoi")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Day")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("FoodId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("IdFood")
+                        .HasColumnType("int");
+
+                    b.Property<int>("IdUser")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("IdDiet");
+
+                    b.HasIndex("FoodId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Diet");
+                });
+
             modelBuilder.Entity("login.Models.Food", b =>
                 {
                     b.Property<int>("Id")
@@ -377,6 +412,17 @@ namespace login.Migrations
                     b.HasDiscriminator().HasValue("User");
                 });
 
+            modelBuilder.Entity("login.Models.Diet", b =>
+                {
+                    b.HasOne("login.Models.Food", null)
+                        .WithMany("diets")
+                        .HasForeignKey("FoodId");
+
+                    b.HasOne("login.Models.User", null)
+                        .WithMany("diets")
+                        .HasForeignKey("UserId");
+                });
+
             modelBuilder.Entity("login.Models.Food", b =>
                 {
                     b.HasOne("login.Models.TypeFood", "TypeFood")
@@ -460,11 +506,18 @@ namespace login.Migrations
             modelBuilder.Entity("login.Models.Food", b =>
                 {
                     b.Navigation("contents");
+
+                    b.Navigation("diets");
                 });
 
             modelBuilder.Entity("login.Models.TypeFood", b =>
                 {
                     b.Navigation("foods");
+                });
+
+            modelBuilder.Entity("login.Models.User", b =>
+                {
+                    b.Navigation("diets");
                 });
 #pragma warning restore 612, 618
         }

@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/LOGIN.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/Contact.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Recipes.css" asp-append-version="true" />
+
 </head>
 <body>
     <header>
-        <div asp-area="" asp-controller="Home" asp-action="Index" class="logo">Recommend</div>
+        <div asp-area="" asp-controller="Home" asp-action="Index" class="logo">ＦＯＯＤ</div>
        @* <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">              
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -20,7 +22,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
               <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">*@
-                    <div class="nav-bar">
+                    <div class="nav-bar " >
                         <ul>
                         <li> <a class="nav-bar" asp-area="" asp-controller="Home" asp-action="Index">Home</a>  </li>
                         <li> <a class="nav-bar" asp-area="" asp-controller="Home" asp-action="Recommand">Recommand</a>   </li>
@@ -30,6 +32,7 @@
                         <li> <a  asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>  </li>
                         <li> <partial name="_LoginPartial" /></li>                      
                         </ul>
+                       
                     </div>
                 @*</div>
             </div>

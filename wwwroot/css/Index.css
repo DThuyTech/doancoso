@@ -41,6 +41,14 @@
     margin-top: 140px;
     position: relative;
 }
+.hero-text {
+    color: aliceblue;
+    text-align: left;
+    line-height: 9px;
+    margin-left: -1000px;
+    margin-top: 140px;
+    position: relative;
+}
 .card {
     margin-top: 80px;
     border: none;
@@ -293,6 +301,12 @@ img {
 }
 .option-blog li a:hover{
     color:orange;
+}
+
+.danhgia{
+    height:auto;
+    display:flex;
+    margin-top:70px;
 }
 @media (min-width: 1500px) .container {
     max-width:394px;

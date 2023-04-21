@@ -1,14 +1,11 @@
-﻿body{
-
-}
-
-
+﻿
 .nameFoodAd {
     font-family: Bahnschrift;
     font-size: 50px;
     width: 600px;
     margin-top: 50px;
 }
+
 .footer[b-xu49sixpwf] {
     position: relative;
     width: 100%;
@@ -22,19 +19,21 @@
 }
 
 .card {
-    height: 300px;
-    width: 280px;
+    display:flex;
+    height: 350px;
+    width: 400px;
     margin: 50px;
     box-shadow: 2px 2px 20px grey;
     overflow: hidden;
-    margin-left: 10px;
+    margin-left: 50px;
+    border-radius: 20px;
 }
 
 .imgGoods {
     object-fit: cover;
-    position:center;
-    height: 300px;
-    width: 290px;
+    position: center;
+    height: 350px;
+    width: 400px;
     border-radius: 5px;
 }
 
@@ -47,38 +46,39 @@ row .contentFoodAd {
 }
 
 .intro {
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 450px;
     padding: 15px;
     box-sizing: border-box;
     position: absolute;
-    background: rbg(27,27,27,0.5);
-    color: white;
-    bottom: -235px;
+    background: none;
+    color: #000000;
+    bottom: -300px;
     line-height: 10px;
     margin-left: 0px;
     transition: .5s;
 }
 
-h1 {
-    
+
+.intro p {
+    margin-left: 15px;
+    font-size: 25px;
 }
 
 .footer[b-ql2nrnm8l4] {
-    margin-top:100px;
+    margin-top: 100px;
     position: fixed;
     bottom: 0;
     width: 100%;
     white-space: nowrap;
     line-height: 60px;
-  
 }
+
 .intro h1{
-    width: 180px;
+    width: 300px;
     margin-left: 0px;
     font-size: 30px;
-    font-color: white;
-    color:white;
+    color: whitesmoke;
 }
 
 .imgFoodfisrt {
@@ -100,12 +100,15 @@ h1 {
 }
 
     .card:hover .intro {
-        height: 300px;
+        height: 200px;
         bottom: 0px;
-        background: black;
+        background: #c1c1c1;
         opacity: 80%;
     }
-   
+    .card:hover .intro h1{
+        color:#000000;
+    }
+
 .navsearchChar {
     color: grey;
     font-size: 25px;
@@ -141,3 +144,71 @@ h1 {
     box-shadow: 0px 0px 10px grey;
     border-radius: 15px;
 }
+.row .h2-title {
+    margin-top: 100px;
+    color: #0d0d25;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    position: relative;
+    display: block;
+}
+
+
+
+
+
+
+/*----------------------------------------*/
+/*body {
+    font-family: 'Poppins', sans-serif;
+    text-rendering: optimizeLegibility !important;
+    background: #f3f3f5;
+}
+.body-fixed {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: auto;
+    left: auto;
+}
+@media screen and (min-width: 992px) {
+    #viewport {
+        overflow: hidden;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    #js-scroll-content {
+        position: absolute;
+        overflow: hidden;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+}
+@media (max-width: 991px) {
+    #js-scroll-content {
+        transform: unset !important;
+    }
+}
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+.sec-wp {
+    position: relative;
+    z-index: 4;
+}
+.menu-list-row .bydefault_show .dish-box-wp {
+    display: inline-block !important;
+}*/
