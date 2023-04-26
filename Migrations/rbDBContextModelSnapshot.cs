@@ -117,7 +117,7 @@ namespace login.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Diet");
+                    b.ToTable("diets");
                 });
 
             modelBuilder.Entity("login.Models.DVT", b =>

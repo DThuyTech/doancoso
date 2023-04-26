@@ -19,7 +19,7 @@ namespace login.Data
         public DbSet<Nutribution> nutributions { get; set; }
         public DbSet<DetailFoodNutri> detailFoodNutris { get; set; }
         public DbSet<UserInfor> userinfors { get; set; }
-
+        public DbSet<Diet> diets { get; set; }
         public DbSet<DbTrain> trains { get; set; }
     }
 }

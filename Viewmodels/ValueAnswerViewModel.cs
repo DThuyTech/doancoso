@@ -10,6 +10,8 @@ namespace login.Viewmodels
         public string valueAnswerAge { get; set; }
         public string valueAnswerSex { get; set; }
 
+        public string valueAnswerActiv {get; set; }
+
 
         public List<SelectListItem> valuaAnswerSelectdListTaste { get; set; }
         public List<SelectListItem> valuaAnswerSelectdListAge { get; set; }
@@ -19,5 +21,7 @@ namespace login.Viewmodels
         public List<SelectListItem> valuaAnswerSelectdListColor { get; set; }
 
         public List<SelectListItem> valuaAnswerSelectdListEmotion { get; set; }
+
+        public List<SelectListItem> valueAnswerSelectdListActiv { get; set; }
     }
 }

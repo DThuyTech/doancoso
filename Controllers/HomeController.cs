@@ -13,7 +13,9 @@ using login.Logic;
 using login.Viewmodels;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Data.Common;
-using login.Migrations;
+using Newtonsoft.Json.Bson;
+using Lucene.Net.Support;
+using Microsoft.EntityFrameworkCore.SqlServer.Query.Internal;
 
 namespace login.Controllers
 {
@@ -54,11 +56,44 @@ namespace login.Controllers
         //action show thong tin cua khach hang
         [Authorize]
         [HttpGet]
-        public IActionResult accountInfor()
+        public IActionResult accountInfor(int? day)
         {
+            if(day == null) {
+                day = 90;
+            }
+            int dayRe;
+            Dictionary<int, List<Diet>> Likstfoodfor7day = new Dictionary<int, List<Diet>>();
+            string idUser = User.Identity.Name;
+            List<Diet> diets1user = new List<Diet>();
+            if (_typeFoodDBContext.diets.Where(x => x.IdUser == idUser).Count() > 21)
+            {
 
 
 
+                diets1user = _typeFoodDBContext.diets.OrderByDescending(s => s.IdDiet).ToList();
+
+                diets1user = diets1user.Where(x => x.IdUser == idUser).ToList();
+
+                dayRe = 1;
+                day = 1;
+
+                if (diets1user.Count != 0)
+                {
+                    for (int i = diets1user.Count - 1; i >= diets1user.Count - 1 - 21; i -= 3)
+                    {
+
+                        List<Diet> dietsoneDay = new List<Diet>();
+                        dietsoneDay.Add(diets1user[i]);
+                        dietsoneDay.Add(diets1user[i - 1]);
+                        dietsoneDay.Add(diets1user[i - 2]);
+                        Likstfoodfor7day.Add((int)dayRe, dietsoneDay);
+                        dayRe++;
+                    }
+                }
+                ViewBag.foodFinal = foodRe7day(Likstfoodfor7day);
+            }
+            
+            ViewBag.day = day;
             //User user = new User("khach hang", _typeFoodDBContext.users.FirstOrDefault(p => p.UserName == User.Identity.Name));
             UserInfor user;
 
@@ -90,30 +125,177 @@ namespace login.Controllers
 
 
         }
-        public Node RecommandFor7Day()
+
+        public Node cctchID3(Node node, Dictionary<string, int> answer)
+        {
+            if (node.Attribute == null)
+            {
+                return node;
+                
+            }
+            else
+            {
+                int valueAns = answer[node.Attribute];
+                Node nodechil = node.Children.FirstOrDefault(x => x.Value == valueAns);
+                return cctchID3(nodechil, answer);
+            }
+        }
+        public Node RecommandNodeFood(Dictionary<string,int> answer)
         {
 
             List<DbTrain> dbTrain = new List<DbTrain>();
             dbTrain = _typeFoodDBContext.trains.ToList();
             Train2 train = new Train2(dbTrain);
             Node root = new Node();
-            List<String> Attributenew = train.Attribute;
-        root = train.TrainFinish(train.AddData(),Attributenew);
-            return root;
+            train.data = dbTrain;
+            root = train.BuidDecisionTree(train.AddData());
+           
 
+            train.data = dbTrain;
+
+
+            return cctchID3(root, answer);
+            
         }
 
-        [Authorize]
+
         [HttpPost]
-        public IActionResult accountInfor(string height, string weight, string age, string sex)
+        public IActionResult RecommandFoodforweek(ValueAnswerViewModel viewModel)
         {
 
-            RecommandFor7Day();
+           List<Diet> diet = new List<Diet>();
+            diet = _typeFoodDBContext.diets.Where(x => x.IdUser == User.Identity.Name).ToList();
+            foreach(Diet item in diet)
+            {
+                _typeFoodDBContext.diets.Remove(item);
+            }
+            _typeFoodDBContext.SaveChanges();
+            Dictionary<string, int> answrer = new Dictionary<string, int>()
+                {
+                    {"Gender",int.Parse(viewModel.valueAnswerSex)},
+                    {"Age",int.Parse(viewModel.valueAnswerAge) },
+                    {"Activ",int.Parse(viewModel.valueAnswerActiv) },
+                    {"Color",int.Parse(viewModel.valueAnswerCol) },
+                    {"KeyTaste",int.Parse(viewModel.valueAnswerTas) },
+                    {"KeyEmotion",int.Parse(viewModel.valueAnswerEmo) }
+                };
+            Node nodeFinal = RecommandNodeFood(answrer);
+
+            Diet dietOneday = new Diet();
             List<Diet> diets = new List<Diet>();
-            RecommandCheDoan recommandCheDoan = new RecommandCheDoan();
-            recommandCheDoan.Useruser = _typeFoodDBContext.userinfors.FirstOrDefault(p => p.Id == User.Identity.Name);
-            recommandCheDoan.foods = _typeFoodDBContext.Foods.ToList();
-            diets= recommandCheDoan.ReturnDiets();
+
+
+            List<Food> foodforOneday = new List<Food>();
+
+            List<DetailFoodNutri> detailFoodNutris = new List<DetailFoodNutri>();
+            detailFoodNutris = _typeFoodDBContext.detailFoodNutris.Where(x => x.NutributionId == nodeFinal.Label[0]).ToList();
+            
+
+            
+
+            for (int i = 0; i < 7; i++)
+            {
+                List<int> listrandom = new List<int>();
+                for (int j = 0; j < 3; j++)
+                {
+                   
+                    Random random = new Random();
+                    
+                    int randomid = random.Next(0, detailFoodNutris.Count - 1);
+                    if (listrandom.Where(x=>x==randomid).Count() !=0)
+                    {
+
+                        j--;
+                    }
+                    else
+                    {
+                        listrandom.Add(randomid);
+                        foodforOneday.Add(_typeFoodDBContext.Foods.FirstOrDefault(p => p.Id == detailFoodNutris[randomid].FoodId));
+                    }
+
+
+                }
+                foreach (Food item in foodforOneday)
+                {
+
+                    Diet bref1 = new Diet();
+                    bref1.IdUser = User.Identity.Name;
+                    bref1.IdFood = item.Id;
+                    bref1.Day = DateTime.Now.Day + i;
+                    //bref1.Buoi = item.Bref;
+
+                    _typeFoodDBContext.diets.Add(bref1);
+                    _typeFoodDBContext.SaveChanges();
+
+                }
+            }
+
+            return Redirect("accountInfor");
+            
+
+        }
+        //get list food forrecommand 
+        public Dictionary<int,List<Food>> foodRe7day(Dictionary<int,List<Diet>> listdietuser)
+        {
+            List<Food> foodlist = _typeFoodDBContext.Foods.ToList(); 
+            Dictionary<int, List<Food>> listFoodfinal = new Dictionary<int, List<Food>>();
+            for(int i = 1;i <= 7; i++)
+            {
+                listFoodfinal[i] = new List<Food>();
+                List<Diet> sd = listdietuser[i];
+                
+
+                    listFoodfinal[i].Add(_typeFoodDBContext.Foods.FirstOrDefault(x => x.Id == sd[0].IdFood ));
+                    listFoodfinal[i].Add(_typeFoodDBContext.Foods.FirstOrDefault(x => x.Id == sd[1].IdFood));
+                    listFoodfinal[i].Add(_typeFoodDBContext.Foods.FirstOrDefault(x => x.Id == sd[2].IdFood));
+               
+
+               
+
+            }
+            return listFoodfinal;
+        }
+        [Authorize]
+        [HttpPost]
+        public IActionResult accountInfor(string height, string weight, string age, string sex,int? day)
+        {
+            if (day == null)
+            {
+                day = 90;
+            }
+            int dayRe = 0;
+            Dictionary<int, List<Diet>> Likstfoodfor7day = new Dictionary<int, List<Diet>>();
+            string idUser = User.Identity.Name;
+            List<Diet> diets1user = new List<Diet>();
+            if (_typeFoodDBContext.diets.Where(x=>x.IdUser == idUser).Count() > 21)
+            {
+
+              
+
+                diets1user = _typeFoodDBContext.diets.OrderByDescending(s => s.Day).ToList();
+              
+                diets1user = diets1user.Where(x => x.IdUser == idUser).ToList();
+
+                dayRe = 1;
+                day = 1;
+                if (diets1user.Count != 0)
+                {
+                    for (int i = diets1user.Count - 1; i >= diets1user.Count - 1 - 21; i -= 3)
+                    {
+                        
+                        List<Diet> dietsoneDay = new List<Diet>();
+                        dietsoneDay.Add(diets1user[i]);
+                        dietsoneDay.Add(diets1user[i - 1]);
+                        dietsoneDay.Add(diets1user[i - 2]);
+                        Likstfoodfor7day.Add((int)dayRe, dietsoneDay);
+                        dayRe++;
+                    }
+                }
+                ViewBag.foodFinal = foodRe7day(Likstfoodfor7day);
+            }
+            
+            ViewBag.day = day;
+            int asdasd = Likstfoodfor7day.Count;
 
             var userinfor = _typeFoodDBContext.userinfors.FirstOrDefault(p => p.Id == User.Identity.Name);
             userinfor.weigh = int.Parse(weight);
@@ -128,16 +310,20 @@ namespace login.Controllers
 
 
 
-            List<Food> foods = new List<Food>();
-            foods.Add(_typeFoodDBContext.Foods.FirstOrDefault(p => p.Id == diets[0].IdFood));
-            foods.Add(_typeFoodDBContext.Foods.FirstOrDefault(p => p.Id == diets[1].IdFood));
-            foods.Add(_typeFoodDBContext.Foods.FirstOrDefault(p => p.Id == diets[2].IdFood));
-
-            ViewBag.Listfoodrecommanded = foods;
+           
+        
             ViewBag.BMI = chisoIbm(userinfor.heights, userinfor.weigh);
+
+
+
+            //recommand food
+           
+          
+
+
             return View("accountInfor", "Home");
         }
-
+        
 
         public float chisoIbm(int heigh, int weight)
         {
@@ -211,42 +397,54 @@ namespace login.Controllers
             var answerDataColor = ValueAnswers.getAllColor();
             var answerDataAge = ValueAnswers.getAllAge();
             var answerDataSex = ValueAnswers.getAllSex();
+            var answerDataActiv = ValueAnswers.getAllActiv();
             var model = new ValueAnswerViewModel();
             model.valuaAnswerSelectdListTaste = new List<SelectListItem>();
 
             foreach (var valueAnswer in answerDataTaste)
             {
-                model.valuaAnswerSelectdListTaste.Add(new SelectListItem { Text = valueAnswer.Description, Value = valueAnswer.Value });
+                model.valuaAnswerSelectdListTaste.Add(new SelectListItem { Text = valueAnswer.Description, Value = valueAnswer.Value.ToString() });
             }
             model.valuaAnswerSelectdListSex = new List<SelectListItem>();
 
             foreach (var valueAnswer in answerDataSex)
             {
-                model.valuaAnswerSelectdListSex.Add(new SelectListItem { Text = valueAnswer.Description, Value = valueAnswer.Value });
+                model.valuaAnswerSelectdListSex.Add(new SelectListItem { Text = valueAnswer.Description, Value = valueAnswer.Value.ToString() });
             }
 
             model.valuaAnswerSelectdListAge = new List<SelectListItem>();
 
             foreach (var valueAnswer in answerDataAge)
             {
-                model.valuaAnswerSelectdListAge.Add(new SelectListItem { Text = valueAnswer.Description, Value = valueAnswer.Value });
+                model.valuaAnswerSelectdListAge.Add(new SelectListItem { Text = valueAnswer.Description, Value = valueAnswer.Value.ToString() });
             }
             model.valuaAnswerSelectdListEmotion = new List<SelectListItem>();
 
             foreach (var valueAnswer in answerDataEmotion)
             {
-                model.valuaAnswerSelectdListEmotion.Add(new SelectListItem { Text = valueAnswer.Description, Value = valueAnswer.Value });
+                model.valuaAnswerSelectdListEmotion.Add(new SelectListItem { Text = valueAnswer.Description, Value = valueAnswer.Value.ToString() });
             }
             model.valuaAnswerSelectdListColor = new List<SelectListItem>();
 
             foreach (var valueAnswer in answerDataColor)
             {
-                model.valuaAnswerSelectdListColor.Add(new SelectListItem { Text = valueAnswer.Description, Value = valueAnswer.Value });
+                model.valuaAnswerSelectdListColor.Add(new SelectListItem { Text = valueAnswer.Description, Value = valueAnswer.Value.ToString() });
+            }
+
+
+
+
+            model.valueAnswerSelectdListActiv = new List<SelectListItem>();
+
+            foreach (var valueAnswer in answerDataActiv)
+            {
+                model.valueAnswerSelectdListActiv.Add(new SelectListItem { Text = valueAnswer.Description, Value = valueAnswer.Value.ToString() });
             }
 
 
             return View(model);
 
+          
 
 
 

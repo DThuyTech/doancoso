@@ -2,26 +2,33 @@
 using login.Logic;
 using Microsoft.CodeAnalysis;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions.Infrastructure;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
+using Newtonsoft.Json.Bson;
 
 namespace login.Logic
 {
     public class Train2
     {
         public List<DbTrain> data { get; set; }
-        public List<String> Attribute = new List<string>() { "Gender", "Age", "Activ", "Color", "KeyEmotion", "KeyTaste" };
 
+        public List<String> Attribute = new List<string>() { "Gender", "Age", "Activ", "Color", "KeyTaste", "KeyEmotion" };
+
+        public Node rootEnd = new Node();
         public Train2(List<DbTrain> data)
         {
             this.data = data;
         }
 
+
+        
+
         public List<Dictionary<string, int>> AddData()
         {
             List<Dictionary<string, int>> Datatrain = new List<Dictionary<string, int>>();
             List<DbTrain> newdata = new List<DbTrain>();
-            newdata = data.Where(x => x.KeyTaste == 2).ToList();
+            newdata = data.Where(x => x.KeyEmotion == 2).ToList();
           
-            foreach (DbTrain item in newdata)
+            foreach (DbTrain item in data)
             {
                 Dictionary<string, int> itemData = new Dictionary<string, int>();
                 itemData["Gender"] = item.Gender;
@@ -37,56 +44,77 @@ namespace login.Logic
 
             return Datatrain;
         }
-        public Node TrainFinish(List<Dictionary<string, int>> data, List<string> Attributes)
-        {
-            return BuidDecisionTree(data, Attributes);
-        }
-         static  Node BuidDecisionTree(List<Dictionary<string, int>> data,List<string> Attributes)
+
+           
+            
+
+        public Node BuidDecisionTree(List<Dictionary<string, int>> data)
         {
             Node root = new Node();
-            if (data.Select(p => p["NutributionId"]).Distinct().Count() == 1)
+            List<string> attribute = new List<string>();
+            foreach (string atributeonr in Attribute)
             {
-                root.Label = data[0]["NutributionId"];
-                return root;
-            }
-
-            if (Attributes.Count == 0)
-            {
-                root.Label = data.GroupBy(p => p["NutributionId"]).OrderByDescending(p=>p.Count()).First().Key;
-                return root;
-            }
-
-            string MaxAtriibute = "";
-            double MaxinformationGain = 0;
-            foreach(string atributetest in Attributes)
-            {
-                double informationGaintest = informationGain(data,atributetest);
-                if(informationGaintest > MaxinformationGain)
+                if (data.Select(x => x[atributeonr]).Distinct().Count() !=1)
                 {
-                    MaxinformationGain = informationGaintest;
-                    MaxAtriibute= atributetest;
+                    attribute.Add(atributeonr);
                 }
             }
-            
-            root.Attribute = MaxAtriibute;
+            // Check if all examples have the same classification
+            if (data.Select(x => x["NutributionId"]).Distinct().Count() == 1)
+            {
+                root.Label.Add(data[0]["NutributionId"]);
+                return root;
 
-            Attributes.Remove(MaxAtriibute);
-            if(MaxAtriibute == ""){
-                string nno = "asdasd";
             }
-            Dictionary<int, List<Dictionary<string, int>>> splitdat = SplitData(data, MaxAtriibute);
-            foreach (int value in splitdat.Keys)
-            {   
-                Node child = BuidDecisionTree(splitdat[value], Attributes);
+
+            // Check if there are no more attributes to split on
+            if (attribute.Count == 0)
+            {
+                root.Label.Add(data.GroupBy(x => x["NutributionId"]).OrderByDescending(x => x.Count()).First().Key);
+                return root;
+            }
+
+            // Find the best attribute to split on
+            string bestAttribute = "";
+            double bestInformationGain = 0;
+            foreach (string attributes in attribute)
+            {
+                double informationGainn = informationGain(data, attributes);
+                if (informationGainn >= bestInformationGain)
+                {
+                    bestAttribute = attributes;
+                    bestInformationGain = informationGainn;
+                }
+            }
+
+            root.Attribute = bestAttribute;
+
+            if(Attribute.FirstOrDefault(p=>p == bestAttribute)== null)
+            {
+                string erro = "sdsd";
+            }
+            attribute.Remove(bestAttribute);
+
+            Dictionary<int, List<Dictionary<string, int>>> splitData = SplitData(data, bestAttribute);
+
+            foreach(int value in splitData.Keys)
+            {
+                Node child = BuidDecisionTree(splitData[value]);
                 child.Value = value;
-                root.Children.Add(child); 
+                root.Children.Add(child);
             }
+
             return root;
+        
 
-        }
 
-        static Dictionary<int, List<Dictionary<string, int>>> SplitData(List<Dictionary<string, int>> data, string Atriibutes)
+
+
+    }
+
+         Dictionary<int, List<Dictionary<string, int>>> SplitData(List<Dictionary<string, int>> data, string Atriibutes)
         {
+           
             Dictionary<int, List<Dictionary<string, int>>> splitdata = new Dictionary<int, List<Dictionary<string, int>>>();
             foreach(Dictionary<string, int> item in data)
             {
@@ -104,7 +132,7 @@ namespace login.Logic
             return splitdata;
         }
             
-        static double informationGain(List<Dictionary<string,int>> data,string Attributes) {
+        public double informationGain(List<Dictionary<string,int>> data,string Attributes) {
             double originalEntropy = Entropy(data);
 
             Dictionary<int,List<Dictionary<string,int>>> splitData = SplitData(data, Attributes);
@@ -118,10 +146,10 @@ namespace login.Logic
                 WeightEntropy += subsetEntro * subsetWeigh;
             }
             double informationGain = originalEntropy - WeightEntropy;
-
+            
             return informationGain;
         }
-        static double Entropy(List<Dictionary<string, int>> data) {
+        public double Entropy(List<Dictionary<string, int>> data) {
             Dictionary<int, int> classCounts = new Dictionary<int, int>();
             foreach(Dictionary<string, int > item in data)
             {

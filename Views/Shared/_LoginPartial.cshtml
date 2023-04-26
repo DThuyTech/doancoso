@@ -3,19 +3,17 @@
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
 
-
+<ul class="nav-bar">
 @if (SignInManager.IsSignedIn(User))
-{
-   
-        <li class="nav-item">
-                <a asp-controller="Home" asp-action="accountInfor" title="Manage">Hello @UserManager.GetUserName(User)!</a>
-        </li>
-        <li class="nav-item">
-            <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-                <button id="logout" type="submit" class="nav-link btn btn-link text-dark">Logout</button>
-            </form>
-        </li>
-   
+{   
+    <li class="nav-bar">
+        <a asp-controller="Home" asp-action="accountInfor" title="Manage">Hello @UserManager.GetUserName(User)!</a>
+    </li>
+    <li class="nav-item">
+        <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+            <button id="logout" type="submit" class="btn_login_home">Logout</button>
+        </form>
+    </li>
 }
 else
 {

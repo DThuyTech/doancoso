@@ -8,17 +8,18 @@ namespace login.Models
         {
             return new List<ValueAnswer>
             {
-                new ValueAnswer() {Value="EB",Description="Buon" },
-                new ValueAnswer() {Value="EG",Description="Tuc gian" },
-                new ValueAnswer() {Value="EV",Description="Vui" },
+                new ValueAnswer() {Value=1,Description="Tieu cuc" },
+                new ValueAnswer() {Value=2,Description="Tich cuc" },
+                new ValueAnswer() {Value=3,Description="Buon buc" },
             };
         }
         public static List<ValueAnswer> getAllAge()
         {
             return new List<ValueAnswer>
             {
-                new ValueAnswer() {Value="ATI",Description="Thieu nien" },
-                new ValueAnswer() {Value="ATH",Description="Thanh nien" },
+                new ValueAnswer() {Value=1,Description="Thieu nien" },
+                new ValueAnswer() {Value=2,Description="Thanh nien" },
+                new ValueAnswer() {Value=3,Description="Trung nien" },
 
             };
         }
@@ -27,8 +28,8 @@ namespace login.Models
         {
             return new List<ValueAnswer>
             {
-                new ValueAnswer() {Value="SF",Description="Nu" },
-                new ValueAnswer() {Value="SM",Description="Nam" },
+                new ValueAnswer() {Value=0,Description="Nu" },
+                new ValueAnswer() {Value=1,Description="Nam" },
 
             };
         }
@@ -36,8 +37,10 @@ namespace login.Models
         {
             return new List<ValueAnswer>
             {
-                new ValueAnswer() {Value="TM",Description="Man" },
-                new ValueAnswer() {Value="TN",Description="Ngot" },
+                new ValueAnswer() {Value=1,Description="Man" },
+                new ValueAnswer() {Value=2,Description="Ngot" },
+                 new ValueAnswer() {Value=3,Description="Chua" },
+                  new ValueAnswer() {Value=4,Description="Cay" },
 
             };
         }
@@ -45,9 +48,18 @@ namespace login.Models
         {
             return new List<ValueAnswer>
             {
-                new ValueAnswer() {Value="CS",Description="Sang" },
-                new ValueAnswer() {Value="CT",Description="Toi" },
+                new ValueAnswer() {Value=1,Description="Sang" },
+                new ValueAnswer() {Value=2,Description="Toi" },
 
+            };
+        }
+        public static List<ValueAnswer> getAllActiv()
+        {
+            return new List<ValueAnswer>
+            {
+                new ValueAnswer() {Value=1,Description="Khong nhieu" },
+                new ValueAnswer() {Value=2,Description="Nhieu" },
+                        
             };
         }
     }
