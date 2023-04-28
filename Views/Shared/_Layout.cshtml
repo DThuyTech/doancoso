@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - login</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/Header.css" asp-append-version="true" />
+    @*<link rel="stylesheet" href="~/css/Header.css" asp-append-version="true" />*@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/LOGIN.css" asp-append-version="true" />
+    @*<link rel="stylesheet" href="~/css/LOGIN.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/Contact.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/Recipes.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Recipes.css" asp-append-version="true" />*@
 
 </head>
 <body>
@@ -31,8 +31,7 @@
                         <li> <a class="nav-bar" asp-area="" asp-controller="RoleBase" asp-action="Index">Role</a> </li>
                         <li> <a  asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>  </li>
                         <li> <partial name="_LoginPartial" /></li>                      
-                        </ul>
-                       
+                        </ul>                     
                     </div>
                 @*</div>
             </div>
