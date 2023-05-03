@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "so4B61JtRg70jSeE4dPkzTV4DaYEsy0nfwyce4CUVxk=",
+  "Hash": "JGCyz3AnbcgHxNle1PiYcVlm5fl+Q06dB3MSmHyK9iw=",
   "Source": "login",
   "BasePath": "_content/login",
   "Mode": "Default",
@@ -4046,12 +4046,12 @@
       "OriginalItemSpec": "wwwroot\\js\\Login.js"
     },
     {
-      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\js\\Recipes.js",
+      "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\js\\swiper.js",
       "SourceId": "login",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\",
       "BasePath": "_content/login",
-      "RelativePath": "js/Recipes.js",
+      "RelativePath": "js/swiper.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -4060,7 +4060,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\Recipes.js"
+      "OriginalItemSpec": "wwwroot\\js\\swiper.js"
     },
     {
       "Identity": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
