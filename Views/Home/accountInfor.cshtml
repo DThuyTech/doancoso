@@ -11,6 +11,9 @@
     UserInfor userinfor = ViewBag.Data;
     Dictionary<int, List<Food>> foodfor7day = ViewBag.foodFinal;
     int day = ViewBag.day;
+    List<DVT> dVTs = ViewBag.dvts;
+    List<float> caloneedBref = ViewBag.Datacalo;
+    List<Dictionary<int, Food>> monphus = ViewBag.monphu;
 }
 <head>
 
@@ -27,23 +30,28 @@
             string sex;
             string height;
             string weight;
+            int hoatdong=0;
+            int mucdich = 0;
             if (userinfor is null)
             {
                 age = "chua nhap";
                 sex = "chua nhap";
                 height = "chua nhap";
                 weight = "chua nhap";
+
             }
 
             else
             {
                 //InforUser inforUser;
 
-
+                hoatdong = userinfor.Activ;
                 age = userinfor.ages.ToString();
                 sex = userinfor.sexs.ToString();
                 height = userinfor.heights.ToString();
                 weight = userinfor.weigh.ToString();
+                hoatdong = userinfor.Activ;
+                mucdich = userinfor.Mucdich;
 
 
                 //if (user.users is null)
@@ -76,7 +84,7 @@
                     <div class="cardinfor">
 
                     <div class=" row">
-                        <label>User :  </label>
+                        <label>Tài khoản :  </label>
                         <p>
                             @User.Identity.Name
                         </p>
@@ -84,20 +92,29 @@
 
                     <div class=" row">
 
-                        <label>Age :  </label>
+                        <label>Tuổi :  </label>
                         <input id="textInfor" name="age" type="text" ariaReadOnly value=@age />
 
                         <div class=" row">
-                            <label>Height :  </label>
+                            <label>Chiều cao :  </label>
                             <input id="textInfor" name="height" type="text" ariaReadOnly value=@height />
                         </div>
                         <div class=" row">
-                            <label>Sex :  </label>
-
+                            <label>Giới tính :  </label>
+                                @{
+                                    string gioitinh = "";
+                                    if(sex=="0"){
+                                        gioitinh = "Nữ";
+                                    }
+                                    else
+                                    {
+                                        gioitinh = "Nam";
+                                    }
+                                }
                             <input id="textInfor" name="sex" ariaReadOnly value=@sex />
                         </div>
                         <div class=" row">
-                            <label>Weigh :  </label>
+                            <label>Cân nặng :  </label>
 
                             <input id="textInfor" name="weight" ariaReadOnly value=@weight />
                         </div>
@@ -118,12 +135,12 @@
                                 <p>
                                     Chỉ số sức khỏe của bạn @ViewBag.BMI
                                 </p>
-                                <label>Min </label>
+                                
                                 @{
                                     float valueIBMPercent = (ViewBag.BMI - 10) / 50 * 100;
                                 }
                                 <progress id="prosBarIbm" value=@valueIBMPercent max="100"></progress>
-                                <label>Max </label>
+                              
                                 <p>
                                     Tính trạng của bạn: 
                                     <div>
@@ -138,8 +155,8 @@
                                 </p>
                                 <p>
                                     @{
-                                        BMR bMR = new BMR(int.Parse(sex), int.Parse(height), int.Parse(weight), int.Parse(age),1);
-                                        float caloriesneed = bMR.clorisneed();
+                                        BMR bMR = new BMR(int.Parse(sex), int.Parse(height), int.Parse(weight), int.Parse(age),hoatdong,mucdich);
+                                        float caloriesneed = bMR.TDEE();
                                     }
                                     Calo bạn nên ăn trong 1 ngày :  @caloriesneed
                                 </p>
@@ -162,10 +179,11 @@
                  
                         <div class="gruop-bnt-hover">
 
-                            <div class="btn btn-all">
-                                <span> 1</span>
-                            </div> 
-                            <div class="btn btn-all">
+                        @for(int i =1; i<8 ;i++){
+                            <button class="btn btn-all" type="button" name="days" value=@i asp-controller="Home" asp-action="check" onclick="location.href='@Url.Action("accountInfor","Home", new {id=i})'">@i</button>
+                        }
+                       @* }*@
+                            @*<div class="btn btn-all">
                                 <span>2</span>
                             </div>
                             <div class="btn btn-all">
@@ -182,16 +200,18 @@
                             </div>
                             <div class="btn btn-all">
                                 <span>7</span>
-                            </div>
+                            </div>*@
                         </div>
                    
                 </div>
                 <div class="col-lg-11">
 
                     @{
+                      
                         if (day != 90)
                         {
                             List<Food> foodforoneday = foodfor7day[day];
+                            Dictionary<int,Food> monphu1ngay = monphus[day];
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="table-main table-responsive">
@@ -199,17 +219,21 @@
                                             <thead>
                                                 <tr>
                                                     <th>Ảnh</th>
-                                                    <th>Tên món & nội dung</th>
+                                                    <th>Tên món chính & nội dung</th>
                                                     <th>Cale/kg</th>
-                                                    <th>Kg</th>
-                                                    <th>Change</th>
+                                                    <th>Don vi tinh</th>
+                                                    <th>Calo</th>
+                                                    <th>Món phụ</th>
                                                 </tr>
 
                                             </thead>
                                             <tbody>
+                                                @{
+                                                    int buoi = 0;
+                                                }
                                                 @foreach (Food item in foodforoneday)
                                                 {
-
+                                                    
 
                                                     <tr>
                                                         <td class="img-thumbnails">
@@ -223,16 +247,31 @@
                                                             </a>
                                                         </td>
                                                         <td>
-                                                            <p>@item.Calo</p>
+                                                            @{
+                                                                float calomonchinh = item.Calo * 70 / 100;
+                                                                float calomonphu = item.Calo * 30 / 100;
+                                                            }
+                                                            <p>@calomonchinh/@calomonphu</p>
                                                         </td>
                                                         <td class="khoiluong">
-                                                            <input type="number" size="4" value=@item.DVTid min="0" readonly />
+                                                            @{
+                                                                string dvt = dVTs.FirstOrDefault(x => x.Id == item.DVTid).Name;
+                                                            }
+                                                           <p>@dvt</p>
                                                         </td>
-                                                        <td class="changeFood">
-                                                            <a href="#">
-                                                                <i class="fas fa-times"></i>
-                                                            </a>
+                                                        <td class="Calo/Buoi">
+                                                            <p>@caloneedBref[buoi]</p>
+                                                           
                                                         </td>
+                                                        <td>
+                                                            @{
+                                                                string tenmonphu = monphu1ngay[buoi].Name;
+                                                            }
+                                                            @tenmonphu
+                                                        </td>
+                                                        @{
+                                                            buoi++;
+                                                        }
                                                     </tr>
                                                 }
 
@@ -252,8 +291,8 @@
                                                 <tr>
                                                     <th>Ảnh</th>
                                                     <th>Tên món & nội dung</th>
-                                                    <th>Cale/kg</th>
-                                                    <th>Kg</th>
+                                                    <th>Calo</th>
+                                                    <th>Đơn vị tính</th>
                                                     <th>Change</th>
                                                 </tr>
 
@@ -300,8 +339,8 @@
              
                     <div class="row">
                          <div class="text-box-button">
-                            <a class="nav-bar" asp-area="" asp-controller="Home" asp-action="Recommand">Recommand</a>
-                            <a href="./Recommand" class="btn btn-white btn-animate">Recommand for 7 days</a>
+                          
+                            <a href="/Home/Recommand" class="btn btn-white btn-animate">Gợi ý món ăn cho 7 ngày</a>
                          </div>
                     </div>
 

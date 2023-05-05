@@ -1,10 +1,13 @@
-﻿const wrapper = document.querySelector('.wrapper');
-const loginLink = document.querySelector('.login-link');
-const registerLink = document.querySelector('.register-link');
-
-registerLink.addEventListener('click', () => {
-    wrapper.classList.add('active');
-});
-loginLink.addEventListener('click', () => {
-    wrapper.classList.remove('active');
+﻿var swiper = new Swiper(".home-slide", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+        delay: 7500,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    loop: true,
 });

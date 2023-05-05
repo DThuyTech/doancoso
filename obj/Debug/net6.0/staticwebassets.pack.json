@@ -5,8 +5,16 @@
       "PackagePath": "staticwebassets\\login.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\Content\\bunbo.jpg",
+      "PackagePath": "staticwebassets\\Content\\bunbo.jpg"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\Content\\imageforbackground\\1.webp",
       "PackagePath": "staticwebassets\\Content\\imageforbackground\\1.webp"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\Content\\imageforbackground\\bunbo.jpg",
+      "PackagePath": "staticwebassets\\Content\\imageforbackground\\bunbo.jpg"
     },
     {
       "Id": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\Content\\imageforbackground\\images.jpg",
@@ -19,6 +27,10 @@
     {
       "Id": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\Content\\imageforbackground\\indexpicture.png",
       "PackagePath": "staticwebassets\\Content\\imageforbackground\\indexpicture.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\Content\\imageforbackground\\recipe_2583.jpg",
+      "PackagePath": "staticwebassets\\Content\\imageforbackground\\recipe_2583.jpg"
     },
     {
       "Id": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\Content\\imageforbackground\\recommandFood.png",
@@ -645,6 +657,10 @@
       "PackagePath": "staticwebassets\\Food\\recipefood\\recipe9.txt"
     },
     {
+      "Id": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\NewFolder\\images.jpg",
+      "PackagePath": "staticwebassets\\NewFolder\\images.jpg"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\css\\Account.css",
       "PackagePath": "staticwebassets\\css\\Account.css"
     },
@@ -701,12 +717,16 @@
       "PackagePath": "staticwebassets\\js\\Contact.js"
     },
     {
+      "Id": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\js\\Detail.js",
+      "PackagePath": "staticwebassets\\js\\Detail.js"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\js\\Login.js",
       "PackagePath": "staticwebassets\\js\\Login.js"
     },
     {
-      "Id": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\js\\Recipes.js",
-      "PackagePath": "staticwebassets\\js\\Recipes.js"
+      "Id": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\js\\swiper.js",
+      "PackagePath": "staticwebassets\\js\\swiper.js"
     },
     {
       "Id": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\lib\\bootstrap\\LICENSE",

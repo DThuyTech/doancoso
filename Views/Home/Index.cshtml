@@ -3,232 +3,196 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 
 }
-<head>
-    <link rel="stylesheet" href="~/css/Index.css" asp-append-version="true" />
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-</head>
-<body>
-   @* <div id="viewport">
-        <div id="js-scroll-content">
-            <section class="main-banner" id="home">
-                <div class="sec-wp">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6">
-
-                                <div class="banner-text">
-                                    <h1 class="h1-title">
-                                        Welcome To The World Of
-                                        <span>Food Paradise</span>
-                                    </h1>
-                                    <p>
-                                        Gợi ý những món ăn hù hợp với cảm xúc của bạn
-                                    </p>
-                                    <p>
-                                        Giup bạn dẽ dàng hơn trong việc lựa chọn món ăn
-                                    </p>
-                                    <p>
-                                        Bạn buồn bạn vui bạn không biết muốn ăn gì
-                                    </p>
-                                    <p>
-                                        Chúng tôi sẽ giúp bạn
-                                        <input type="file" name="userfilerecipe" accept=".txt" />
-                                    </p>
-                                    <div class="banner-btn mt-4">
-                                        <a class="sec-btn" asp-area="" asp-controller="Home" asp-action="Recipes">Our Menu</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6">
-                                <div class="banner-img-wp">
-                                    <div class="banner-img">
-                                        <img src="~/Content/images/foodAD.jpg" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-            </section>
-        </div>
-    </div>*@
-    <div class="container">
-        <div class="hero-image">
-            <div class="hero-text">
-                <h1>
-                    Welcome To The World Of
-                   
-                </h1>
-                <h1>Food Paradise</h1>
-                <p>
-                    Gợi ý những món ăn hù hợp với cảm xúc của bạn
-                </p>
-                <p>
-                    Giup bạn dẽ dàng hơn trong việc lựa chọn món ăn
-                </p>
-                <p>
-                    Bạn buồn bạn vui bạn không biết muốn ăn gì
-                </p>
-                <p>
-                    Chúng tôi sẽ giúp bạn
-
-                </p>
-                <div class="contetnHero">
-                <p>- TIỆN LỢI</p>
-                
-                <p>- PHÙ HƠP</p>
-                <p>- LÂU DÀI</p>
-
-                </div>
-            </div>
-        </div>
-       
-            
-                <div class="row">
-                    <div class="col-6">
-
-
-                        <div class="imgHomeRe">
-                            <img src="./Content/imageforbackground/recommandFood.png" class="imgHRE" />
-                            <img src="~/Content/imageforbackground/indenhome.jpg" class="imgHre2" />
-                        </div>
-                    </div>
-                    <div class="col-4">
-
-                        <div class="imgDe1">
-                            <img src="https://www.viquekitchen.com/wp-content/uploads/2021/01/divider.png" alt loading="lazy" />
-                        </div>
-                        <a asp-controller="Home" asp-action="Recommand">
-                            <div class="card">
-                                <div class="intro">
-                                    <h1>1. Gợi ý theo cảm xúc</h1>
-                                    <p>
-                                        Công cụ gợi ý món ăn phù hợp với cảm xúc, thực trạng cở thể của bạn
-                                        thông qua trắc nghiệm
-                                    </p>
-                                    <p>Món ăn sẽ được đưa ra chi tiết với các thông số calo, chất béo, và bạn cso thể đổi món nếu gợi ý không phù hợp với vị giác của bạn</p>
-                                </div>
-                        </a>
-                    </div>
-                    <div class="imgDe1">
-                        <img src="https://www.viquekitchen.com/wp-content/uploads/2021/01/divider.png" alt loading="lazy" />
-                    </div>
-                </div>
-            
-                <div class="row">
-
-                    <div class="box-recomandchedo">
-                        <div class="container">
-                            <h1 class="h1-recommanderchedo">2. Đề xuất chế độ ăn </h1>
-                            <div class="intros">
-                                <p>
-                                    Đề xuất chế độ ăn phù hợp với cơ thể và mục tiêu của bạn
-                                    Cung cấp cho bạn món ăn chính xác với các thành phần dinh dưỡng để đáp ứng với mục tiêu của bạn.
-                                    Bạn yên tâm vì RE sẽ luôn đồng hành cùng bạn để abnj có 1 vóc  dáng chuẩn nhất 
-                                </p>
-                       
-                                <div class="button-group filter-button-group">
-                                    <button class="active" data-filter="*">All</button>
-                                    <button data-filter=".top-featured">Top 15</button>
-                                    <button data-filter=".best-seller">Gợi ý</button>
-                                </div>
-                        <img src="https://www.viquekitchen.com/wp-content/uploads/2021/01/divider.png" alt loading="lazy" />    
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    
-                        <div class="danhgia">
-                            <div class="row introm">
-                                <div class="col-lg-12">
-
-                                    <h1>Đánh giá sức khỏe của bạn</h1>
-                                    <p>
-                                        Hãy cho chúng tôi biết thông số cơ bản của cơ thể bạn chúng tôi sẽ cho bạn thấy khẩu phần ăn lý tưởng với mục tiêu bạn muốn hướng tới.
-                                        Dựa vào chỉ số IBM và BMR sẽ đưa ra kết quả chuẩn đoán.
-                                    </p>
-                                </div>
+<section id="tranding">
+    <div class="containerr">
+        <h3 class="text-center section-subheading">- popular Delivery -</h3>
+        <h1 class="text-center section-heading">B E S T   S E L L E R</h1>
+    </div>
+    <div class="containerr">
+        <div class="swiper tranding-slider">
+            <div class="swiper-wrapper">
+                <!-- Slide-start -->
+               
+                @for(int i =0;i<5;i++){
+                <!-- Slide-end -->
+                <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                        <div class="tranding-slide-img">
+                           
+                                    <img src="/Content/images/bt1.jpg" alt="Tranding">
+                                    <p> @i </p>
+                                
                             </div>
                             
                         </div>
-                    
-                </div>
-                <div class="row">
-                    <div class="lastest-food">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="title-all text-center">
-                                        <h1>Lastest Food</h1>
-                                        <p>Các món được thêm gần đây, dựa trên sự ưa chuộng của cộng đồng</p>
+                        <div class="tranding-slide-content">
+
+                            <div class="tranding-slide-content-bottom">
+                                <h3 class="food-rating">
+                                    <div class="rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                        <div class="col-md-6 col-lg-4 col-xl-4">
-                            <div class="blog-box">
-                                <div class="blog-img">
-                                    <img class="img-fluid" src="./Food/images/food10.png" alt>
-                                </div>
-                                <div class="blog-content">
-                                    <div class="title-blog">
-                                        <h3>Fusce in augue non nisi fringilla</h3>
-                                        <p>Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis.</p>
-                                    </div>
-                                    <ul class="option-blog">
-                                        <li><a href="#"><i class="far fa-heart"></i></a></li>
-                                        <li><a href="#"><i class="fas fa-eye"></i></a></li>
-                                        <li><a href="#"><i class="far fa-comments"></i></a></li>
-                                    </ul>
-                                </div>
+                                </h3>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-4 col-xl-4">
-                            <div class="blog-box">
-                                <div class="blog-img">
-                                    <img class="img-fluid" src="./Food/images/food10.png" alt>
+                   
+                }
+               
+             @*   <!-- Slide-end -->
+                <!-- Slide-start -->
+                <div class="swiper-slide tranding-slide">
+                    <div class="tranding-slide-img">
+                        <img src="/Content/images/bt2.jpg" alt="Tranding">
+                    </div>
+                    <div class="tranding-slide-content">
+                        
+                        <div class="tranding-slide-content-bottom">
+                            <h3 class="food-rating">                       
+                                <div class="rating">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
                                 </div>
-                                <div class="blog-content">
-                                    <div class="title-blog">
-                                        <h3>Fusce in augue non nisi fringilla</h3>
-                                        <p>Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis.</p>
-                                    </div>
-                                    <ul class="option-blog ">
-                                        <li><a href="#"><i class="far fa-heart"></i></a></li>
-                                        <li><a href="#"><i class="fas fa-eye"></i></a></li>
-                                        <li><a href="#"><i class="far fa-comments"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-4">
-                            <div class="blog-box">
-                                <div class="blog-img">
-                                    <img class="img-fluid" src="./Food/images/food10.png" alt>
-                                </div>
-                                <div class="blog-content">
-                                    <div class="title-blog">
-                                        <h3>Fusce in augue non nisi fringilla</h3>
-                                        <p>Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis.</p>
-                                    </div>
-                                    <ul class="option-blog">
-                                        <li><a href="#"><i class="far fa-heart"></i></a></li>
-                                        <li><a href="#"><i class="fas fa-eye"></i></a></li>
-                                        <li><a href="#"><i class="far fa-comments"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                            </div>
+                            </h3>
                         </div>
                     </div>
                 </div>
-
+                <!-- Slide-end -->
+                <!-- Slide-start -->
+                <div class="swiper-slide tranding-slide">
+                    <div class="tranding-slide-img">
+                        <img src="/Content/images/bt3.jpg" alt="Tranding">
+                    </div>
+                    <div class="tranding-slide-content">
+                        
+                        <div class="tranding-slide-content-bottom">
+                            <h3 class="food-rating">
+                                <div class="rating">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide-end -->
+                <!-- Slide-start -->
+                <div class="swiper-slide tranding-slide">
+                    <div class="tranding-slide-img">
+                        <img src="~/Content/images/bt4.jpg" alt="Tranding">
+                    </div>
+                    <div class="tranding-slide-content">
+                       
+                        <div class="tranding-slide-content-bottom">
+                            <h3 class="food-rating">
           
-       
+                                <div class="rating">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide-end -->
+                <!-- Slide-start -->
+                <div class="swiper-slide tranding-slide">
+                    <div class="tranding-slide-img">
+                        <img src="~/Content/images/bt5.jpg" alt="Tranding">
+                    </div>
+                    <div class="tranding-slide-content">
+                       
+                        <div class="tranding-slide-content-bottom">
+                            <h3 class="food-rating">
+                            
+                                <div class="rating">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide-end -->
+                <!-- Slide-start -->
+                <div class="swiper-slide tranding-slide">
+                    <div class="tranding-slide-img">
+                        <img src="~/Content/images/bt6.jpg" alt="Tranding">
+                    </div>
+                    <div class="tranding-slide-content">
+                     
+                        <div class="tranding-slide-content-bottom">
+                            <h3 class="food-rating">
+                          
+                                <div class="rating">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide-end -->
+                <!-- Slide-start -->
+                <div class="swiper-slide tranding-slide">
+                    <div class="tranding-slide-img">
+                        <img src="~/Content/images/bt7.jpg" alt="Tranding">
 
+                    </div>
+                    <div class="tranding-slide-content">
+                     
+                        <div class="tranding-slide-content-bottom">
+                            <h3 class="food-rating">                       
+                                <div class="rating">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+                            </h3>
+                        </div>
+                    </div>
+                </div>*@
+                <!-- Slide-end -->
+            </div>
+
+            <div class="tranding-slider-control">
+                <div class="swiper-button-prev slider-arrow">
+                    <ion-icon name="arrow-back-outline"></ion-icon>
+                </div>
+                <div class="swiper-button-next slider-arrow">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
     </div>
-   
-</body>
+</section>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="/js/swiper.js"></script>
+<link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>

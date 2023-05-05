@@ -6,10 +6,12 @@
     <title>@ViewData["Title"] - login</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/Header.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/LOGIN.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/Contact.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/Recipes.css" asp-append-version="true" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 
 </head>
 <body>
@@ -31,14 +33,14 @@
                         <li> <a class="nav-bar" asp-area="" asp-controller="RoleBase" asp-action="Index">Role</a> </li>
                         <li> <a  asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>  </li>
                         <li> <partial name="_LoginPartial" /></li>                      
-                        </ul>
-                       
+                        </ul>                     
                     </div>
                 @*</div>
             </div>
         </nav>*@
     </header>
-    <div class="container">
+
+   <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
@@ -52,6 +54,10 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/Contact.js"></script>
+    <script src="~/js/swiper.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     @await RenderSectionAsync("Scripts", required: false)

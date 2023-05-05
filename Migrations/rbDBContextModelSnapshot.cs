@@ -295,6 +295,12 @@ namespace login.Migrations
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
 
+                    b.Property<int>("Activ")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Mucdich")
+                        .HasColumnType("int");
+
                     b.Property<int>("ages")
                         .HasColumnType("int");
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hqul+KaWF0oKU6zkuQEhcVnSTWYcsUFvfcTuw6P/oBg=",
+  "Hash": "me3Z9wjFZ1Bhi2FtmvOfkeujroWbgRhDtMxT8VVGIAk=",
   "Source": "login",
   "BasePath": "_content/login",
   "Mode": "Default",
@@ -1071,6 +1071,23 @@
       "OriginalItemSpec": "C:\\Users\\ASUS\\source\\Repos3\\Food\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\login.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\Content\\bunbo.jpg",
+      "SourceId": "login",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\",
+      "BasePath": "_content/login",
+      "RelativePath": "Content/bunbo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Content\\bunbo.jpg"
+    },
+    {
       "Identity": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\Content\\imageforbackground\\1.webp",
       "SourceId": "login",
       "SourceType": "Discovered",
@@ -1086,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Content\\imageforbackground\\1.webp"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\Content\\imageforbackground\\bunbo.jpg",
+      "SourceId": "login",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\",
+      "BasePath": "_content/login",
+      "RelativePath": "Content/imageforbackground/bunbo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Content\\imageforbackground\\bunbo.jpg"
     },
     {
       "Identity": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\Content\\imageforbackground\\images.jpg",
@@ -1137,6 +1171,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Content\\imageforbackground\\indexpicture.png"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\Content\\imageforbackground\\recipe_2583.jpg",
+      "SourceId": "login",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\",
+      "BasePath": "_content/login",
+      "RelativePath": "Content/imageforbackground/recipe_2583.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Content\\imageforbackground\\recipe_2583.jpg"
     },
     {
       "Identity": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\Content\\imageforbackground\\recommandFood.png",
@@ -4029,6 +4080,23 @@
       "OriginalItemSpec": "wwwroot\\js\\Contact.js"
     },
     {
+      "Identity": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\js\\Detail.js",
+      "SourceId": "login",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\",
+      "BasePath": "_content/login",
+      "RelativePath": "js/Detail.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Detail.js"
+    },
+    {
       "Identity": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\js\\Login.js",
       "SourceId": "login",
       "SourceType": "Discovered",
@@ -4046,12 +4114,12 @@
       "OriginalItemSpec": "wwwroot\\js\\Login.js"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\js\\Recipes.js",
+      "Identity": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\js\\swiper.js",
       "SourceId": "login",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\",
       "BasePath": "_content/login",
-      "RelativePath": "js/Recipes.js",
+      "RelativePath": "js/swiper.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -4060,7 +4128,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\Recipes.js"
+      "OriginalItemSpec": "wwwroot\\js\\swiper.js"
     },
     {
       "Identity": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -5030,6 +5098,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\NewFolder\\images.jpg",
+      "SourceId": "login",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\",
+      "BasePath": "_content/login",
+      "RelativePath": "NewFolder/images.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\NewFolder\\images.jpg"
     }
   ]
 }

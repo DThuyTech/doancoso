@@ -1,4 +1,4 @@
-﻿body {
+﻿/*body {
     
     background-color:white;
 }
@@ -150,4 +150,311 @@ iframe{
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}*/
+
+/*
+-------------- Basic Reset Css ----------
+ */
+
+.container {
+    height:200000px;
+    position:relative;
+
 }
+
+.space{
+    height:100px;
+
+}
+.nutricard-card {
+   display:block;
+    margin-left: 100px;
+    position: absolute;
+    box-shadow: 0px 0px 20px 1px;
+    height: 700px;
+    background-color: white;
+    width: 500px;
+    margin-top: 50px;
+    height: 700px;
+    width: 500px;
+    transition:0.5s;
+}
+    .nutricard-card:hover {
+        margin-top: 300px;
+    }
+    .nutricard-card .spaces{
+        height:430px;
+    }
+
+    .recipe-card {
+        margin-left: 100px;
+        position: absolute;
+        box-shadow: 0px 0px 20px 1px;
+        height: 700px;
+        background-color: white;
+        width: 500px;
+    }
+    .recipe-card img {
+        position: absolute;
+        height: 700px;
+        width: 500px;
+        object-fit: cover;
+    }
+.recipe-card2 {
+    margin-left:120px;
+    position: absolute;
+    
+    background-color:grey;
+    
+    height: 900px;
+    margin-top:10px;
+    width: 1500px;
+}
+.recipeFood{
+    margin-top:50px;
+    margin-left:510px;
+   border:medium;
+   border-left-color:red;
+  
+}
+.material{
+  
+    width:400px;
+    border-width:6px;
+    border-left-color:white;    
+    border-left-style:solid;
+    border-radius:5px;
+    height:500px;
+}
+.material h1{
+    margin-left:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    font-size:40px;
+}
+
+.ContenMat {
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+    .ContenMat ul{
+        line-height:36px;
+    }
+    .ContenMat ul li {
+        font-size: 20px;
+    }
+.contentMat{
+    display:inline-block;
+}
+.ContenRe{
+    width:400px;
+}
+
+.material p {
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 36px;
+    font-size: 20px;
+}
+.foodname p {
+    font-size:40px;
+   
+   border-style:solid;
+   height:100px;
+  width:300px;
+   padding:15px;
+   border-radius:20px;
+    display: inline-block;
+    position: relative;
+        
+}
+.effect-underline {
+    font-family:Arial, Helvetica, sans-serif;
+    height:50px;
+    color: white;
+    transition:0.5s;
+    margin-top:50px;
+    margin-left:130px;
+   text-align:center;
+    align-content:center;
+  
+    
+}
+
+.effect-underline:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 1em;
+
+    width: 100%;
+    border-bottom: 1px solid;
+    margin-top: 10px;
+    opacity: 0;
+    color: whitesmoke;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0,1);
+    transform: scale(0,1);
+}
+
+.effect-underline:hover:after {
+    color:whitesmoke;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+/*effect-box*/
+
+.btn-youtube {
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 510px;
+    transform: translate(-50%, -50%);
+   
+}
+
+    .btn-youtube a {
+        display: block;
+        width: 200px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 18px;
+        font-family: sans-serif;
+        text-decoration: none;
+        color: #333;
+       
+        color:whitesmoke;
+        letter-spacing: 2px;
+        padding-left: 10px;
+        text-align: left;
+        position: relative;
+        transition: all .35s;
+    }
+
+        .btn-youtube a span {
+            position: relative;
+            z-index: 2;
+        }
+
+.btn-youtube a:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color:gray;
+    transition: all .35s;
+}
+
+.btn-youtube a:hover {
+    color: #fff;
+}
+
+.btn-youtube a:hover:after {
+    width: 100%;
+}
+
+.btn-shoppe {
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 430px;
+    transform: translate(-50%, -50%);
+}
+
+    .btn-shoppe a {
+        display: block;
+        width: 200px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 18px;
+        font-family: sans-serif;
+        text-decoration: none;
+        color: #333;
+        color: whitesmoke;
+        letter-spacing: 2px;
+        padding-left: 10px;
+        text-align: left;
+        position: relative;
+        transition: all .35s;
+    }
+
+        .btn-shoppe a span {
+            position: relative;
+            z-index: 2;
+        }
+
+        .btn-shoppe a:after {
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 100%;
+            background-color: gray;
+            transition: all .35s;
+        }
+
+        .btn-shoppe a:hover {
+            color: #fff;
+        }
+
+            .btn-shoppe a:hover:after {
+                width: 100%;
+            }
+
+.btn-order {
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 470px;
+    transform: translate(-50%, -50%);
+}
+
+    .btn-order a {
+        display: block;
+        width: 200px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 18px;
+        font-family: sans-serif;
+        text-decoration: none;
+        color: #333;
+        color: whitesmoke;
+        letter-spacing: 2px;
+        padding-left: 10px;
+        text-align: left;
+        position: relative;
+        transition: all .35s;
+    }
+
+        .btn-order a span {
+            position: relative;
+            z-index: 2;
+        }
+
+        .btn-order a:after {
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 100%;
+            background-color: gray;
+            transition: all .35s;
+        }
+
+        .btn-order a:hover {
+            color: #fff;
+        }
+
+            .btn-order a:hover:after {
+                width: 100%;
+            }
+
+

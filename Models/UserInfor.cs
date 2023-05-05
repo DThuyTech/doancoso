@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Diagnostics.CodeAnalysis;
 
 namespace login.Models
 {
@@ -16,5 +17,10 @@ namespace login.Models
         public int weigh { get; set; }
 
         public string role { get; set; }
+
+        public int Activ { get; set; }
+
+        
+        public int Mucdich { get; set; }
     }
 }

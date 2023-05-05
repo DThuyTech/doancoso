@@ -12,7 +12,7 @@ namespace login.Logic
         public List<Diet> diets { get; set; }
         public List<Diet> ReturnDiets()
         {
-            BMR bMR = new BMR(Useruser.sexs, Useruser.heights, Useruser.weigh, Useruser.ages,1);
+            BMR bMR = new BMR(Useruser.sexs, Useruser.heights, Useruser.weigh, Useruser.ages, Useruser.Activ,Useruser.Mucdich) ;
             float caloriesneed = bMR.clorisneed();
 
             float calobuoisang = caloriesneed * 30 / 100;

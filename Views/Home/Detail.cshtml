@@ -1,16 +1,119 @@
-﻿@{
+﻿@*@{
     ViewData["Title"] = "Detail";
     Layout = "~/Views/Shared/_Layout.cshtml";
     FoodContent data = @ViewBag.foodcontent;
 }
 @model login.Models.Food;
-
+*@
 <head>
     <link rel="stylesheet" href="~/css/Detail.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./js/Detail.js"></script>
 
 </head>
-<body class="body-fixed">
+
+<body class ="container">
+   
+    <div class="space">
+
+    </div>
+
+    <div class="recipe-card2">
+       <div class="recipeFood">
+           <div class="row">
+               <div class="col-lg-4">
+                    <div class="material">
+                        <div>
+                            <h1>
+                                Nguyên liệu
+                            </h1>
+
+                            <div class="ContenMat">
+                                <ul>
+                                    <li>30 gram duong</li>
+                                    <li>30 gram nuoc</li>
+                                    <li>30 gram thit bu</li>
+                                    <li>30 gram duong</li>
+                                    <li>30 gram duong</li>
+                                    <li>30 gram duong</li>
+                                    <li>30 gram duong</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+                 <div class="col-lg-8">
+                    <div class="material">
+                        <div>
+                            <h1>
+                                Nguyên liệu
+                            </h1>
+
+                            <div class="ContenRe">
+                               <p>Heat oil in a large skillet over medium-low head. Add onion and bell papper. Cook gently until very soft, about 20 minutes. Add garlic and cook until tender, 1 to 2 minutes; stir in cumin, paprika and cook 1 minute. Pour in tomatoes and season with 3/4 teaspoon salt and 1/4 teaspoon pepper;</p>
+                              
+                            </div>
+                        </div>
+                    </div>
+               </div>
+              
+           </div>
+       </div>
+    </div>
+
+
+    <div class="nutricard-card">
+        
+            <div class="spaces"></div>
+          <h1>
+              Dinh dưỡng
+          </h1>
+        
+
+    </div>
+    <div class ="recipe-card">
+        <div  class="card-Foodimg">
+            <img src="~/Content/imageforbackground/recipe_2583.jpg" />
+        </div>
+        
+      </div>
+    <div class="foodname">
+        <p class="effect-underline">
+            Ten mon an
+        </p>
+    
+       </div>
+    <div class="btn-youtube">
+        <a href="#"><span>Youtube</span></a>
+    </div>
+    <div class="btn-shoppe">
+        <a href="#"><span>ShoopeeFood</span></a>
+    </div>
+    <div class="btn-order">
+        <a href="#"><span>Order</span></a>
+    </div>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*<body class="body-fixed">
     <div class="nameFoodAdd">
         <h1>Detail</h1>
     </div>
@@ -163,4 +266,4 @@
 
 
     </div>
-</body>
+</body>*@

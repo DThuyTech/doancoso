@@ -57,9 +57,21 @@ namespace login.Models
         {
             return new List<ValueAnswer>
             {
-                new ValueAnswer() {Value=1,Description="Khong nhieu" },
-                new ValueAnswer() {Value=2,Description="Nhieu" },
-                        
+                new ValueAnswer() {Value=0,Description="Khong hoat dong manh" },
+                new ValueAnswer() {Value=1,Description="Co nhung khong nhieu" },
+                new ValueAnswer() {Value=2,Description="Tren 2 lan 1 tuan" },
+                new ValueAnswer() {Value=3,Description="Tren 4 lan 1 tuan" },
+
+            };
+        }
+
+
+        public  static List<ValueAnswer> getAllReach()
+        {
+            return new List<ValueAnswer> {
+            new ValueAnswer() { Value=0, Description="Giu dang"},
+            new ValueAnswer() { Value = 1, Description = "Giam can" },
+            new ValueAnswer() { Value = 2, Description = "Tang can" }
             };
         }
     }

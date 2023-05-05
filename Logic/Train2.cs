@@ -50,8 +50,56 @@ namespace login.Logic
 
         public Node BuidDecisionTree(List<Dictionary<string, int>> data)
         {
+
+
+            
             Node root = new Node();
             List<string> attribute = new List<string>();
+
+
+
+
+            //add list same food in data 
+
+            Dictionary<string, int> foodfirst = data[0];
+            int check;
+
+            if (data.Count > 1)
+            {
+
+                check = 0;
+                foreach (Dictionary<string, int> item in data)
+                {
+                    foreach (string nameCol in item.Keys)
+                    {
+
+                        if (nameCol != "NutributionId")
+                        {
+                            if (foodfirst[nameCol] != item[nameCol])
+                            {
+                                check++;
+                            }
+                        }
+                    }
+                    if (check > 0)
+                    {
+                        break;
+                    }
+                }
+                if (check == 0)
+                {
+                    
+                        foreach (Dictionary<string, int> item in data)
+                        {
+                            root.Label.Add(item["NutributionId"]);
+                        }
+                        return root;
+                    
+                }
+            }
+
+           
+
             foreach (string atributeonr in Attribute)
             {
                 if (data.Select(x => x[atributeonr]).Distinct().Count() !=1)

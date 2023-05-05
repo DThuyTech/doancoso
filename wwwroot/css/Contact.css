@@ -4,12 +4,15 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+body{
+    max-width:auto;
+}
 .contactUs {
     position: relative;
     width: 100%;
     padding: 40px 100px;
-
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
 }
 
     .contactUs .title {
@@ -45,8 +48,12 @@
     .contact h3 {
         color: #5cb7ef;
         font-weight: 500;
-        font-size: 1.7em;
-        margin-bottom: 10px;
+        font-size: 2rem;
+        margin-bottom: 15px;
+        align-content:center;
+        justify-content:center;
+        padding: 5px;
+        margin-left: 95px;
     }
 
 .box {
@@ -84,6 +91,7 @@
         margin-top: 10px;
         margin-bottom: 5px;
         font-weight: 500;
+        font-size: 1.2rem;
     }
 
     .inputBox input {
@@ -159,6 +167,9 @@
     .info .infoBox div a {
         color: #fff;
         text-decoration: none;
+        font-size:1.3rem;
+        padding: 10px;
+        margin: 5px;
     }
 
         .info .infoBox div a:hover {
