@@ -4,54 +4,55 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
     List<FoodContent> foodcontentlist = ViewBag.foodContent;
 }
-<head>
-    <link href="~/css/Recipes.css" rel="stylesheet" />
-</head>
-<body>   
-    <div style="max-width: 700px; margin: 0 auto; padding:0 35px 0 5px ">
-        <div class="row">
-            <form asp-controller="Home" asp-action="Recipes">              
+<body> 
+    <section class="popular" id="popular">
+        <h1 class="heading">Most <span>Popular </span> foods</h1>
+        
+        <div style="max-width: 700px; margin: 0 auto; padding:0 35px 0 5px ">
+            <div class="row">
+                <form asp-controller="Home" asp-action="Recipes">
                     <p>
-                        
                         @Html.TextBox("Search","", new {@class="inputrecip"})
                         <input class="btnrecip" type="submit" value="Search" />
                     </p>
-            </form>
-        </div>
-    </div>
-
-    <div class="row">
-        @foreach (var item in Model)
-        {
-            <div class="col-3">
-                <div class=" card">
-                    <a asp-action="Detail" asp-route-id="@item.Id">
-                        @{
-                            string link;
-                            if (foodcontentlist.FirstOrDefault(p => p.FoodId == item.Id) == null)
-                            {
-                                link = "../Content/imageforbackground/repis.png";
-                            }
-                            else
-                            {
-                                link = foodcontentlist.FirstOrDefault(p => p.FoodId == item.Id).Img.ToString();
-                            }
-                        }
-                        <p>
-                            <img class="imgGoods" src=@link alt="hinh thumnail">
-                        </p>
-
-                        <div class="intro">
-                            <h1>@item.Name</h1>
-                            <p>@item.Calo Calries</p>
-                            <p>@item.Bref</p>
-                        </div>
-                    </a>
-                </div>
+                </form>
             </div>
-        }
-    </div>
+        </div>
 
+        <div class="box-container">
+            <div class="boxx">           
+                @foreach (var item in Model){                         
+                        <a class="row" asp-action="Detail" asp-route-id="@item.Id">
+                           
+                            @{
+                                string link;
+                                if (foodcontentlist.FirstOrDefault(p => p.FoodId == item.Id) == null)
+                                {
+                                    link = "../Content/imageforbackground/repis.png";
+                                }
+                                else
+                                {
+                                    link = foodcontentlist.FirstOrDefault(p => p.FoodId == item.Id).Img.ToString();
+                                }
+                            }
+                        
+                            <p>
+                                <img class="imgGoods" src=@link alt="hinh thumnail">
+                            </p>
+
+                            <div class="intro">
+                                <h1>@item.Name</h1>
+                                <p>@item.Calo Calries</p>
+                                <p>@item.Bref</p>
+                            </div>
+                        </a>             
+                }
+           
+            </div>
+        </div>
+     
+
+    </section>
    @SectionWriters scriptsbas
     <script>
         $(function(){
@@ -62,4 +63,4 @@
     </script>
     }
 </body>
-}
+

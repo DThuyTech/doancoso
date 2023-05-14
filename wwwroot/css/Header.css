@@ -16,10 +16,13 @@ header {
     justify-content: space-between;
     padding: 0 100px;
 }
+  
 .logo {
     font-size: 35px;
     font-weight: bold;
     color: #ffffff;
+    display:block;
+
 }
 .nav-bar ul{
     display:flex;

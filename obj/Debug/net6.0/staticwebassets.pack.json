@@ -73,6 +73,26 @@
       "PackagePath": "staticwebassets\\Content\\images\\bt7.jpg"
     },
     {
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\images\\c1.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\c1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\images\\c2.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\c2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\images\\c3.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\c3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\images\\c4.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\c4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\images\\c5.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\c5.jpg"
+    },
+    {
       "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\images\\foodAD.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\foodAD.jpg"
     },
@@ -81,8 +101,16 @@
       "PackagePath": "staticwebassets\\Content\\images\\foodAcout.jpg"
     },
     {
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\images\\home-img.png",
+      "PackagePath": "staticwebassets\\Content\\images\\home-img.png"
+    },
+    {
       "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\images\\logo4.png",
       "PackagePath": "staticwebassets\\Content\\images\\logo4.png"
+    },
+    {
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\images\\popular-bg.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\popular-bg.jpg"
     },
     {
       "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\images\\shoppe.png",
