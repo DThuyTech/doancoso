@@ -4,8 +4,75 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
     List<FoodContent> foodcontentlist = ViewBag.foodContent;
 }
-<body> 
-    <section class="popular" id="popular">
+<body>
+    @*    <section class="our-menu section bg-light repeat-img" id="menu">
+        <div class="sec-wp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="sec-title text-center mb-5">
+                            <p class="sec-sub-title mb-3">our menu</p>
+                            <h2 class="h2-title">wake up early, <span>eat fresh & healthy</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-list-row">
+                    <div class="row g-xxl-5 bydefault_show" id="menu-dish">
+                        <div class="col-lg-4 col-sm-6 dish-box-wp breakfast" data-cat="breakfast">
+                            <div class="dish-box text-center">
+                                <div class="dist-img">
+                                    <img src="~/Content/images/bt1.jpg" alt="">
+                                </div>               
+                                <div class="dish-title">
+                                    <h3 class="h3-title">Fresh Chicken Veggies</h3>
+                                    <p>120 calories</p>
+                                </div>
+                                <div class="dish-info">
+                                    <ul>
+                                        <li>
+                                            <p>Type</p>
+                                            <b>Non Veg</b>
+                                        </li>
+                                        <li>
+                                            <p>Persons</p>
+                                            <b>2</b>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dist-bottom-row">
+                                    <ul>
+                                        <li>
+                                            <b>Rs. 499</b>
+                                        </li>
+                                        <li>
+                                            <button class="dish-add-btn">
+                                                <i class="uil uil-plus"></i>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+*@
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="popular" id="popular">
         <h1 class="heading">Most <span>Popular </span> foods</h1>
         
         <div style="max-width: 700px; margin: 0 auto; padding:0 35px 0 5px ">
@@ -19,10 +86,9 @@
             </div>
         </div>
 
-        <div class="box-container">
-            <div class="boxx">           
+        <div class="box-container">              
                 @foreach (var item in Model){                         
-                        <a class="row" asp-action="Detail" asp-route-id="@item.Id">
+                        <a class="col-lg-1 boxx " asp-action="Detail" asp-route-id="@item.Id">
                            
                             @{
                                 string link;
@@ -46,13 +112,9 @@
                                 <p>@item.Bref</p>
                             </div>
                         </a>             
-                }
-           
-            </div>
-        </div>
-     
-
-    </section>
+                }          
+            </div>     
+</section>
    @SectionWriters scriptsbas
     <script>
         $(function(){

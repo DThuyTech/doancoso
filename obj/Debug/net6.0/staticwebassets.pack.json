@@ -109,6 +109,10 @@
       "PackagePath": "staticwebassets\\Content\\images\\logo4.png"
     },
     {
+      "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\images\\menu-bg.png",
+      "PackagePath": "staticwebassets\\Content\\images\\menu-bg.png"
+    },
+    {
       "Id": "C:\\Users\\MinhHieu\\source\\repos\\doancoso\\wwwroot\\Content\\images\\popular-bg.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\popular-bg.jpg"
     },

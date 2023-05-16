@@ -28,7 +28,7 @@ img {
     max-width: 100%;
 }
 html::-webkit-scrollbar{
-    width:1.2rem;
+    width:0.5rem;
 }
 html::-webkit-scrollbar-track{
     background:#0d0d25;
@@ -98,10 +98,10 @@ section{
 .home::after{
     content:'';
     position:absolute;
-    top: 19rem; right:-6rem;
-    background: rgb(184,131,73); 
-    border-radius:25%;
-    transform: rotate(0deg);
+    top: 5rem; right:-6rem;
+    background: #03e9f4; 
+    border-radius:20%;
+    transform: rotate(-50deg);
     height: 42rem;
     width: 85rem;
     z-index: -2;
@@ -234,10 +234,17 @@ ul {
         max-width: 100%;
         max-height: auto;
     }
+    .containerr {
+        max-width: 100%;
+        max-height: auto;
+    }
 }
 
 @media (min-width: 2100px) {
     .container {
+        max-width: 1400px;
+    }
+    .containerr {
         max-width: 1400px;
     }
 
@@ -597,7 +604,7 @@ p {
 #js-scroll-content {
 }
 
-/*-----------------------------------------*/
+/*-------------------------swiper slide food----------------------------*/
 :root {
     --primary: #ec994b;
     --white: #ffffff;
@@ -618,7 +625,7 @@ html {
 }
 .containerr {
     max-width: 100rem;
-    padding: 0 1rem;
+    padding: 0 4rem;
     margin: 0 auto;
 }
 
@@ -637,9 +644,7 @@ html {
         height: 45rem;
     }
 }
-.swiper-3d, .swiper-3d.swiper-css-mode .swiper-wrapper {
-    perspective: 100px;
-}
+
 .tranding-slide {
     width: 33rem;
     height: 42rem;
@@ -659,12 +664,10 @@ html {
 }
 
 .tranding-slide .tranding-slide-img img {
-    max-width:45%;
     width: 30rem;
     height: 40rem;
     border-radius: 2rem;
-    object-fit: cover;
- 
+    object-fit: cover; 
 }
 
 .tranding-slide .tranding-slide-content {
@@ -673,41 +676,20 @@ html {
     top: 0;
     right: 0;
     bottom: 0;
-  
 }
-
 .tranding-slide-content .food-price {
     position: absolute;
     top: 1rem;
  
     color: black;
 }
-
-.tranding-slide-content .tranding-slide-content-bottom {
-    position: absolute;
-    bottom: 2rem;
-    left: 2rem;
-    color: var(--white);
-}
-
-.food-rating {
-    padding-top: 0rem;
-    display: flex;
-    gap: 1rem;
-}
-
-.rating ion-icon {
-    padding-bottom: 4rem;
-    color: var(--primary);
-}
-
 .swiper-slide-shadow-left,
 .swiper-slide-shadow-right {
     display: none;
 }
 .tranding-slider-control {
     position: relative;
-    bottom: 2rem;
+    bottom: 0rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -752,7 +734,7 @@ html {
     height: 3rem;
     border-radius: 50%;
     left: 42%;
-    transform: translateX(-42%);
+    transform: translateX(-50%);
     filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
 }
 
@@ -765,82 +747,43 @@ html {
         content: '';
     }
 
+
+
+
+
 .tranding-slider-control .swiper-pagination {
-    position: relative;
-    width: 15rem;
-    bottom: 0rem;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 60px;
+    background: linear-gradient(145deg, #ececec, #ffffff);
+    max-width: fit-content;
+    left: 50% !important;
+    transform: translate(-50%, 0);
+    bottom: 0 !important;
+    color: #000;
 }
 
-    .tranding-slider-control .swiper-pagination .swiper-pagination-bullet {
-        filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
-    }
-
-    .tranding-slider-control .swiper-pagination .swiper-pagination-bullet-active {
-        background: #44eaff;
-    }
-
-
-
-
-
-
-/*--------------------------------------------
-    Css recip
-*/
-.inputrecip {
-    margin-top: 50px;
-    position: relative;
-    width: 75%;
-    height: 65px;
-    border-radius: 20px;
-    border-bottom: 2px solid rgb(0 0 0);
-    margin: 20px 0;
-    margin-bottom: 25px;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    background: transparent;
-    font-size: 1.3em;
-    color: rgb(0 0 0);
-    font-weight: 600;
-    padding-left: 10px;
-    padding-right: 10px;
+.tranding-slider-control .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    margin: 0px 10px !important;
+    border-radius: 10px;
+    transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
 }
-/*.inputrecip:active{
-    width: 80%;
-    background: #1d1919;
-    color: #f3f3f5;
-    transition: transform .5s;
-}*/
-.btnrecip {
-    width: 16%;
-    height: 40px;
-    margin-top: 11px;
-    background: none;
-    border-color: rgb(0 0 0);
-    outline: none;
-    border-radius: 15px;
-    cursor: pointer;
-    font-size: 1em;
-    color: rgba(0 0 0);
-    font-weight: 700;
-    margin-bottom: 20px;
+
+.tranding-slider-control .swiper-pagination-bullet-active {
+    background: #ff8243;
+    width: 30px;
 }
-    .btnrecip:hover{
-        color: #ff8243;
-        transform: scale(1);
-    }
 
 
 
 
-/*css list chef*/
+/*-------------------------- list chef-------------------------*/
 .sec-wp {
     position: relative;
     z-index: 4;
 }
-
-
 team-slider {
     position: relative;
 }
@@ -911,101 +854,11 @@ team-slider {
                 .social-icon ul li a:hover i {
                     color: #ffffff !important;
                 }
-.book-table {
-    overflow: hidden;
-}
-
-.book-table-shape img {
-    position: absolute;
-    top: -10px;
-    right: 73%;
-    width: 540px;
-}
-
-.book-table-shape.book-table-shape2 img {
-    left: 74%;
-    transform: scale(-1, 1);
-}
-#gallery {
-    padding-top: 120px;
-}
-
-.swiper-button-next::after, .swiper-button-prev::after {
-    display: none;
-}
-
-.swiper-button-wp {
-    position: relative;
-    margin-top: 60px;
-    display: flex;
-    justify-content: space-between;
-    height: 60px;
-    align-items: center;
-}
-
-.swiper-button-next, .swiper-button-prev {
-    position: unset;
-    width: 60px;
-    height: 60px;
-    display: inline-flex;
-    font-size: 30px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin: 0;
-    color: #0d0d25;
-    background: #ffffff;
-    box-shadow: -20px 20px 60px #d4d4d4, 20px -20px 60px #ffffff;
-    padding-top: 1px;
-    padding-right: 2px;
-    transition: 0.3s;
-}
-
-.swiper-button-next {
-    box-shadow: 20px 20px 60px #d4d4d4, -20px -20px 60px #ffffff;
-    padding-left: 3px;
-}
-
-.swiper-button-prev:hover {
-    box-shadow: inset 5px 5px 20px #d4d4d4, inset -5px -5px 20px #ffffff;
-    color: #fcbc30;
-}
-
-.swiper-button-next:hover {
-    box-shadow: inset -5px 5px 20px #d4d4d4, inset 5px -5px 20px #ffffff;
-    color: #fcbc30;
-}
-
-.swiper-paginationn {
-    padding: 10px 20px;
-    display: inline-block;
-    border-radius: 60px;
-    background: linear-gradient(145deg, #ececec, #ffffff);
-    box-shadow: 25px 28px 55px #d4d4d4, -28px -28px 55px #ffffff;
-    max-width: fit-content;
-    left: 50% !important;
-    transform: translate(-50%, 0);
-    bottom: 0 !important;
-    color: #000;
-}
-
-.swiper-paginationn-bullet {
-    width: 10px;
-    height: 10px;
-    margin: 0px 10px !important;
-    border-radius: 10px;
-    transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
-}
-
-.swiper-paginationn-bullet-active {
-    background: #fcbc30;
-    width: 30px;
-}
 
 
 
 
-
-
+/*--------------------home neon--------------------*/
 .content form a {
     position: relative;
     display: inline-block;
@@ -1017,6 +870,7 @@ team-slider {
     overflow: hidden;
     transition: .5s;
     letter-spacing: 4px;
+    font-weight: 700;
 }
 
 .content a:hover {
@@ -1025,11 +879,11 @@ team-slider {
     border-radius: 5px;
     box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4,
 }
- 
-.content a span
-{
+
+.content a span {
     position: absolute;
     display: block;
+    font-weight: 700;
 }
 
 .content a span:nth-child(1) {
@@ -1108,3 +962,6 @@ team-slider {
         bottom: 100%;
     }
 }
+
+
+
