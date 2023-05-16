@@ -1,56 +1,30 @@
-﻿//var TrandingSlider = new Swiper('.tranding-slider', {
-//    effect: 'coverflow',
-//    grabCursor: true,
-//    centeredSlides: true,
-//    loop: true,
-//    spaceBetween: 30,
-//    slidesPerView: '2',
-//    autoplay: {
-//        delay: 1500,
-//        disableOnInteraction: false,
-//    },
-//    coverflowEffect: {
-//        rotate: 0,
-//        stretch: 0,
-//        depth: 100,
-//        modifier: 2.5,
-//    },
-//    pagination: {
-//        el: '.swiper-pagination',
-//        clickable: true,
-//    },
-//    navigation: {
-//        nextEl: '.swiper-button-next',
-//        prevEl: '.swiper-button-prev',
-//    }
-//});
-var TrandingSlider = new Swiper(".tranding-slider", {
-    slidesPerView: 1,
-    spaceBetween: 20,
+﻿var TrandingSlider = new Swiper('.tranding-slider', {
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
     loop: true,
+    spaceBetween: 30,
+    slidesPerView: '2',
     autoplay: {
-        delay: 3000,
+        delay: 1500,
         disableOnInteraction: false,
     },
-    speed: 2000,
-    effect: "coverflow",
     coverflowEffect: {
-        rotate: 3,
-        stretch: 2,
+        rotate: 0,
+        stretch: 0,
         depth: 100,
-        modifier: 5,
-        slideShadows: false,
-    },
-    loopAdditionSlides: true,
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        modifier: 2.5,
     },
     pagination: {
-        el: ".swiper-pagination",
+        el: '.swiper-pagination',
         clickable: true,
     },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    }
 });
+
 
 
 
