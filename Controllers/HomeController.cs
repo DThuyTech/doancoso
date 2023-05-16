@@ -688,51 +688,79 @@ namespace login.Controllers
         public IActionResult Detail(int? id)
         {
 
-            id = 42;
-            if (id == 9999)
-            {
-                FoodViewModel modelfoods = new FoodViewModel();
-                modelfoods.foods = new List<Food>();
-                modelfoods.foods.Add(_typeFoodDBContext.Foods.FirstOrDefault(p => p.Id == (int)TempData["idfood1"]));
-                modelfoods.foods.Add(_typeFoodDBContext.Foods.FirstOrDefault(p => p.Id == (int)TempData["idfood2"]));
-                modelfoods.foods.Add(_typeFoodDBContext.Foods.FirstOrDefault(p => p.Id == (int)TempData["idfood3"]));
-                FoodContent foodContent = foodContents.FirstOrDefault(p => p.FoodId == modelfoods.foods[0].Id);
-
-                string[] text = System.IO.File.ReadAllLines(foodContent.Recipes);
-                ViewBag.data = text;
-                ViewBag.foodcontent = foodContent;
-
-                return View(modelfoods.foods[0]);
-            }
-            else
-            // C: \Users\ASUS\source\repos\WebrecommandFood\WebrecommandFood\wwwroot\Food\recipefood\recipe1.txt
-            {
-                FoodContent foodContent = new FoodContent();
-                string[] text;
-                text = null;
-                if (foodContents.FirstOrDefault(p => p.FoodId == id) == null)
+            id = 1750;
+           
+                List<DetailFoodNutri> detailFoodNutris = _typeFoodDBContext.detailFoodNutris.Where(x => x.FoodId == id).ToList();
+                List<string> nutriText = new List<string>();
+                foreach(DetailFoodNutri item in detailFoodNutris)
                 {
-                    text = new string[5];
-                    text[0].Insert(0, "xin loi vi chuc toi chua co cong thuc mon nay");
-                    text[1].Insert(0, "quy khach co the chon lai mon khach neu that su can cong thuc");
+                    nutriText.Add(_typeFoodDBContext.nutributions.FirstOrDefault(x => x.iD == item.NutributionId).name);
+                }
+                if (nutriText.Count > 0)
+                {
+                    ViewBag.ListofnutriFood = nutriText;
                 }
                 else
                 {
-
-                    foodContent = foodContents.FirstOrDefault(p => p.FoodId == id);
-                    text = new string[1000];
-                    string link = "../Webrecommandfood3/wwwroot/Food/recipefood/recipe39.txt";
-                    //C: \Users\ASUS\source\repos\Webrecommandfood3\wwwroot\Food\recipefood\recipe21.txt
-                    //C: \Users\ASUS\source\repos\Webrecommandfood3\wwwroot\Food\recipefood\recipe39.txt
-                    text = System.IO.File.ReadAllLines(foodContent.Recipes);
-
+                    nutriText.Add("Chua cap nhat");
+                    ViewBag.ListofnutriFood = nutriText;
                 }
+                //FoodContent foodContent = new FoodContent();
+                string[] text;
+                text = null;
+                String imgeFood = " /Food/ImageFood/"+id.ToString()+".jpg ";
 
 
-                ViewBag.Data = text;
-                ViewBag.foodcontent = foodContent;
-                return View(listFinal.FirstOrDefault(p => p.Id == id));
+
+            //lat noi dung nguyen liau
+            text = new string[1000];
+    
+            string link = "../Food/wwwroot/Food/InFood/"+id.ToString()+".txt";
+           if(System.IO.File.Exists(link)!=null) {
+                text = System.IO.File.ReadAllLines(link);
+                ViewBag.InFood = text;
             }
+            else
+            {
+                text = System.IO.File.ReadAllLines("../Food/wwwroot/Food/InFood/0.txt");
+                ViewBag.InFood = text;
+            }
+
+
+            text = new string[1000];
+             link = "../Food/wwwroot/Food/RecipeFood/" + id.ToString() + ".txt";
+            if (System.IO.File.Exists(link) != null)
+            {
+                text = System.IO.File.ReadAllLines(link);
+                ViewBag.RecipeFood = text;
+            }
+            else
+            {
+                text = System.IO.File.ReadAllLines("../Food/wwwroot/Food/InFood/0.txt");
+                ViewBag.RecipeFood = text;
+            }
+
+            //if (foodContents.FirstOrDefault(p => p.FoodId == id) == null)
+            //{
+            //    text = new string[5];
+            //    text[0].Insert(0, "xin loi vi chuc toi chua co cong thuc mon nay");
+            //    text[1].Insert(0, "quy khach co the chon lai mon khach neu that su can cong thuc");
+            //}
+            //else
+            //{
+
+            //    foodContent = foodContents.FirstOrDefault(p => p.FoodId == id);
+            //    text = new string[1000];
+            //    string link = "../Webrecommandfood3/wwwroot/Food/recipefood/recipe39.txt";
+            //    //C: \Users\ASUS\source\repos\Webrecommandfood3\wwwroot\Food\recipefood\recipe21.txt
+            //    //C: \Users\ASUS\source\repos\Webrecommandfood3\wwwroot\Food\recipefood\recipe39.txt
+            //    text = System.IO.File.ReadAllLines(foodContent.Recipes);
+
+
+
+            ViewBag.ImgLink = imgeFood;
+                return View(listFinal.FirstOrDefault(p => p.Id == id));
+            
         }
 
 

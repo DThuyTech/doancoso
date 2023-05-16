@@ -1,10 +1,15 @@
-﻿@*@{
+﻿
+@{
     ViewData["Title"] = "Detail";
     Layout = "~/Views/Shared/_Layout.cshtml";
-    FoodContent data = @ViewBag.foodcontent;
+    String imgLink = ViewBag.ImgLink;
+    List<string> nameNutriFood = ViewBag.ListofnutriFood;
+    String[] RecipeFood = ViewBag.RecipeFood;
+    String[] InFood = ViewBag.InFood;
+
 }
 @model login.Models.Food;
-*@
+
 <head>
     <link rel="stylesheet" href="~/css/Detail.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13,7 +18,25 @@
 </head>
 
 <body class ="container">
-   
+    @{
+        int bien_dem = 0;
+        string namesp, name = "";
+        for (int i = 0; i < Model.Name.Length; i++)
+        {
+            namesp = Model.Name.Substring(i, 1);
+            if (namesp == " ")
+            {
+                namesp = "+";
+                name += namesp;
+            }
+            else
+            {
+                name += namesp;
+            }
+
+
+        }
+    }
     <div class="space">
 
     </div>
@@ -30,13 +53,10 @@
 
                             <div class="ContenMat">
                                 <ul>
-                                    <li>30 gram duong</li>
-                                    <li>30 gram nuoc</li>
-                                    <li>30 gram thit bu</li>
-                                    <li>30 gram duong</li>
-                                    <li>30 gram duong</li>
-                                    <li>30 gram duong</li>
-                                    <li>30 gram duong</li>
+                                     @foreach (string text in ViewBag.InFood)
+                                        {
+                                        <li>@text</li>
+                                        }
                                 </ul>
                             </div>
                         </div>
@@ -46,12 +66,14 @@
                     <div class="material">
                         <div>
                             <h1>
-                                Nguyên liệu
+                                Cách làm
                             </h1>
 
                             <div class="ContenRe">
-                               <p>Heat oil in a large skillet over medium-low head. Add onion and bell papper. Cook gently until very soft, about 20 minutes. Add garlic and cook until tender, 1 to 2 minutes; stir in cumin, paprika and cook 1 minute. Pour in tomatoes and season with 3/4 teaspoon salt and 1/4 teaspoon pepper;</p>
-                              
+                                      @foreach (string text in ViewBag.RecipeFood)
+                                        {
+                                        <p>@text</p>
+                                        }
                             </div>
                         </div>
                     </div>
@@ -65,29 +87,70 @@
     <div class="nutricard-card">
         
             <div class="spaces"></div>
-          <h1>
-              Dinh dưỡng
-          </h1>
-        
+         
+        @{
+            float beo, dam, xo, calo;
+            beo = Model.chatbeo / (float)100;
+            dam = Model.chatdam / (float)100;
+            xo = Model.chatxo / (float)100;
+            calo = Model.Calo;
+        }
+        <div class="row">
+            <div class="col-5">
+                <ul>
+                    <li>Calo:@calo</li>
+                    <li>Chất béo: @beo</li>
+                    <li>Chất xơ: @xo</li>
+                    <li>chất đạm: @dam</li>
+                    </ul>
+            </div>
+            <div class="col-4">
+                <ul>
+                   @foreach (string item in nameNutriFood)
+                     {
+                        <li>@item </li>
+                     }
+                 </ul>
+            </div>
+            <div class="col-3">
 
+            </div>
+        </div>
+          
+         
+       
+
+
+    </div>
+    <div class="content-card">
+        <div class="content">
+            <p>Bò pía là một món ăn truyền thống của người Hoa.</p>
+        </div>
+       
     </div>
     <div class ="recipe-card">
         <div  class="card-Foodimg">
-            <img src="~/Content/imageforbackground/recipe_2583.jpg" />
+            <img src=@imgLink />
+           
         </div>
         
       </div>
     <div class="foodname">
         <p class="effect-underline">
-            Ten mon an
+            @Model.Name
         </p>
     
        </div>
     <div class="btn-youtube">
-        <a href="#"><span>Youtube</span></a>
+        @{
+                            string linkshoppe = "https://shopeefood.vn/ho-chi-minh/danh-sach-dia-diem-giao-tan-noi?q=" +name;
+                       
+                            string google = "https://www.google.com/search?q=cong+thuc+lam+" +name;
+                        }
+        <a href=@google><span>Youtube</span></a>
     </div>
     <div class="btn-shoppe">
-        <a href="#"><span>ShoopeeFood</span></a>
+        <a href=@linkshoppe><span>ShoopeeFood</span></a>
     </div>
     <div class="btn-order">
         <a href="#"><span>Order</span></a>
