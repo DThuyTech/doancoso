@@ -234,17 +234,10 @@ ul {
         max-width: 100%;
         max-height: auto;
     }
-    .containerr {
-        max-width: 100%;
-        max-height: auto;
-    }
 }
 
 @media (min-width: 2100px) {
     .container {
-        max-width: 1400px;
-    }
-    .containerr {
         max-width: 1400px;
     }
 
