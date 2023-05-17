@@ -63,10 +63,3 @@ var team_slider = new Swiper(".team-slider", {
     },
 });
 
-
-const btnkeep = document.querySelector(".dish-add-btn");
-btnkeep.forEach(btnkeep => {
-    btnkeep.addEventListener('click', () => {
-        /*document.querySelector('.special').classList.remove('special');*/
-        btnkeep.classList.add('special');
-    });
