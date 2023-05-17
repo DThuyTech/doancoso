@@ -1,28 +1,39 @@
 ﻿using login.Models;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
-using Lucene.Net.Search;
-using System.Security;
-using System.Reflection.Metadata.Ecma335;
-using Microsoft.AspNetCore.Http;
 using System.Diagnostics;
 using login.Data;
 using login.Logic;
 using login.Viewmodels;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using System.Data.Common;
-using Newtonsoft.Json.Bson;
-using Lucene.Net.Support;
-using Microsoft.EntityFrameworkCore.SqlServer.Query.Internal;
 using Microsoft.CodeAnalysis;
+using Google.Cloud.Firestore;
+using FirebaseAdmin;
+using Google.Apis.Auth.OAuth2;
+using Google.Cloud.Firestore.V1;
+using FireSharp.Interfaces;
+using FireSharp.Config;
+using FireSharp.Response;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace login.Controllers
 {
-    
+
     public class HomeController : Controller
     {
+
+        //connect to firebase 
+
+        private string serviceAccountKeyPath;
+
+
+        IFirebaseConfig config = new FirebaseConfig
+        {
+            AuthSecret = "FmqH3aXHqn9M9SdgtXFT1uaTxqqeB0HJL761iKHb",
+            BasePath = "https://foodcommentuser-default-rtdb.firebaseio.com",
+        };
+        IFirebaseClient client;
 
         IList<Food> listFinal = new List<Food>();
         List<FoodContent> foodContents = new List<FoodContent>();
@@ -37,13 +48,15 @@ namespace login.Controllers
             _typeFoodDBContext = typeFoodDBContext;
             listFinal = _typeFoodDBContext.Foods.ToList();
             foodContents = _typeFoodDBContext.foodContents.ToList() ;
-          
+            serviceAccountKeyPath = "C:\\Users\\ASUS\\source\\Repos3\\Food\\foodrecommands-firebase-adminsdk-jtgwr-af70336f68.json";
             _logger = logger;
           
         }
 
         public IActionResult Index()
         {
+
+           
             return View();
         }
 
@@ -648,6 +661,54 @@ namespace login.Controllers
 
         }
 
+
+        public void SaveCmt(CommentUser comment)
+        {
+            try
+            {
+                client = new FireSharp.FirebaseClient(config);
+                var data = comment;
+                PushResponse response = client.Push("cmtUser/", data);
+                data.Id = response.Result.name;
+                SetResponse setResponse = client.Set("cmtUser/" + data.Id, data);
+
+
+                if (setResponse.StatusCode == System.Net.HttpStatusCode.OK)
+                {
+                    ModelState.AddModelError(string.Empty, "Added Succesfully");
+                }
+                else
+                {
+                    ModelState.AddModelError(string.Empty, "Something went wrong!!");
+                }
+            }
+            catch (Exception ex)
+            {
+
+                ModelState.AddModelError(string.Empty, ex.Message);
+            }
+
+           
+
+        
+
+
+        }
+      
+        public  IActionResult SendCmttodata(string cmtData,int idFood)
+        {
+            int id = idFood;
+            string asd = cmtData;
+
+            CommentUser comment = new CommentUser();
+            comment.idUser = User.Identity.Name;
+            comment.idFood = idFood.ToString(); 
+            comment.content = cmtData;
+             SaveCmt(comment);
+            
+            return RedirectToAction("Food",new {id = idFood});
+
+        }
         [HttpPost]
         public IActionResult Recommand(ValueAnswerViewModel model)
         {
@@ -682,15 +743,41 @@ namespace login.Controllers
         }
 
 
+       
 
-
-        [Route("Food/{id:int}")]
-        public IActionResult Detail(int? id)
+        [Route("Home/Food/{id:int}")]
+        public async Task<IActionResult> DetailAsync(int? id)
         {
 
             id = 1750;
-           
-                List<DetailFoodNutri> detailFoodNutris = _typeFoodDBContext.detailFoodNutris.Where(x => x.FoodId == id).ToList();
+
+
+
+            // uplaod firebase
+            client = new FireSharp.FirebaseClient(config);
+            FirebaseResponse response = client.Get("cmtUser");
+            dynamic data = JsonConvert.DeserializeObject<dynamic>(response.Body);
+            var list = new List<CommentUser>();
+            if (data != null)
+            {
+                foreach (var item in data)
+                {
+                    list.Add(JsonConvert.DeserializeObject<CommentUser>(((JProperty)item).Value.ToString()));
+                }
+            }
+
+            ViewBag.cmtUser = list;
+          
+            //Dictionary<string, object> newBookData = new Dictionary<string, object>
+            //    {
+            //        { "Title", "Sample Book" },
+            //        { "Author", "John Doe" },
+            //        { "ISBN", "1234567890" }
+            //    };
+            //await newBookRef.SetAsync(newBookData);
+
+
+            List<DetailFoodNutri> detailFoodNutris = _typeFoodDBContext.detailFoodNutris.Where(x => x.FoodId == id).ToList();
                 List<string> nutriText = new List<string>();
                 foreach(DetailFoodNutri item in detailFoodNutris)
                 {

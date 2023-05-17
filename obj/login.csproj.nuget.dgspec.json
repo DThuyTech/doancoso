@@ -45,6 +45,30 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FireSharp": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "FirebaseAdmin": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "FirebaseAdminCore": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "FirebaseDatabase.NetCore50": {
+              "target": "Package",
+              "version": "[4.0.6, )"
+            },
+            "Google.Cloud.Firestore": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Google.Cloud.Firestore.Admin.V1": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Lucene.Net": {
               "target": "Package",
               "version": "[3.0.3, )"

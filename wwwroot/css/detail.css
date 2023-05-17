@@ -163,9 +163,9 @@ iframe{
 
 }
 
-.space{
-    height:100px;
 
+.space {
+    height: 100px;
 }
 .nutricard-card {
    display:block;
@@ -517,7 +517,7 @@ iframe{
     width: 610px;
     position: absolute;
     margin-left: 30px;
-    margin-top: 800px;
+    margin-top: 360px;
     background-color: whitesmoke;
     border-radius: 50px;
     overflow: auto;
@@ -550,6 +550,16 @@ iframe{
 }
 .cardCmtuser{
     height:200px;
+}
+.username {
+    position: absolute;
+    margin-left: 31px;
+    margin-top:8px;
+    background-color: sandybrown;
+    width: 120px;
+    text-align:center;
+    padding-left: 25px;
+    border-radius: 10px;
 }
 .cardCmtuser textarea {
     height: 120px;
@@ -609,3 +619,8 @@ iframe{
                 background: #b0b435;
                 color: #ffffff;
             }
+
+.buttonReact {
+    margin-left: 552px;
+    margin-top: 531px;
+}

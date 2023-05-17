@@ -6,6 +6,7 @@ using login.Data;
 using Microsoft.EntityFrameworkCore;
 using login.Viewmodels;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Lucene.Net.Search;
 
 namespace login.Controllers
 {
@@ -55,7 +56,44 @@ namespace login.Controllers
             }
             return View();
         }
+        [HttpPost]
+        public IActionResult ListFood(string? search ,int?  idpage)
+        {
+            int page = 0;
+            if (idpage == null)
+            {
+                page = 0;
+            }
+            else
+            {
+                page = idpage.Value;
+            }
+            List<Food> listfoddlaod = listFinal.ToList();
+          
+            if(search!=null)
+            {
+                listfoddlaod = listFinal.Where(s => s.Name.Contains(search)).ToList();
+                ViewBag.datasanm = listFinal[0].Name;
+                ViewBag.foodContent = _typeFoodDBContext.foodContents.ToList();
+                
+            }
 
+            List<Food> foodshow = new List<Food>();
+            
+                for (int i = 0; i < 100; i++)
+                {
+                    foodshow.Add(listfoddlaod[i + page * 100]);
+
+                }
+            
+          
+            return View(foodshow);
+        }
+        public IActionResult ListFood()
+        {
+            List<Food> model = _typeFoodDBContext.Foods.ToList();
+            return View(model);
+        }
         public IActionResult CreateFood()
         {
             ContentFoodViewmodel contentFoodViewmodel = new ContentFoodViewmodel();
