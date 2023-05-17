@@ -8,3 +8,4 @@ function open_close() {
         c % 2 == 0 ? "cont_modal cont_modal_active" : "cont_modal";
     c++;
 }
+
