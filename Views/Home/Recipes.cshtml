@@ -53,6 +53,8 @@
         </div>
     </section>*@
     @*----------------------------------------------------*@
+    <div id="viewport">
+        <div id="js-scroll-content">
 <section class="our-menu section bg-light repeat-img" id="menu">
     <div class="sec-wp">
         <h1 class="heading">Most <span>Popular </span> foods</h1>     
@@ -67,7 +69,7 @@
             </div>
         </div>
 
-        <div class="containerr">
+        <div class="container">
             <div class="menu-list-row">
                 <div class="row g-xxl-5 bydefault_show" id="menu-dish">
                     <div class="col-lg-4 col-sm-6 dish-box-wp breakfast" data-cat="breakfast">
@@ -85,8 +87,7 @@
                                     link = foodcontentlist.FirstOrDefault(p => p.FoodId == item.Id).Img.ToString();
                                 }
                             }
-                        
-                             <img class="imgGoods" src=@link alt="hinh thumnail">
+                                   <img class="imgGoods" src=@link alt="hinh thumnail">
 
                             <div class="dish-title">
                                 <h3 class="h3-title">@item.Name</h3>
@@ -112,6 +113,8 @@
         </div>
     </div>
 </section>
+        </div>
+    </div>
 
 
 
