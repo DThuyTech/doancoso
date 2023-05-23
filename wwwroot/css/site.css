@@ -809,7 +809,6 @@ team-slider {
 .dish-box {
     border-radius: 30px;
     background: linear-gradient(145deg, #ececec, #ffffff);
-    box-shadow: 28px 28px 45px #d4d4d4, -28px -28px 45px #ffffff;
     display: flow-root;
     padding: 0px;
     padding-top: 0;
