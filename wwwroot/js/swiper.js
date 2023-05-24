@@ -62,4 +62,3 @@ var team_slider = new Swiper(".team-slider", {
         },
     },
 });
-

@@ -14,37 +14,12 @@
     background-position: center;
     background-attachment: fixed;
 }
-
-.popular .box-container{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-wrap:wrap;
-}
-
-.popular .box-container .boxx{
-    background:#fff;
-    width: 30rem;
-    padding: 2rem;
-    margin:2rem;
-    border-radius: 1rem;
-    box-shadow: 0 .3rem .5rem rgba(0,0,0,.2);
-    text-align:center;
-}
-.popular .box-container .boxx img{
-    height: 20rem;
-    width: 100%;
+.imgGoods {
     object-fit: cover;
-}
-.popular .box-container .boxx h3{
-    color: #333;
-    font-size: 3rem;
-    font-weight:normal;
-}
-.popular .box-container .boxx .intro{
-    color: #333;
-    font-size: 3rem;
-    font-weight:normal;
+    height: 175px;
+    width: 250px;
+    border-radius: 20px;
+    margin-top:30px;
 }
 
 .inputrecip {
