@@ -6,6 +6,7 @@
     List<string> nameNutriFood = ViewBag.ListofnutriFood;
     String[] RecipeFood = ViewBag.RecipeFood;
     String[] InFood = ViewBag.InFood;
+    String[] Content = ViewBag.ContentFood;
     List<CommentUser> commentUserslist = ViewBag.cmtUser;
 }
 
@@ -127,7 +128,13 @@
     </div>
     <div class="content-card">
         <div class="content">
-            <p>Bò pía là một món ăn truyền thống của người Hoa.</p>
+            
+                           
+                                      @foreach (string text in ViewBag.ContentFood)
+                                        {
+                                        <p>@text</p>
+                                        }
+                         
         </div>
        
     </div>

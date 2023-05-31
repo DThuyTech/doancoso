@@ -4,6 +4,9 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
     List<FoodContent> foodcontentlist = ViewBag.foodContent;
 }
+<head>
+    <link rel="stylesheet" href="~/css/Recipes.css" />
+</head>
 <body>
 
 @*---------test-------*@
@@ -53,11 +56,17 @@
         </div>
     </section>*@
     @*----------------------------------------------------*@
+
+
+
+
 <div id="viewport">
 <div id="js-scroll-content">
 <section class="our-menu section bg-light repeat-img" id="menu">
+  
+               
     <div class="sec-wp">
-        <h1 class="heading">Our <span>Delicious </span> foods</h1>     
+        <h1 class="heading">Danh sách <span>Công thức </span> món ăn</h1>     
         <div style="max-width: 700px; margin: 0 auto; padding:0 35px 0 5px ">
             <div class="row">
                 <form asp-controller="Home" asp-action="Recipes">
@@ -66,6 +75,8 @@
                         <input class="btnrecip" type="submit" value="Search" />
                     </p>
                 </form>
+
+                
             </div>
         </div>
 

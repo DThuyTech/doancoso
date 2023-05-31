@@ -1,0 +1,84 @@
+﻿@model login.Models.Food
+@using login.Viewmodels;
+@{
+    ContentFoodViewmodel contentFoodViewmodel = ViewBag.modelType;
+}
+<head>
+    
+</head>
+
+<h4>Food</h4>
+<hr />
+
+
+<div class="col-md-4">
+    <form asp-action="  ">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="Name" class="control-label"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Calo" class="control-label"></label>
+            <input asp-for="Calo" class="form-control" />
+            <span asp-validation-for="Calo" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Bref" class="control-label"></label>
+            <input asp-for="Bref" class="form-control" />
+            <span asp-validation-for="Bref" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="chatdam" class="control-label"></label>
+            <input asp-for="chatdam" class="form-control" />
+            <span asp-validation-for="chatdam" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="chatbeo" class="control-label"></label>
+            <input asp-for="chatbeo" class="form-control" />
+            <span asp-validation-for="chatbeo" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="chatxo" class="control-label"></label>
+            <input asp-for="chatxo" class="form-control" />
+            <span asp-validation-for="chatbeo" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="TypeFood" class="control-label"></label>
+            <select class="form-select" asp-items="contentFoodViewmodel.ListidtypeFood" asp-for="IdType">
+            </select>
+            <span asp-validation-for="TypeFood" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="LoaimonId" class="control-label"></label>
+            <select class="form-select" asp-items="contentFoodViewmodel.ListidLoaimon" asp-for="LoaimonId">
+            </select>
+            <span asp-validation-for="LoaimonId" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="DVTid" class="control-label"></label>
+            <select class="form-select" asp-items="contentFoodViewmodel.ListIddvt" asp-for="DVTid">
+            </select>
+            <span asp-validation-for="DVTid" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Create" class="btn btn-primary" />
+        </div>
+    </form>
+
+</div>
+<div class="col-md-4">
+
+</div>
+
+
+<div>
+    <a asp-action="ListFood">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

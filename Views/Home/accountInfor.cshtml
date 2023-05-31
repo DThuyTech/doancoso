@@ -233,16 +233,19 @@
                                                 }
                                                 @foreach (Food item in foodforoneday)
                                                 {
-                                                    
+
 
                                                     <tr>
                                                         <td class="img-thumbnails">
-                                                            <a href="#">
-                                                                <img class="img-fluid" src="~/Food/images/food11.png" alt />
+                                                            <a asp-action="Detail" asp-route-id="@item.Id">
+                                                            @{
+                                                                    string link = "~/Food/ImageFood/" + item.Id.ToString() + ".jpg";
+                                                                }   
+                                                                <img class="img-fluid" src=@link />
                                                             </a>
                                                         </td>
                                                         <td>
-                                                            <a href="#">
+                                                            <a asp-action="Detail" asp-route-id="@item.Id">
                                                                 @item.Name 
                                                             </a>
                                                         </td>
@@ -251,7 +254,7 @@
                                                                 float calomonchinh = item.Calo * 70 / 100;
                                                                 float calomonphu = item.Calo * 30 / 100;
                                                             }
-                                                            <p>@calomonchinh/@calomonphu</p>
+                                                            <p>@item.Calo</p>
                                                         </td>
                                                         <td class="khoiluong">
                                                             @{
@@ -305,7 +308,7 @@
                                                   <tr>
                                                         <td class="img-thumbnails">
                                                             <a href="#">
-                                                                <img class="img-fluid" src="~/Food/images/food11.png" alt />
+                                                                <img class="img-fluid" src="./Food/ImageFood/1746.jpeg"/>
                                                             </a>
                                                         </td>
                                                         <td>

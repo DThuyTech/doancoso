@@ -7,13 +7,37 @@
 .heading span{
     color: #ffd800;
 }
+.cardnumberfood{
+    height:120px;
+    width:190px;
+    position:relative;
+    display:block;
+    background-color:whitesmoke;
+    box-shadow:1px 1px 4px 4px #808080;
+    border-radius:20px;
 
-.our-menu section {
-    background: linear-gradient(rgba(255,255,255,.7),rgba(255,255,255,.7)), url(../Content/images/popular-bg.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 }
+
+    .cardnumberfood p{
+        font-size:40px;
+        text-align:left;
+        padding-top:10px;
+        padding-left:15px;
+    }
+
+    .cardnumberfood span {
+        font-size: 20px;
+        text-align: left;
+        padding-top: 10px;
+        padding-left: 15px;
+        opacity:80%;
+    }
+    .our-menu section {
+        background: linear-gradient(rgba(255,255,255,.7),rgba(255,255,255,.7)), url(../Content/images/popular-bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
 .imgGoods {
     object-fit: cover;
     height: 175px;

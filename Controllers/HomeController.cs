@@ -749,7 +749,6 @@ namespace login.Controllers
         public async Task<IActionResult> DetailAsync(int? id)
         {
 
-            id = 1750;
 
 
 
@@ -825,6 +824,19 @@ namespace login.Controllers
             {
                 text = System.IO.File.ReadAllLines("../Food/wwwroot/Food/InFood/0.txt");
                 ViewBag.RecipeFood = text;
+            }
+
+            text = new string[1000];
+            link = "../Food/wwwroot/Food/ContentFood/" + id.ToString() + ".txt";
+            if (System.IO.File.Exists(link) != null)
+            {
+                text = System.IO.File.ReadAllLines(link);
+                ViewBag.ContentFood = text;
+            }
+            else
+            {
+                text = System.IO.File.ReadAllLines("../Food/wwwroot/Food/InFood/0.txt");
+                ViewBag.ContentFood = text;
             }
 
             //if (foodContents.FirstOrDefault(p => p.FoodId == id) == null)

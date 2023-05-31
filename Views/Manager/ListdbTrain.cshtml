@@ -1,0 +1,131 @@
+﻿@{
+    int pages = ViewBag.pagenumber;
+}
+@model List<DbTrain>
+<head>
+    <meta charset="UTF-8">
+    <title> Food</title>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+    <link rel="stylesheet" href="~/css/admin.css">
+</head>
+<body>
+    <div class="bodyadmin">
+
+
+        <div class="action">
+            <a asp-controller="Manager" asp-action="CreateLoaimon" class="buttonCreate">Thêm loại món </a>
+        </div>
+        <form method="post" action="@Url.Action("ListDBtrain","Manager")">
+            <div class="pagination">
+                <a href="#">&laquo;</a>
+                @for (int i = 0; i < pages; i++)
+                {
+
+                    <input type="submit" class="bntpa" name="idpage" value=@i placeholder=@i>
+
+
+
+                }
+
+
+                @* <a class="active" href="#">2</a>*@
+
+                <a href="#">&raquo;</a>
+            </div>
+
+        </form>
+
+        <div class="sidebar">
+            <div class="sidebar-brand">
+                <h2><span class="lab la-accusoft"></span> Accusoft</h2>
+
+                <div class="sidebar-menu">
+                    <ul>
+                        <li>
+                            <a href="ListUser" class="active">
+                                <span class="las la-users"></span>
+                                Khách hàng
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ListFood">
+                                <span class="las la-clipboard-list"></span>
+                                Món ăn
+                            </a>
+                        </li>
+                        <li>
+                            <a asp-action="ListNutriFood" asp-controller="Manager">
+                                <span class="las la-apple-alt"></span>
+                                Dinh dưỡng
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ListDBtrain">
+                                <span class="las la-database"></span>
+                                Datatrain
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ListDVt">
+                                <span class="las la-database"></span>
+                                Đơn vị tính
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ListLoaimon">
+                                <span class="las la-database"></span>
+                                Loại món
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <span class="las la-database"></span>
+                                Chi tiết dinh dưỡng
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="listfood-cardlist">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Giới tính</th>
+
+                        <th>Tuổi</th>
+                        <th>Mức độ hoạt động</th>
+                        <th>Cảm xúc chủ đạo</th>
+                        <th>Vị giác chính</th>
+                        <th>
+                            dinh dưỡng
+                        </th>
+
+                    </tr>
+
+                </thead>
+                <tbody>
+
+                    @foreach (DbTrain item in Model)
+                    {
+
+
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.Gender</td>
+                            <td>@item.Age</td>
+                            <td>@item.Activ</td>
+                            <td>@item.KeyEmotion</td>
+                            <td>@item.KeyTaste</td>
+                            <td>@item.NutributionId</td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>

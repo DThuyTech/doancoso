@@ -1,0 +1,164 @@
+﻿@model login.Models.Food
+@using login.Viewmodels;
+@{
+    ContentFoodViewmodel contentFoodViewmodel = ViewBag.modelType;
+    List<SelectListItem> llistnutri = ViewBag.modelNutri;
+    
+}
+<head>
+    <link rel="stylesheet" href="~/css/admin.css">
+
+</head>
+
+<h4>Food</h4>
+<hr />
+
+
+    <form asp-action="EditFood" enctype="multipart/form-data">
+
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" readonly="true" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Calo" class="control-label"></label>
+                <input asp-for="Calo" class="form-control" />
+                <span asp-validation-for="Calo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Bref" class="control-label"></label>
+                <input asp-for="Bref" class="form-control" />
+                <span asp-validation-for="Bref" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="chatdam" class="control-label"></label>
+                <input asp-for="chatdam" class="form-control" />
+                <span asp-validation-for="chatdam" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="chatbeo" class="control-label"></label>
+                <input asp-for="chatbeo" class="form-control" />
+                <span asp-validation-for="chatbeo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="chatxo" class="control-label"></label>
+                <input asp-for="chatxo" class="form-control" />
+                <span asp-validation-for="chatbeo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TypeFood" class="control-label"></label>
+                <select class="form-select" asp-items="contentFoodViewmodel.ListidtypeFood" asp-for="IdType">
+                </select>
+                <span asp-validation-for="TypeFood" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LoaimonId" class="control-label"></label>
+                <select class="form-select" asp-items="contentFoodViewmodel.ListidLoaimon" asp-for="LoaimonId">
+                </select>
+                <span asp-validation-for="LoaimonId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DVTid" class="control-label"></label>
+                <select class="form-select" asp-items="contentFoodViewmodel.ListIddvt" asp-for="DVTid">
+                </select>
+                <span asp-validation-for="DVTid" class="text-danger"></span>
+            </div>
+
+           
+        </div>
+       
+        <div class="col-md-3">
+            <div class="row">
+                <div class="insertFiletxtshort">
+                    <label>Cap nhat tom tat mon an:</label>
+                    <textarea name="content">@ViewBag.modelContent</textarea>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="insertFiletxtshort">
+                    <label>Cap nhat nguyen lieu nau:</label>
+                    <textarea name="infood">@ViewBag.modelInfood</textarea>
+
+                </div>
+            </div>
+           
+        </div>
+        <div class="col-md-3">
+            <div class="insertFiletxt">
+                <label>Cap nhat cong thuc mon an:</label>
+                <textarea name="recipe" >@ViewBag.modelRecipe</textarea>
+            </div>
+        </div>
+               
+
+               
+       
+
+        <div class="col-md-2">
+            <div class="row">
+               
+                    <label>Dinh duong cua mon an nay</label>
+                    <select>
+                        @{
+                            if (llistnutri.Count != 0)
+                            {
+                                @foreach (SelectListItem item in llistnutri)
+                                {
+                                    <option>@item.Text</option>
+
+                                }
+                            }
+                            else
+                            {
+                                <option>Chua co dinh duong cho mon nay</option>
+                            }
+                        }
+                    </select>
+                </div>
+            <div class="row">
+                    <div class="insertFile">
+                        <label>Cap nhat hinh anh:</label>
+                        <input type="file" name="imageFile" />
+                      
+                       
+                    </div>
+            </div>
+            <div class="row">
+                @{
+                    string lnk = " /Food/ImageFood/" + Model.Id.ToString() + ".jpg ";
+                }
+                <img src=@lnk height="270" width="100" />
+            </div>
+             
+            
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Edit" class="btn btn-primary" />
+        </div>
+    </div>
+    </form>
+
+
+<div >
+
+</div>
+
+<div>
+    <a asp-action="ListFood">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,61 @@
+﻿/*.listfood-cardlist{
+    margin-top:300px;
+    width:1000px;
+}
+.cardInfor {
+    height: 100px;
+    width: 190px;
+    border-radius: 10px;
+    box-shadow: 1px 0px 5px 0.5px #74c5db;
+    background: #b0edfd;
+    margin-left: 400px;
+    position: absolute;
+}
+.cardInfor span{
+    font-size:35px;
+    padding:10px;
+    font-weight:bold;
+    color:dimgrey;
+
+}
+
+
+.cardInfor p {
+    font-size: 20px;
+    padding-left:10px;
+    font-weight: bold;
+    color: dimgrey;
+    opacity:0.8;
+}
+.pagination{
+    position:absolute;
+    margin-top:260px;
+    margin-left:400px;
+}
+
+.action {
+    position: absolute;
+    height: 700px;
+    width: 500px;
+    background-color: transparent;
+    right: 58%;
+    margin-top: 10px;
+}
+
+    .action .buttonCreate {
+        position: absolute;
+        right: 30%;
+        height: 50px;
+        width: 130px;
+        margin-left: 10px;
+        margin-top: 100px;
+        border: none;
+        background-color: whitesmoke;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 1px 0px 5px 0.5px #808080;
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+
+*/

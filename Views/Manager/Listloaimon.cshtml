@@ -1,0 +1,116 @@
+﻿@{
+    List<Food> foods = ViewBag.data;
+}
+@model List<Loaimon>
+<head>
+    <meta charset="UTF-8">
+    <title> Food</title>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+    <link rel="stylesheet" href="~/css/admin.css">
+</head>
+<body>
+    <div class="bodyadmin">
+
+
+        <div class="action">
+            <a asp-controller="Manager" asp-action="CreateLoaimon" class="buttonCreate">Thêm loại món </a>
+        </div>
+
+
+        <div class="sidebar">
+            <div class="sidebar-brand">
+                <h2><span class="lab la-accusoft"></span> Accusoft</h2>
+
+                <div class="sidebar-menu">
+                    <ul>
+                        <li>
+                            <a href="ListUser" class="active">
+                                <span class="las la-users"></span>
+                                Khách hàng
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ListFood">
+                                <span class="las la-clipboard-list"></span>
+                                Món ăn
+                            </a>
+                        </li>
+                        <li>
+                            <a asp-action="ListNutriFood" asp-controller="Manager">
+                                <span class="las la-apple-alt"></span>
+                                Dinh dưỡng
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ListDBtrain">
+                                <span class="las la-database"></span>
+                                Datatrain
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ListDVt">
+                                <span class="las la-database"></span>
+                                Đơn vị tính
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ListLoaimon">
+                                <span class="las la-database"></span>
+                                Loại món
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <span class="las la-database"></span>
+                                Chi tiết dinh dưỡng
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="listfood-cardlist">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Tên loại</th>
+
+                        <th>Số lượng món đã có</th>
+                        <th>Chỉnh sửa</th>
+
+                    </tr>
+
+                </thead>
+                <tbody>
+                  
+                    @foreach (Loaimon item in Model)
+                    {
+
+
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.Name</td>
+
+                            @{
+                                int count = foods.Where(p => p.LoaimonId == item.Id).Count();
+                            }
+                            <td>@count</td>
+                            <td>
+                                <ul>
+
+                                    <a asp-action="Editloaimon" asp-route-id="@item.Id">Edit</a> |
+                                    <a asp-action="DeleteLM" asp-route-id="@item.Id">Delete</a> |
+                                 
+                                </ul>
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
