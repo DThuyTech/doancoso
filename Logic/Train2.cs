@@ -107,7 +107,6 @@ namespace login.Logic
                     attribute.Add(atributeonr);
                 }
             }
-            // Check if all examples have the same classification
             if (data.Select(x => x["NutributionId"]).Distinct().Count() == 1)
             {
                 root.Label.Add(data[0]["NutributionId"]);
@@ -115,14 +114,12 @@ namespace login.Logic
 
             }
 
-            // Check if there are no more attributes to split on
             if (attribute.Count == 0)
             {
                 root.Label.Add(data.GroupBy(x => x["NutributionId"]).OrderByDescending(x => x.Count()).First().Key);
                 return root;
             }
 
-            // Find the best attribute to split on
             string bestAttribute = "";
             double bestInformationGain = 0;
             foreach (string attributes in attribute)
@@ -141,7 +138,7 @@ namespace login.Logic
             {
                 string erro = "sdsd";
             }
-            attribute.Remove(bestAttribute);
+           // attribute.Remove(bestAttribute);
 
             Dictionary<int, List<Dictionary<string, int>>> splitData = SplitData(data, bestAttribute);
 

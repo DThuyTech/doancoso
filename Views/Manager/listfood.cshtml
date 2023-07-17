@@ -104,6 +104,7 @@
                 <thead>
                     <tr>
                         <th>Id</th>
+                        <th>edit</th>
                         <th>Tên món</th>
                       
                         <th>Don vi tinh</th>
@@ -126,6 +127,7 @@
 
                         <tr>
                           <td>@item.Id</td>
+                            <td>  <a asp-action="EditFood" asp-route-id="@item.Id">Edit</a></td>
                             <td>@item.Name</td>
                          
                             <td>@item.DVTid</td>

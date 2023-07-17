@@ -111,7 +111,7 @@
                                         gioitinh = "Nam";
                                     }
                                 }
-                            <input id="textInfor" name="sex" ariaReadOnly value=@sex />
+                                <input id="textInfor" name="sex" ariaReadOnly value=@sex />
                         </div>
                         <div class=" row">
                             <label>Cân nặng :  </label>
@@ -239,7 +239,7 @@
                                                         <td class="img-thumbnails">
                                                             <a asp-action="Detail" asp-route-id="@item.Id">
                                                             @{
-                                                                    string link = "~/Food/ImageFood/" + item.Id.ToString() + ".jpg";
+                                                                    string link = "/Food/ImageFood/" + item.Id.ToString() + ".jpg";
                                                                 }   
                                                                 <img class="img-fluid" src=@link />
                                                             </a>

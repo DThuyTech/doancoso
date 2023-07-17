@@ -47,17 +47,17 @@
     // check loi ( = 0 thi khong co loi va nguoc lai)
     if (Object.keys(errors).length == 0) {
         let data = {
-            'entry.2015964038': fullName,
-            'entry.909391720': email,
-            'entry.109173048': phone,
-            'entry.1219674057': feedback,
+            'entry.1972636253': fullName,
+            'entry.666038548': email,
+            'entry.610757160': phone,
+            'entry.1946116580': feedback,
         }
         console.log(data);
 
         let queryString = new URLSearchParams(data);
         queryString = queryString.toString();
         let xhr = new XMLHttpRequest();
-        xhr.open("POST", 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSfmk0ri7bNig0FkuBY1FS-JjjZXG96pIwq411S6OTEvNEVouQ/formResponse', true);
+        xhr.open("POST", 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSc5wuLlsNIYdsBn-A6b8WKMsGSOuIMwe9FQePnCVoT_MCWwhQ/formResponse', true);
         xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 
         msg0j.innerHTML = '<div class="alert alert-success text-center" > Gửi thành công </div>';
