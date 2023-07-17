@@ -6,7 +6,7 @@
         public string idUser { get; set; }
         public string idFood { get; set; }
         public string content { get; set; }
-
+        //gdfgdgfdgfdf
         public CommentUser()
         {
         }

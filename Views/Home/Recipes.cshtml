@@ -88,14 +88,15 @@
                             <a class="dish-box text-center " asp-action="Detail" asp-route-id="@item.Id">
                            
                             @{
-                                string link;
-                                if (foodcontentlist.FirstOrDefault(p => p.FoodId == item.Id) == null)
+                                          
+                                                                        string link = "C:\\Users\\ASUS\\source\\Repos3\\Food\\wwwroot\\Food\\ImageFood\\" + item.Id.ToString() + ".jpg";
+                                                if (System.IO.File.Exists(link))
                                 {
-                                    link = "../Content/imageforbackground/repis.png";
+                                       link = "/Food/ImageFood/" + item.Id.ToString() + ".jpg";
                                 }
                                 else
                                 {
-                                    link = foodcontentlist.FirstOrDefault(p => p.FoodId == item.Id).Img.ToString();
+                                                    link = "../Content/imageforbackground/repis.png";
                                 }
                             }
                                    <img class="imgGoods" src=@link alt="hinh thumnail">

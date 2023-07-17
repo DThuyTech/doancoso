@@ -133,7 +133,7 @@ namespace login.Controllers
             for (int i = 0; i < 50; i++)
             {
                 foodshow.Add(listfoddlaod[i + page * 50]);
-
+                    
             }
 
 
@@ -370,7 +370,8 @@ namespace login.Controllers
                 System.IO.File.WriteAllText(filenametxt, infood);
 
             }
-            return RedirectToAction("ListFood");
+            int uf = food.Id + 1;
+            return RedirectToAction("EditFood");
         }
         public IActionResult EditFood(int? id)
         {
@@ -392,7 +393,7 @@ namespace login.Controllers
             }
             else
             {
-                ViewBag.modelRecipe = "Chua co";
+                ViewBag.modelRecipe = ".";
             }
 
             if (System.IO.File.Exists(content))
@@ -401,7 +402,7 @@ namespace login.Controllers
             }
             else
             {
-                ViewBag.modelContent = "Chua co";
+                ViewBag.modelContent = ".";
             }
 
             if (System.IO.File.Exists(inFood))
@@ -410,7 +411,7 @@ namespace login.Controllers
             }
             else
             {
-                ViewBag.modelInfood = "Chua co";
+                ViewBag.modelInfood = ".";
             }
             
             ViewBag.modelNutri = modelNutri;

@@ -13,7 +13,7 @@
             if (Value == 5) return 2;
             if( Value== 6) return 1;
             if(Value==7) return 1;
-             return 0;
+             return 1;
         }
     }
 }

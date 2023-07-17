@@ -120,17 +120,23 @@
                             }
                             else
                             {
-                                <option>Chua co dinh duong cho mon nay</option>
-                            }
+                            <option>Chua co dinh duong cho mon nay</option>
                         }
-                    </select>
-                </div>
+                    }
+                </select>
+            </div>
             <div class="row">
-                    <div class="insertFile">
-                        <label>Cap nhat hinh anh:</label>
-                        <input type="file" name="imageFile" />
-                      
-                       
+                <div class="insertFile">
+                    <label>Cap nhat hinh anh:</label>
+                    <input type="file" name="imageFile" />
+
+
+                </div>
+                <div>
+                    @{
+                        int ifnestfood = Model.Id + 1;
+                    }
+                        <a asp-action="EditFood" asp-route-id="@ifnestfood">Edit</a> |
                     </div>
             </div>
             <div class="row">

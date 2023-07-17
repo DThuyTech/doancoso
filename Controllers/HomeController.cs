@@ -483,6 +483,8 @@ namespace login.Controllers
                 day = 1;
                 if (diets1user.Count != 0)
                 {
+                    ViewBag.monphu = getmnonphu(idUser);
+
                     for (int i = diets1user.Count - 1; i >= diets1user.Count - 1 - 21; i -= 3)
                     {
                         
@@ -765,7 +767,7 @@ namespace login.Controllers
                 }
             }
 
-            ViewBag.cmtUser = list;
+            ViewBag.cmtUser = list.Where(p => p.idFood == id.ToString()).ToList();
           
             //Dictionary<string, object> newBookData = new Dictionary<string, object>
             //    {
@@ -802,7 +804,7 @@ namespace login.Controllers
             text = new string[1000];
     
             string link = "../Food/wwwroot/Food/InFood/"+id.ToString()+".txt";
-           if(System.IO.File.Exists(link)!=null) {
+           if(System.IO.File.Exists(link)) {
                 text = System.IO.File.ReadAllLines(link);
                 ViewBag.InFood = text;
             }
@@ -815,7 +817,7 @@ namespace login.Controllers
 
             text = new string[1000];
              link = "../Food/wwwroot/Food/RecipeFood/" + id.ToString() + ".txt";
-            if (System.IO.File.Exists(link) != null)
+            if (System.IO.File.Exists(link))
             {
                 text = System.IO.File.ReadAllLines(link);
                 ViewBag.RecipeFood = text;
@@ -828,7 +830,7 @@ namespace login.Controllers
 
             text = new string[1000];
             link = "../Food/wwwroot/Food/ContentFood/" + id.ToString() + ".txt";
-            if (System.IO.File.Exists(link) != null)
+            if (System.IO.File.Exists(link))
             {
                 text = System.IO.File.ReadAllLines(link);
                 ViewBag.ContentFood = text;
